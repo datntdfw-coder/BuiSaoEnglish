@@ -1165,11 +1165,48 @@ export default function Home() {
           {!showVocabMeaning ? (
              <div style={{ textAlign: 'center' }}>
                <span style={{ fontSize: '16px', color: '#64748b', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '1px' }}>{currentWord.pos}</span>
-               <h3 style={{ fontSize: '42px', margin: '20px 0', color: 'var(--text-primary)' }}>{currentWord.word}</h3>
+               
+               <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '15px', margin: '20px 0' }}>
+                 <h3 style={{ fontSize: '42px', margin: 0, color: 'var(--text-primary)' }}>{currentWord.word}</h3>
+                 <button 
+                   onClick={(e) => {
+                     e.stopPropagation();
+                     if ('speechSynthesis' in window) {
+                       const utterance = new SpeechSynthesisUtterance(currentWord.word);
+                       utterance.lang = 'en-US';
+                       window.speechSynthesis.speak(utterance);
+                     }
+                   }}
+                   style={{ fontSize: '24px', background: 'none', border: 'none', cursor: 'pointer', width: '45px', height: '45px', borderRadius: '50%', backgroundColor: '#f1f5f9', color: '#3b82f6', transition: 'all 0.2s ease', display: 'flex', alignItems: 'center', justifyContent: 'center'}}
+                   title="Phát âm tiếng Anh"
+                 >
+                   🔊
+                 </button>
+               </div>
+
                <p style={{ color: '#94a3b8', marginTop: '30px', fontSize: '15px' }}>(Bấm vào thẻ để lật xem nghĩa)</p>
              </div>
           ) : (
              <div style={{ textAlign: 'center', width: '100%', animation: 'fadeIn 0.3s' }}>
+               
+               <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '10px', marginBottom: '12px' }}>
+                 <h4 style={{ fontSize: '20px', margin: 0, color: '#64748b' }}>{currentWord.word}</h4>
+                 <button 
+                   onClick={(e) => {
+                     e.stopPropagation();
+                     if ('speechSynthesis' in window) {
+                       const utterance = new SpeechSynthesisUtterance(currentWord.word);
+                       utterance.lang = 'en-US';
+                       window.speechSynthesis.speak(utterance);
+                     }
+                   }}
+                   style={{ fontSize: '16px', background: 'none', border: 'none', cursor: 'pointer', width: '32px', height: '32px', borderRadius: '50%', backgroundColor: '#f1f5f9', color: '#3b82f6', display: 'flex', alignItems: 'center', justifyContent: 'center'}}
+                   title="Phát âm lại"
+                 >
+                   🔊
+                 </button>
+               </div>
+
                <h3 style={{ fontSize: '28px', color: '#10b981', marginBottom: '16px' }}>{currentWord.meaning}</h3>
                
                <div style={{ marginTop: '20px', padding: '20px', backgroundColor: 'var(--bg-primary)', borderRadius: '12px', borderLeft: '4px solid var(--accent-secondary)', textAlign: 'left' }}>
