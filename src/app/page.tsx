@@ -2,7 +2,10 @@
 
 import { useState, useEffect, useCallback, useRef } from 'react';
 import styles from './page.module.css';
-import { mockQuestions, mockQuestions2, mockQuestions3, mockQuestions4, mockQuestions5, DOCUMENT_CONTENT, DOCUMENT_CONTENT_DISABILITY, VOCABULARY_LIST } from './mockData';
+import { DOCUMENT_CONTENT, DOCUMENT_CONTENT_DISABILITY, VOCABULARY_LIST } from './mockData';
+import { schoolTest1, schoolTest2, schoolTest3, schoolTest4 } from './schoolTests';
+import { disabilityTest1, disabilityTest2, disabilityTest3, disabilityTest4 } from './disabilityTests';
+import { syntheticTest1 } from './syntheticTest';
 
 interface MatchPair {
   term: string;
@@ -86,7 +89,7 @@ export default function Home() {
     return '#10b981';
   };
 
-  const startTest = async (testId: 1 | 2 | 3 | 4 | 5) => {
+  const startTest = async (testId: string) => {
     setTestState('loading');
     setError('');
     setLoadingProgress(0);
@@ -120,13 +123,18 @@ export default function Home() {
       
       clearInterval(progressInterval);
 
-      const testMapping = {
-        1: mockQuestions,
-        2: mockQuestions2,
-        3: mockQuestions3,
-        4: mockQuestions4,
-        5: mockQuestions5
+      const testMapping: Record<string, any> = {
+        'school-1': schoolTest1,
+        'school-2': schoolTest2,
+        'school-3': schoolTest3,
+        'school-4': schoolTest4,
+        'disability-1': disabilityTest1,
+        'disability-2': disabilityTest2,
+        'disability-3': disabilityTest3,
+        'disability-4': disabilityTest4,
+        'synthetic-1': syntheticTest1
       };
+      
       const data = { questions: testMapping[testId] };
       
       if (!data.questions || data.questions.length === 0) {
@@ -610,24 +618,49 @@ export default function Home() {
             </div>
           </div>
 
-          <div className={styles.topicCards}>
-            <div className={styles.topicCard} onClick={() => startTest(2)} style={{ cursor: 'pointer' }} title="Bấm để test phần này">
-              <div className={styles.topicIcon}>🛖</div>
-              <h3>School Social Work</h3>
-              <p>Thử sức 30 câu chuyên biệt về CTXH trường học</p>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '20px', margin: '30px 0' }}>
+            
+            <div style={{ background: 'var(--bg-tertiary)', borderRadius: '16px', padding: '24px', border: '1px solid var(--border-light)' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '20px' }}>
+                <span style={{ fontSize: '32px' }}>🛖</span>
+                <h3 style={{ margin: 0, color: 'var(--primary-dark)', fontSize: '20px' }}>School Social Work</h3>
+              </div>
+              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px' }}>
+                <button className="btn-secondary" onClick={() => startTest('school-1')} style={{ padding: '12px 0', fontSize: '15px' }}>Đề 1 (30 câu)</button>
+                <button className="btn-secondary" onClick={() => startTest('school-2')} style={{ padding: '12px 0', fontSize: '15px' }}>Đề 2 (30 câu)</button>
+                <button className="btn-secondary" onClick={() => startTest('school-3')} style={{ padding: '12px 0', fontSize: '15px' }}>Đề 3 (30 câu)</button>
+                <button className="btn-secondary" onClick={() => startTest('school-4')} style={{ padding: '12px 0', fontSize: '15px' }}>Đề 4 (30 câu)</button>
+              </div>
             </div>
-            <div className={styles.topicCard} onClick={() => startTest(1)} style={{ cursor: 'pointer' }} title="Bấm để test phần này">
-              <div className={styles.topicIcon}>🌾</div>
-              <h3>Disability Practice</h3>
-              <p>Tương lai sẽ có test riêng. (Hiện tại load Test 1 Tổng hợp)</p>
+
+            <div style={{ background: 'var(--bg-tertiary)', borderRadius: '16px', padding: '24px', border: '1px solid var(--border-light)' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '20px' }}>
+                <span style={{ fontSize: '32px' }}>🌾</span>
+                <h3 style={{ margin: 0, color: 'var(--primary-dark)', fontSize: '20px' }}>Disability Practice</h3>
+              </div>
+              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px' }}>
+                <button className="btn-secondary" onClick={() => startTest('disability-1')} style={{ padding: '12px 0', fontSize: '15px' }}>Đề 1 (30 câu)</button>
+                <button className="btn-secondary" onClick={() => startTest('disability-2')} style={{ padding: '12px 0', fontSize: '15px' }}>Đề 2 (30 câu)</button>
+                <button className="btn-secondary" onClick={() => startTest('disability-3')} style={{ padding: '12px 0', fontSize: '15px' }}>Đề 3 (30 câu)</button>
+                <button className="btn-secondary" onClick={() => startTest('disability-4')} style={{ padding: '12px 0', fontSize: '15px' }}>Đề 4 (30 câu)</button>
+              </div>
             </div>
+
+            <div style={{ background: 'var(--bg-tertiary)', borderRadius: '16px', padding: '24px', border: '1px solid var(--border-light)' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '20px' }}>
+                <span style={{ fontSize: '32px' }}>🔮</span>
+                <h3 style={{ margin: 0, color: 'var(--accent-secondary)', fontSize: '20px' }}>Bài Thi Tổng Hợp</h3>
+              </div>
+              <p style={{ color: 'var(--text-secondary)', fontSize: '14px', marginBottom: '16px' }}>Kết hợp nội dung từ cả 2 tài liệu để đánh giá kiến thức toàn diện.</p>
+              <button className="btn-primary" onClick={() => startTest('synthetic-1')} style={{ width: '100%', padding: '14px 0', fontSize: '16px', fontWeight: 'bold' }}>Bắt Đầu Thi (30 Câu)</button>
+            </div>
+            
           </div>
 
           <div className={styles.questionTypes}>
             <h3 className={styles.sectionTitle}>Các dạng câu hỏi</h3>
             <div className={styles.typesList}>
               <span className={`badge badge-info`}>📋 Trắc nghiệm</span>
-              <span className={`badge badge-warning`}>✏️ Điền từ</span>
               <span className={`badge badge-success`}>✅ Đúng/Sai</span>
               <span className={`badge badge-error`}>🔗 Nối cột</span>
               <span className={`badge badge-info`}>📖 Đọc hiểu</span>
@@ -655,21 +688,7 @@ export default function Home() {
             }} style={{ fontSize: '16px', padding: '16px 36px', backgroundColor: 'var(--bg-card)', color: 'var(--accent-primary)', border: '1px solid var(--border-light)', fontWeight: 600 }}>
               📚 Ôn Từ Vựng
             </button>
-            <button className="btn-primary" onClick={() => startTest(1)} style={{ fontSize: '16px', padding: '16px 36px' }}>
-              🌿 Test 1 (Tổng hợp)
-            </button>
-            <button className="btn-primary" onClick={() => startTest(2)} style={{ fontSize: '16px', padding: '16px 36px', backgroundColor: '#778864', borderColor: '#778864' }}>
-              🍂 Test 2 (School)
-            </button>
-            <button className="btn-primary" onClick={() => startTest(3)} style={{ fontSize: '16px', padding: '16px 36px', backgroundColor: '#a48464', borderColor: '#a48464' }}>
-              🍄 Test 3 (School)
-            </button>
-            <button className="btn-primary" onClick={() => startTest(4)} style={{ fontSize: '16px', padding: '16px 36px', backgroundColor: '#b5a17b', borderColor: '#b5a17b' }}>
-              🌰 Test 4 (School)
-            </button>
-            <button className="btn-primary" onClick={() => startTest(5)} style={{ fontSize: '16px', padding: '16px 36px', backgroundColor: '#5c715e', borderColor: '#5c715e' }}>
-              🌾 Test 5 (School)
-            </button>
+
           </div>
         </div>
       </div>
