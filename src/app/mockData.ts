@@ -172,44 +172,119 @@ For further reading: Issues in Vietnamese educational system
 
 export const DOCUMENT_CONTENT_DISABILITY = `### Scope of Social Work Practice: Social Work in Disability
 
+March 2016
+© Australian Association of Social Workers
+National Office – Melbourne 
+Level 7, 14-20 Blackwood St, North Melbourne, VIC 3051
+PO Box 2008, Royal Melbourne Hospital, VIC 3050
+
+Enquiries regarding this document can be directed to:
+Senior Manager, Policy & Advocacy: Stephen Brand
+Email: stephen.brand@aasw.asn.au
+Phone: 02 6199 5000
+
+AASW Chief Executive Officer: Glenys Wilkinson
+Email: ceo@aasw.asn.au
+
 ### Introduction
 The Australian Association of Social Workers' (AASW) Scope of Social Work Practice: Disability document provides an overview of the role, scope and contribution of social work in the disability field.
 The aim of this document is to highlight in a concise, accessible and informative manner the crucial role and services that social workers provide and that employers and clients can expect. These are discussed within a range of practice contexts, including the National Disability Insurance Scheme (NDIS), which is comprehensively changing the disability field and brings with it new conditions and structures for social workers.
 
 ### The social work profession
 The social work profession is committed to maximising the wellbeing of individuals, families, groups, communities and society. We consider that individual and societal wellbeing is underpinned by socially inclusive communities that emphasise principles of social justice and respect for human dignity and human rights. These values are in complete accord with the disability advocacy movement and the United Nations Convention on the Rights of Persons with Disabilities, which both inform the NDIS.
+The social work profession operates at the interface between people and their social, cultural, physical and natural environments. Through casework, assessments, counselling, family work, advocacy, research, policy and community work, social workers operate from a person-in-environment perspective providing interventions that address issues at both the personal and social level. Accordingly, social workers maintain a dual focus on both improving human wellbeing and addressing any external issues that impact on wellbeing or create inequality, injustice and discrimination. Social work is a tertiary-qualified profession recognised nationally and internationally. The AASW is the key professional body representing social workers in Australia and is responsible for the accreditation of social work university programs.
+The academic qualifications that are accredited by the AASW include: a Bachelor of Social Work, Bachelor of Social Work with Honours, or a Social Work Qualifying Master's degree. The curriculum provides entry-level professional social work education addressing education, knowledge, skills and values that can be applied across the diverse range of settings, fields of practice and methods of social work practice, and includes an extensive period of supervised field education.
+Graduates of AASW-accredited social work courses are eligible for membership of the AASW. Click here for a full list of AASW accredited courses.
+AASW Accredited Social Workers are professionally qualified social workers who commit to and complete a minimum amount of ongoing, annual professional development relevant to their area of professional practice and expertise. Accredited Social Workers are recognised as professional allied health providers in the NDIS framework.
 
 ### Understanding disability
-In their commitment to human rights, social workers prioritise a holistic understanding of the person, seeing their impairment as only one aspect of what makes them who they are. This view is driven by a deep belief in the intrinsic worth of all human beings and their inalienable right to dignity and self-determination. Drawing on the significant contribution of the self- advocacy movement, social workers understand that people with disability are a diverse group and have a wide range of experiences, abilities, impairments and potential for development.
-Social workers make a distinction between impairment and disability. While impairment refers to the differences in capacity that can cause difficulty in everyday functioning, disability represents the larger and more complex interaction between an individual with impairment and the structures and processes of society. Therefore, social workers adopt a person-in- environment approach that includes a focus on the structural and cultural factors that may negatively impact on an individual's ability to engage with the social world.
+In their commitment to human rights, social workers prioritise a holistic understanding of the person, seeing their impairment as only one aspect of what makes them who they are. This view is driven by a deep belief in the intrinsic worth of all human beings and their inalienable right to dignity and self-determination. Drawing on the significant contribution of the self-advocacy movement, social workers understand that people with disability are a diverse group and have a wide range of experiences, abilities, impairments and potential for development.
+Social workers make a distinction between impairment and disability. While impairment refers to the differences in capacity that can cause difficulty in everyday functioning, disability represents the larger and more complex interaction between an individual with impairment and the structures and processes of society. It is not 'physical, cognitive or sensory impairments that cause disability, but rather the way in which societies fail to accommodate natural aspects of difference between people'.
+Therefore, social workers adopt a person-in-environment approach that includes a focus on the structural and cultural factors that may negatively impact on an individual's ability to engage with the social world.
+Social workers believe that all people regardless of difference have the right to be included in society and to have outcomes equal to other citizens. It is this understanding and commitment that social workers bring when working with people with disability.
 
 ### Role of social work in the disability field
 Social workers focus on maintaining and enhancing quality of life. We contribute knowledge and skills to assist people with disability, their families and communities through our work in a range of settings. Our work includes all levels of management and program design, individual planning, counselling, coordination and case management, as well as policy development, research and advocacy.
-The NDIS is expanding the range of roles that social workers have the expertise to fill, for example, National Disability Insurance Agency management roles, local area coordinators and planners, and service coordinators. Social work with people with disability can occur in any practice context. Examples of specific settings can include:
+The NDIS is expanding the range of roles that social workers have the expertise to fill, for example, National Disability Insurance Agency management roles, local area coordinators and planners, and service coordinators. Social work with people with disability can occur in any practice context. Examples of specific settings can include, but are not limited to:
 • The National Disability Insurance Agency
+• Information, Linkages and Capacity Building programs (ILC)
 • Disability service providers
 • Advocacy services
+• Indigenous support services
 • All levels of healthcare
+• All levels of education
 • Early intervention services
 • Rehabilitation services
-• Aged care & Mental health services
+• Aged care services
+• Mental health services
 • Homelessness services
-• Child Protection & Justice services
+• Child Protection
+• Justice services
+• Policy and research
 
 ### Scope of practice of social work in the disability field
-In all contexts, social workers focus on individual, family, carer and community strengths and needs, and work collaboratively to support people to achieve the lives they want. Social workers take a holistic approach that includes the individual and systemic factors. Our practice is across the lifespan.
-Social work practice in this field spans a number of approaches and can include:
-• Assessment: Strengths-based psychosocial assessment, Risk assessment, Capacity, functioning and development assessment
-• Capacity building: Working to engage, educate, consult with and co-ordinate local community groups, Building capacity of individuals or families to navigate health and welfare systems
-• Case management and service coordination: Service brokerage, Coordinating support, Referrals to other services
-• Advocacy: Supporting individuals to be self-advocates, Advocating for change on an organisational and systemic level
-• Counselling and therapeutic approaches: Individual, family and group work, Grief and loss, Positive Behaviour Support approaches
+In all contexts, social workers focus on individual, family, carer and community strengths and needs, and work collaboratively to support people to achieve the lives they want. Social workers take a holistic approach that includes the individual and systemic factors. Our practice is across the lifespan, and this includes working with children, adults, families, carers, groups and communities.
+We work alongside people with disability to advocate for their rights, and facilitate their empowerment (and that of their families) and achieve their needs and aspirations.
+Social work practice in this field spans a number of approaches and, depending on the role, can include:
+
+### Assessment
+• Strengths-based psychosocial assessment
+• Risk assessment (such as family violence, and abuse)
+• Capacity, functioning and development assessment, including support and participation requirements, housing and accommodation
+
+### Capacity building
+• Working to engage, educate, consult with and co-ordinate local community groups, networks, businesses and local government to develop more welcoming and inclusive communities for people with disability by removing the barriers to physical and social access and participation
+• Working within mainstream services to increase awareness, understanding and knowledge of the issues for people with disability and their families so that appropriate and effective services and support are delivered
+• Building capacity of individuals or families to navigate health and welfare systems or access information
+
+### Case management and service coordination
+• Service brokerage
+• Coordinating support
+• Collaborating with multidisciplinary teams
+• Referrals to other services
+• Accessing resources
+• Assistance with housing
+• Assistance with advanced care planning including obtaining guardianship and/or administration orders if necessary to support decision making
+
+### Advocacy
+• Supporting individuals to be self-advocates, or advocating on their behalf
+• Advocating for change on an organisational and systemic level 
+
+### Counselling and therapeutic approaches
+• Individual, family and group work
+• Grief and loss, including adjustment to illness/disability and associated lifestyle changes
+• Dealing with emotional aspects of life transitions
+• Interfamily relationships and dynamics
+• Positive Behaviour Support approaches, including the development and implementation of behaviour support plans
+
+### Planning
+• Facilitate planning by providing information about resources to maximise choice and opportunities for the person to achieve the life he or she wants
+
+### Mediation and conflict resolution
+• Supporting people with disability and their families resolve conflicts that arise between themselves or with others
+• Crisis interventions
+
+### Policy and Program Design and research
+• Developing policy, design and evaluation of programs
+• Engaging in research and publishing peer reviewed journals
+
+### Social workers also provide specialist expertise in addressing the psychosocial aspects of:
+• The impact of disability
+• Abuse, neglect and family violence
+• Mental health, including carer issues of chronic sorrow and depression associated with grief and loss; individual and family adjustment to diagnosis; and disability, and psychogeriatric issues
+• Complex family dynamics and limited social supports
+• Homelessness or inappropriate accommodation
+• Addressing and resolving traumatic experiences and crisis
+• Addressing transition points in people's lives
+• Socio-legal issues and ethical decision making, for example, advanced health directives, enduring power of attorneys, end-of-life decision making, and withdrawal of life support systems
 
 ### Contribution of social work
-With the focus on holistic support and the ability to consider the complexity involved from multiple perspectives, social workers offer a unique contribution by providing appropriate and targeted services to meet the whole of life needs of people with disability. This multi-focused approach includes knowledge of human functioning and behaviour, and how socioeconomic, legal and cultural factors interact and impact to produce the stigma, discrimination, marginalisation and social isolation experienced by many individuals.
+With the focus on holistic support and the ability to consider the complexity involved from multiple perspectives, social workers offer a unique contribution by providing appropriate and targeted services to meet the whole of life needs of people with disability. This multi-focused approach includes knowledge of human functioning and behaviour, and how socioeconomic, legal and cultural factors interact and impact to produce the stigma, discrimination, marginalisation and social isolation experienced by many individuals with disability and their families.
+Social workers develop evidence-informed assessments, planning and interventions within a client empowerment framework. Social work interventions take into account the impact of health, psychosocial or other needs of the individual and their support systems. Social workers are regularly involved in multidisciplinary teams, especially when interventions occur within complex social, psychological, family and institutional dynamics. In this respect, social workers can inform the decision-making capacities of other professionals and the multidisciplinary team.
+Above all, social workers respect the primacy of the individual's rights and work towards people with disability choosing how to live their life.
 
 ### Conclusion
-Professional social workers have much to contribute to the disability field in both government and non-government organisations and the emerging private sector. With the focus on self-determination and holistic analysis, social workers offer a unique and valuable contribution to providing appropriate and targeted services to meet the complex needs of individuals, their families and communities.`;
+Professional social workers have much to contribute to the disability field in both government and non-government organisations and the emerging private sector. With the focus on self-determination and holistic analysis, social workers offer a unique and valuable contribution to providing appropriate and targeted services to meet the complex needs of individuals, their families and communities, in both disability and mainstream services.`;
 
 export const mockQuestions = [
   {
