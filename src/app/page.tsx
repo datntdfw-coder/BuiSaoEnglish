@@ -482,6 +482,7 @@ export default function Home() {
                       <span 
                         key={wIdx} 
                         onClick={(e) => handleWordClick(e, word)}
+                        data-selected={isSelected ? "true" : undefined}
                         style={{
                           cursor: 'pointer',
                           transition: 'background-color 0.2s ease',
@@ -503,6 +504,7 @@ export default function Home() {
                   <span 
                     key={wIdx} 
                     onClick={(e) => handleWordClick(e, word)}
+                    data-selected={isSelected ? "true" : undefined}
                     style={{
                       cursor: 'pointer',
                       borderRadius: '3px',
@@ -1216,6 +1218,39 @@ export default function Home() {
                <div style={{ marginTop: '20px', padding: '20px', backgroundColor: 'var(--bg-tertiary)', borderRadius: '12px', borderLeft: '4px solid var(--warning)', textAlign: 'left' }}>
                  <p style={{ margin: 0, color: '#92400e', fontWeight: 500, fontSize: '15px' }}>💡 Lưu ý: {currentWord.note}</p>
                </div>
+               
+               <button 
+                 onClick={(e) => {
+                   e.stopPropagation();
+                   const cleanWord = currentWord.word.replace(/[^a-zA-Z-]/g, '').toLowerCase();
+                   
+                   // Identify the document containing this word
+                   const inDisability = DOCUMENT_CONTENT_DISABILITY.toLowerCase().includes(cleanWord);
+                   
+                   if (inDisability) {
+                     setActiveDoc('disability');
+                   } else {
+                     setActiveDoc('school');
+                   }
+                   
+                   setTestState('docs');
+                   setSelectedWord(cleanWord);
+                   
+                   // Wait for DOM to render the document view, then scroll
+                   setTimeout(() => {
+                     const targetElement = document.querySelector('[data-selected="true"]');
+                     if (targetElement) {
+                       targetElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                     }
+                   }, 300);
+                 }}
+                 style={{ marginTop: '20px', padding: '10px 20px', backgroundColor: '#f8fafc', border: '1px solid #cbd5e1', borderRadius: '8px', color: '#475569', fontWeight: 600, cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '8px', margin: '20px auto 0' }}
+                 onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#f1f5f9'}
+                 onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#f8fafc'}
+               >
+                 📄 Xem trong văn bản
+               </button>
+               
              </div>
           )}
         </div>
