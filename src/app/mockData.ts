@@ -1,40 +1,174 @@
 export const DOCUMENT_CONTENT = `### SCHOOL SOCIAL WORK
 
 >>> "I cannot teach the head when the heart is broken or the mind is troubled"
-[C] Parkway School District Teacher of the Year, St. Louis, MO
+
+### Parkway School District Teacher of the Year, St. Louis, MO
 
 ### What is school Social Work?
 
-• ___ School social work is a specialized area of practice within the broad field of the social work profession.
-• ___ School social workers bring unique knowledge and skills to the school system and the student services team.
-• ___ School Social Workers are trained mental health professionals who can assist with mental health concerns, behavioral concerns, positive behavioral support, academic and classroom support, consultation with teachers, parents and administrators as well as provide individual and group counseling/therapy.
-• ___ School social workers are instrumental in furthering the mission of the schools which is to provide a setting for teaching, learning, and for the attainment of competence and confidence.
-• ___ School social workers are hired by school districts to enhance the district's ability to meet its academic mission, especially where home, school and community collaboration is the key to achieving student success.
+• School social work is a specialized area of practice within the broad field of the social work profession.
 
-### WHO are School Social Workers?
+• School social workers bring unique knowledge and skills to the school system and the student services team.
 
-___ School Social Workers are trained mental health professionals with a degree in social work who provide services related to a person's social, emotional and life adjustment to school and/or society. School Social Workers are the link between the home, school and community in providing direct as well as indirect services to students, families and school personnel to promote and support students' academic and social success.
+• School Social Workers are trained mental health professionals who can assist with mental health concerns, behavioral concerns, positive behavioral support, academic and classroom support, consultation with teachers, parents and administrators as well as provide individual and group counseling/therapy.
 
-Children today are increasingly victims of many social forces that negatively affect their role as students. The family is in a state of change and until it becomes stabilized, in whatever form, children's unmet physical and emotional needs will continue to interfere with their ability to learn and adjust in school.
+• School social workers are instrumental in furthering the mission of the schools which is to provide a setting for teaching, learning, and for the attainment of competence and confidence.
 
-A school social worker identifies students that may be having problems including academic problems, social problems, behavioral problems, and problems at home.
+• School social workers are hired by school districts to enhance the district's ability to meet its academic mission, especially where home, school and community collaboration is the key to achieving student success.
 
-Academic Problems: Failing grades, Low test scores, Attendance problems resulting in incomplete work, Learning problems
-Social Problems: Being a victim of bullying, Not being able to make friends, Not "fitting in", Peer pressure
-Behavioral Problems: Dismissing school policies, Fighting, Substance abuse, Not getting along with teachers
-Problems at Home: Abuse, Neglect, Substance Abuse, Poverty
+### WHO are School Social Workers?
 
-A school social worker identifies problems, determines causes through observing, interviewing, or testing, creates plans for students, teachers, and families. Examples include: arranging special classes for learning disabilities, creating bullying prevention programs, counseling students with stress/anxiety/depression, and creating school policies.
+School Social Workers are trained  mental health professionals with a degree in social work who provide services related to a person's social, emotional and life adjustment to school and/or society.  School Social Workers  are the link between the home, school and community in providing direct as well as indirect services to students, families and school personnel to promote and support students' academic and social success.
 
-### SERVICES PROVIDED:
+### WHY do today's schools need School Social Workers?
 
-• Related Services: special education assessment, Educational Planning Meetings, counseling (group, individual, family), mobilizing resources
-• Services to Students: crisis intervention, developing intervention strategies, conflict resolution, anger management, social interaction skills
-• Services to Parents/Families: facilitating school adjustment support, alleviating family stress, accessing programs, using school and community resources
-• Services to School Personnel: providing information about factors affecting student performance, assessing mental health concerns, developing training programs, behavior management, direct support
-• School-Community Liaison: coordinating community resources, obtaining support from mental health agencies, advocating for new services
-• Services to Districts: educational programs for exceptional children, alternative programs for drop-outs/truants, identifying and reporting child abuse and neglect, school law and policy consultation, case management
-`;
+Children today are increasingly victims of many social forces that negatively affect their role as students. The family is in a state of change and until it becomes stabilized, in whatever form, children's unmet physical and emotional needs will continue to interfere with their ability to learn and adjust in school.
+
+### What does a school social worker do?
+
+On any given day, a school social worker might have a number of different duties. First of all, a school social worker tries to identify students that may be having all sorts of problems. Identifying these students might occur during direct observation on the social worker’s part, or when other school faculty members, like teachers or guidance counselors, report that a student may be having a problem.
+
+Students might experience a number of different problems during their years in school. Academic problems, social problems, behavioral problems, and problems at home are typically the most common types of problems students will encounter. In many instances, these problems may be directly related to each other.
+
+What do social workers need to do?
+
+Academic Problems
+
+• Failing grades
+
+• Low test scores
+
+• Attendance problems, resulting in incomplete work
+
+• Learning problems
+
+Social Problems
+
+• Being a victim of bullying
+
+• Not being able to make friends
+
+• Not “fitting in”
+
+• Peer pressure
+
+Behavioral Problems
+
+• Dismissing school policies
+
+• Fighting
+
+• Substance abuse
+
+• Not getting along with teachers
+
+Problems at Home
+
+• Abuse
+
+• Neglect
+
+• Substance Abuse
+
+• Poverty
+
+Once a school social worker identifies a problem, he will then typically try to determine the cause of the problem. This might be done by observing, interviewing, or testing the student. If a school social worker suspects a problem at home, such as neglect or poverty, the social worker might also visit the student’s home.A school social worker will then put together a plan to help a student cope with and overcome his problems and obstacles. This plan typically requires action on the parts of the students, teachers, and families. Here are a few examples….
+
+• A school social worker that discovers a student struggling with a learning disability will arrange for that student to enroll in special classes or receive extra tutelage. The social worker will also educate the parents on what the learning disability is, and how to help the student at home.
+
+• A school social worker might create a school wide bullying prevention program.
+
+• A school social worker might also attempt to counsel a student or teacher that don’t “see eye to eye”.
+
+• A school social worker that discovers problems at home will often work with the family to help them overcome their issues in order to help their child succeed academically. If abuse is suspected in a student’s home, a school social worker might also bring in child welfare social workers.
+
+Stress, anxiety, depression, and other mental disorders are becoming more and more prevalent in our nation’s schools, particularly because the students are pressured more than ever to succeed. A school social worker will work with and counsel students who are suffering from these types of disorders. Students with more severe mental disorders are typically referred to other mental health specialists, such as licensed counselors or psychologists.
+
+Some school social workers are also called upon to help create or update school policies and outreach programs. These may include such things as behavior policies, discipline policies, and prevention programs
+
+### WHAT are some of the specific services that School Social Workers provide?
+
+### RELATED SERVICES:
+
+• Participating in special education assessment meetings as well as individual Educational Planning Meetings
+
+• Working with those problems in a child's living situation that affect the child’s adjustment in school. (home, school, and community)
+
+• Preparing a social or developmental history on a child with a disability.
+
+• Counseling (group, individual and/or family)
+
+• Mobilizing family, school, and community resources to enable the child to learn as effectively as possible in his or her educational program
+
+• Assisting in developing positive behavioral intervention strategies.
+
+### SERVICES TO STUDENTS:
+
+• Providing crisis intervention.
+
+• Developing intervention strategies to increase academic success.
+
+• Assisting with conflict resolution and anger management.
+
+• Helping the child develop appropriate social interaction skills.
+
+• Assisting the child in understanding and accepting self and others.
+
+### SERVICES TO PARENT/FAMILIES:
+
+• Working with parents to facilitate their support in their children's school adjustment.
+
+• Alleviating family stress to enable the child to function more effectively in school &community.
+
+• Assisting parents to access programs available to students with special needs.
+
+• Assisting parents in accessing and utilizing school and community resources.
+
+### SERVICES TO SCHOOL PERSONNEL:
+
+• Providing staff with essential information to  better understand factors (cultural, societal, economic, familial, health, etc.) affecting a student’s performance and behavior.
+
+• Assessing students with mental health concerns.
+
+• Developing staff in-service training programs.
+
+• Assisting teachers with behavior management.
+
+• Providing direct support to staff.
+
+### SCHOOL-COMMUNITY LIAISON:
+
+• Obtaining and coordinating community resources to meet students' needs.
+
+• Helping school districts receive adequate support from social and mental health agencies.
+
+• Advocating for new and improved community/school service to meet the needs of students and families.
+
+• Helping the system respond effectively to each child's needs.
+
+### SERVICES TO DISTRICTS:
+
+• Assist in developing and implementing educational programs for children for exceptional children
+
+• Developing alternative programs for drop-outs, truants, delinquents, etc.
+
+• Identifying and reporting child abuse and neglect.
+
+• Providing consultation regarding school law and school policy including IDEA and Section 504.
+
+• Providing case management for students and families requiring multiple resources.
+
+Video:
+
+### ___ Importance of School Social Workers
+
+### ___ https://www.youtube.com/watch?v=46r7BeRlpa0
+
+For further reading: Issues in Vietnamese educational system
+
+### ___ http://tuoitrenews.vn/education/27033/in-vietnam-50-of-students-involved-in-school-violence-research
+
+### ___ http://vietnamnews.vn/society/230920/educational-system-faces-crisis.html#IL1XucaQjey12FDY.97`;
 
 export const DOCUMENT_CONTENT_DISABILITY = `Scope of Social Work Practice: Social Work in Disability
 
