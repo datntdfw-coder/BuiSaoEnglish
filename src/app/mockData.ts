@@ -1,12 +1,19 @@
-export const DOCUMENT_CONTENT = `DOCUMENT 1: SCHOOL SOCIAL WORK
+export const DOCUMENT_CONTENT = `### SCHOOL SOCIAL WORK
 
-School social work is a specialized area of practice within the broad field of the social work profession.
-School social workers bring unique knowledge and skills to the school system and the student services team.
-School Social Workers are trained mental health professionals who can assist with mental health concerns, behavioral concerns, positive behavioral support, academic and classroom support, consultation with teachers, parents and administrators as well as provide individual and group counseling/therapy.
-School social workers are instrumental in furthering the mission of the schools which is to provide a setting for teaching, learning, and for the attainment of competence and confidence.
-School social workers are hired by school districts to enhance the district's ability to meet its academic mission, especially where home, school and community collaboration is the key to achieving student success.
+>>> "I cannot teach the head when the heart is broken or the mind is troubled"
+[C] Parkway School District Teacher of the Year, St. Louis, MO
 
-School Social Workers are trained mental health professionals with a degree in social work who provide services related to a person's social, emotional and life adjustment to school and/or society. School Social Workers are the link between the home, school and community in providing direct as well as indirect services to students, families and school personnel to promote and support students' academic and social success.
+### What is school Social Work?
+
+• ___ School social work is a specialized area of practice within the broad field of the social work profession.
+• ___ School social workers bring unique knowledge and skills to the school system and the student services team.
+• ___ School Social Workers are trained mental health professionals who can assist with mental health concerns, behavioral concerns, positive behavioral support, academic and classroom support, consultation with teachers, parents and administrators as well as provide individual and group counseling/therapy.
+• ___ School social workers are instrumental in furthering the mission of the schools which is to provide a setting for teaching, learning, and for the attainment of competence and confidence.
+• ___ School social workers are hired by school districts to enhance the district's ability to meet its academic mission, especially where home, school and community collaboration is the key to achieving student success.
+
+### WHO are School Social Workers?
+
+___ School Social Workers are trained mental health professionals with a degree in social work who provide services related to a person's social, emotional and life adjustment to school and/or society. School Social Workers are the link between the home, school and community in providing direct as well as indirect services to students, families and school personnel to promote and support students' academic and social success.
 
 Children today are increasingly victims of many social forces that negatively affect their role as students. The family is in a state of change and until it becomes stabilized, in whatever form, children's unmet physical and emotional needs will continue to interfere with their ability to learn and adjust in school.
 
@@ -19,13 +26,14 @@ Problems at Home: Abuse, Neglect, Substance Abuse, Poverty
 
 A school social worker identifies problems, determines causes through observing, interviewing, or testing, creates plans for students, teachers, and families. Examples include: arranging special classes for learning disabilities, creating bullying prevention programs, counseling students with stress/anxiety/depression, and creating school policies.
 
-SERVICES PROVIDED:
-- Related Services: special education assessment, Educational Planning Meetings, counseling (group, individual, family), mobilizing resources
-- Services to Students: crisis intervention, developing intervention strategies, conflict resolution, anger management, social interaction skills
-- Services to Parents/Families: facilitating school adjustment support, alleviating family stress, accessing programs, using school and community resources
-- Services to School Personnel: providing information about factors affecting student performance, assessing mental health concerns, developing training programs, behavior management, direct support
-- School-Community Liaison: coordinating community resources, obtaining support from mental health agencies, advocating for new services
-- Services to Districts: educational programs for exceptional children, alternative programs for drop-outs/truants, identifying and reporting child abuse and neglect, school law and policy consultation, case management
+### SERVICES PROVIDED:
+
+• Related Services: special education assessment, Educational Planning Meetings, counseling (group, individual, family), mobilizing resources
+• Services to Students: crisis intervention, developing intervention strategies, conflict resolution, anger management, social interaction skills
+• Services to Parents/Families: facilitating school adjustment support, alleviating family stress, accessing programs, using school and community resources
+• Services to School Personnel: providing information about factors affecting student performance, assessing mental health concerns, developing training programs, behavior management, direct support
+• School-Community Liaison: coordinating community resources, obtaining support from mental health agencies, advocating for new services
+• Services to Districts: educational programs for exceptional children, alternative programs for drop-outs/truants, identifying and reporting child abuse and neglect, school law and policy consultation, case management
 `;
 
 export const DOCUMENT_CONTENT_DISABILITY = `Scope of Social Work Practice: Social Work in Disability

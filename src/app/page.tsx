@@ -430,24 +430,74 @@ export default function Home() {
         {paragraphs.map((para, pIdx) => {
           if (!para.trim()) return <br key={pIdx} />;
           
-          const rawPara = para.trim();
+          let rawPara = para.trim();
+          let isHeading = false;
+          let isQuote = false;
+          let isItalic = false;
+          let isCenter = false;
+
+          if (rawPara.startsWith('### ')) {
+            isHeading = true;
+            para = para.replace('### ', '');
+            rawPara = rawPara.replace('### ', '');
+          }
+          if (rawPara.startsWith('>>> ')) {
+            isQuote = true;
+            para = para.replace('>>> ', '');
+            rawPara = rawPara.replace('>>> ', '');
+          }
+          if (rawPara.includes('___ ')) {
+            isItalic = true;
+            para = para.replace('___ ', '');
+            rawPara = rawPara.replace('___ ', '');
+          }
+          if (rawPara.startsWith('[C] ')) {
+            isCenter = true;
+            para = para.replace('[C] ', '');
+            rawPara = rawPara.replace('[C] ', '');
+          }
+
           const isBullet = rawPara.startsWith('-') || rawPara.startsWith('•') || rawPara.startsWith('*');
           const isNumbered = /^[0-9]+[\.\)]\s/.test(rawPara);
           const isList = isBullet || isNumbered;
-          const isHeading = rawPara === rawPara.toUpperCase() && rawPara.length > 5;
 
           return (
             <p key={pIdx} style={{ 
-              marginBottom: isList ? '12px' : '28px', 
-              textAlign: isHeading || isList ? 'left' : 'justify', 
+              marginBottom: isList ? '10px' : '28px', 
+              textAlign: isHeading || isList ? 'left' : (isQuote || isCenter ? 'center' : 'justify'), 
               textIndent: '0',
               paddingLeft: isList ? '40px' : '0',
               fontWeight: isHeading ? 'bold' : 'normal',
-              color: isHeading ? '#1e293b' : 'inherit'
+              fontSize: isHeading ? '1.2em' : '1em',
+              color: isHeading ? '#1e293b' : 'inherit',
+              fontStyle: isQuote || isItalic ? 'italic' : 'normal',
             }}>
-              {para.split(' ').map((word, wIdx) => {
-                if (!word) return null;
-                const cleanWord = word.replace(/[^a-zA-Z-]/g, '').toLowerCase();
+              {isQuote ? (
+                <span style={{ backgroundColor: '#fef08a', padding: '4px 8px', borderRadius: '2px', fontWeight: 'bold' }}>
+                  {para.split(' ').map((word, wIdx) => {
+                    if (!word) return null;
+                    const cleanWord = word.replace(/[^a-zA-Z-]/g, '').toLowerCase();
+                    const isSelected = selectedWord === cleanWord && cleanWord !== '';
+                    return (
+                      <span 
+                        key={wIdx} 
+                        onClick={(e) => handleWordClick(e, word)}
+                        style={{
+                          cursor: 'pointer',
+                          transition: 'background-color 0.2s ease',
+                          backgroundColor: isSelected ? 'rgba(234, 179, 8, 0.4)' : 'transparent',
+                          borderBottom: isSelected ? '2px solid #ca8a04' : 'none'
+                        }}
+                      >
+                        {word}{' '}
+                      </span>
+                    );
+                  })}
+                </span>
+              ) : (
+                para.split(' ').map((word, wIdx) => {
+                  if (!word) return null;
+                  const cleanWord = word.replace(/[^a-zA-Z-]/g, '').toLowerCase();
                 const isSelected = selectedWord === cleanWord && cleanWord !== '';
                 return (
                   <span 
@@ -470,7 +520,7 @@ export default function Home() {
                     {word}
                   </span>
                 );
-              }).reduce((prev, curr) => curr !== null ? (prev === null ? [curr] : [prev, ' ', curr]) : prev, null as any)}
+              }).reduce((prev, curr) => curr !== null ? (prev === null ? [curr] : [prev, ' ', curr]) : prev, null as any))}
             </p>
           );
         })}
