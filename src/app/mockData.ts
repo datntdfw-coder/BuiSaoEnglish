@@ -1,73 +1,46 @@
-export const DOCUMENT_CONTENT = `DOCUMENT 1: SCHOOL SOCIAL WORK
+export const DOCUMENT_CONTENT = `DOCUMENT 1: COMPREHENSIVE GUIDE TO SCHOOL SOCIAL WORK
 
-School social work is a specialized area of practice within the broad field of the social work profession.
-School social workers bring unique knowledge and skills to the school system and the student services team.
-School Social Workers are trained mental health professionals who can assist with mental health concerns, behavioral concerns, positive behavioral support, academic and classroom support, consultation with teachers, parents and administrators as well as provide individual and group counseling/therapy.
-School social workers are instrumental in furthering the mission of the schools which is to provide a setting for teaching, learning, and for the attainment of competence and confidence.
-School social workers are hired by school districts to enhance the district's ability to meet its academic mission, especially where home, school and community collaboration is the key to achieving student success.
+Introduction to School Social Work
+School social work is a highly specialized area of practice within the broad and dynamic field of the social work profession. School social workers bring unique theoretical knowledge, methodological skills, and an ecological perspective to the school system and the interdisciplinary student services team. As trained mental health professionals, typically holding advanced degrees, they play an indispensable role in enhancing the district's ability to fulfill its fundamental institutional mission. Their primary objective is to facilitate an optimal environment for teaching, cognitive development, and the eventual attainment of holistic competence and self-confidence among diverse student populations.
 
-School Social Workers are trained mental health professionals with a degree in social work who provide services related to a person's social, emotional and life adjustment to school and/or society. School Social Workers are the link between the home, school and community in providing direct as well as indirect services to students, families and school personnel to promote and support students' academic and social success.
+The Ecological Systems Perspective
+Central to school social work is the ecological systems theory, which posits that a student's educational trajectory cannot be isolated from their surrounding environments. Children today are increasingly vulnerable to a myriad of external societal forces that can detrimentally affect their primary role as learners. The modern family unit often undergoes significant structural and economic transitions. Until families reach a state of stabilization, unmet physiological, cognitive, and emotional needs will inevitably continue to interfere with a child's inherent ability to assimilate knowledge, concentrate in classrooms, and integrate socially among peers. 
 
-Children today are increasingly victims of many social forces that negatively affect their role as students. The family is in a state of change and until it becomes stabilized, in whatever form, children's unmet physical and emotional needs will continue to interfere with their ability to learn and adjust in school.
+Assessment and Identification of Barriers to Learning
+A paramount responsibility of the school social worker revolves around the meticulous assessment and identification of multifaceted problems. These obstacles generally manifest in four predominantly overlapping categories:
+1. Academic Problems: These may include chronic truancy resulting in substantial gaps in learning, consistently failing grades, learning disabilities, and a lack of intrinsic motivation or cognitive engagement. 
+2. Social Problems: Students may struggle with severe interpersonal deficits, leading to social isolation. They may occasionally become victims of relentless bullying or succumb to detrimental peer pressure, thereby facing alienation.
+3. Behavioral Problems: This encompasses an array of disruptive manifestations such as dismissing mandatory school policies, engaging in physical altercations, manifesting defiance toward educational personnel, and substance abuse issues.
+4. Familial and Home-based Problems: A significant portion of student struggles precipitates from domestic crises, including but not limited to physical abuse, pervasive emotional neglect, acute poverty, and parental substance dependency.
 
-A school social worker identifies students that may be having problems including academic problems, social problems, behavioral problems, and problems at home.
+To definitively ascertain the root causes of these impediments, social workers employ a rigorously formulated methodological approach. This includes conducting structured observations, facilitating comprehensive psychosocial interviews, evaluating standardized psychometric testing results, and collaborating closely with pedagogical staff.
 
-Academic Problems: Failing grades, Low test scores, Attendance problems resulting in incomplete work, Learning problems
-Social Problems: Being a victim of bullying, Not being able to make friends, Not "fitting in", Peer pressure
-Behavioral Problems: Dismissing school policies, Fighting, Substance abuse, Not getting along with teachers
-Problems at Home: Abuse, Neglect, Substance Abuse, Poverty
+Intervention Strategies and Direct Services
+Following a comprehensive evaluation, practitioners implement targeted intervention modalities. Direct services provided to the student paradigm encompass crisis intervention, cognitive-behavioral counseling (deployed individually or within therapeutic group settings), conflict resolution, anger management training, and the systematic cultivation of social interaction skills.
+Simultaneously, services extended to families are equally critical. Social workers diligently work to alleviate acute familial stress, advocate for parental empowerment, and facilitate access to vital community-based welfare programs. They assist marginalized families in navigating complex systemic bureaucracies, ensuring that socio-economic disparities do not permanently jeopardize a child's academic potential.
 
-A school social worker identifies problems, determines causes through observing, interviewing, or testing, creates plans for students, teachers, and families. Examples include: arranging special classes for learning disabilities, creating bullying prevention programs, counseling students with stress/anxiety/depression, and creating school policies.
+Collaboration and Structural Consultation
+Beyond direct clinical practice, school social workers serve as an integral liaison bridging the often-fragmented realms of the school, the home, and the overarching community. They coordinate extensively with external child protection agencies, mental health clinics, and juvenile justice systems. Furthermore, they provide invaluable consultation to school administrators regarding the formulation of inclusive educational policies, the implementation of equitable disciplinary measures, and the development of proactive school-wide initiatives designed to foster resilience and prevent systemic truancy.`;
 
-SERVICES PROVIDED:
-- Related Services: special education assessment, Educational Planning Meetings, counseling (group, individual, family), mobilizing resources
-- Services to Students: crisis intervention, developing intervention strategies, conflict resolution, anger management, social interaction skills
-- Services to Parents/Families: facilitating school adjustment support, alleviating family stress, accessing programs, using school and community resources
-- Services to School Personnel: providing information about factors affecting student performance, assessing mental health concerns, developing training programs, behavior management, direct support
-- School-Community Liaison: coordinating community resources, obtaining support from mental health agencies, advocating for new services
-- Services to Districts: educational programs for exceptional children, alternative programs for drop-outs/truants, identifying and reporting child abuse and neglect, school law and policy consultation, case management
-`;
+export const DOCUMENT_CONTENT_DISABILITY = `DOCUMENT 2: ADVANCED SCOPE OF SOCIAL WORK PRACTICE IN DISABILITY
 
-export const DOCUMENT_CONTENT_DISABILITY = `Scope of Social Work Practice: Social Work in Disability
+Introduction and Underlying Philosophies
+The contemporary landscape of social work within the disability sector represents a profound paradigm shift from historical models of care. Modern practice is firmly anchored in the principles of social justice, universally recognized human rights, and deep respect for individual autonomy. The fundamental objective is to relentlessly advocate for socially inclusive environments that maximize the psychological well-being, tangible independence, and overarching quality of life for all individuals living with diverse impairments. This philosophical stance aligns seamlessly with international mandates such as the United Nations Convention on the Rights of Persons with Disabilities.
 
-Introduction
-The Australian Association of Social Workers' (AASW) Scope of Social Work Practice: Disability document provides an overview of the role, scope and contribution of social work in the disability field.
-The aim of this document is to highlight in a concise, accessible and informative manner the crucial role and services that social workers provide and that employers and clients can expect. These are discussed within a range of practice contexts, including the National Disability Insurance Scheme (NDIS), which is comprehensively changing the disability field and brings with it new conditions and structures for social workers.
+Theoretical Frameworks: The Medical vs. Social Model
+For decades, the standard approach was exclusively dominated by the "Medical Model," which inherently viewed disability as a pathological deficit located entirely within the individual—a problem requiring a clinical cure or lifelong rehabilitation. In stark contrast, modern social workers rigorously champion the "Social Model of Disability." This progressive paradigm distinctively separates the concept of 'impairment' (the objective physical, cognitive, or sensory variations in human capacity) from 'disability' (the disabling barriers constructed by an unaccommodating society). 
+Consequently, social work interventions are not unilaterally aimed at "fixing" the individual. Instead, they embrace a holistic person-in-environment approach, deliberately targeting discriminatory institutional policies, inaccessible physical infrastructures, and pervasive societal stigmas that disproportionately marginalize individuals and systematically restrict their civic participation.
 
-The social work profession
-The social work profession is committed to maximising the wellbeing of individuals, families, groups, communities and society. We consider that individual and societal wellbeing is underpinned by socially inclusive communities that emphasise principles of social justice and respect for human dignity and human rights. These values are in complete accord with the disability advocacy movement and the United Nations Convention on the Rights of Persons with Disabilities, which both inform the NDIS.
+Extensive Roles and Contexts of Practice
+Social workers specializing in disability operate across an unprecedentedly wide spectrum of institutional contexts. Their expertise is prominently utilized within government agencies (such as the National Disability Insurance Scheme infrastructure), specialized rehabilitation hospitals, early intervention pediatric clinics, adult residential facilities, and grassroots advocacy organizations.
+Within these settings, their daily endeavors encompass a vast array of specialized tasks. At the micro-level, they facilitate profound therapeutic counseling to help clients navigate complex emotional transitions, process profound grief associated with sudden physical trauma, or cultivate formidable psychological resilience against pervasive discrimination. At the macro-level, they are engaged in systemic policy analysis, ensuring legislation remains equitable, and executing widespread community education campaigns designed to systematically dismantle entrenched prejudices and foster genuine inclusion.
 
-Understanding disability
-In their commitment to human rights, social workers prioritise a holistic understanding of the person, seeing their impairment as only one aspect of what makes them who they are. This view is driven by a deep belief in the intrinsic worth of all human beings and their inalienable right to dignity and self-determination. Drawing on the significant contribution of the self- advocacy movement, social workers understand that people with disability are a diverse group and have a wide range of experiences, abilities, impairments and potential for development.
-Social workers make a distinction between impairment and disability. While impairment refers to the differences in capacity that can cause difficulty in everyday functioning, disability represents the larger and more complex interaction between an individual with impairment and the structures and processes of society. Therefore, social workers adopt a person-in- environment approach that includes a focus on the structural and cultural factors that may negatively impact on an individual's ability to engage with the social world.
+Comprehensive Assessment and Capacity Building
+A cornerstone of this practice involves the execution of exhaustive strengths-based psychosocial assessments. Unlike traditional deficit-focused medical evaluations, these holistic assessments deliberately isolate and magnify an individual's intrinsic capabilities, social capital, and personal aspirations. Social workers meticulously evaluate environmental risks, cognitive functioning, and familial support networks to formulate realistic, client-centered care plans.
+Furthermore, capacity building constitutes a pivotal dimension of this work. Social workers continuously endeavor to empower individuals with disabilities—and their respective families—to become autonomous self-advocates. They demystify complex welfare bureaucracies, teach pragmatic negotiation skills to acquire crucial external funding and technological aids, and coordinate fragmented healthcare services to ensure cohesive, uninterrupted care delivery.
 
-Role of social work in the disability field
-Social workers focus on maintaining and enhancing quality of life. We contribute knowledge and skills to assist people with disability, their families and communities through our work in a range of settings. Our work includes all levels of management and program design, individual planning, counselling, coordination and case management, as well as policy development, research and advocacy.
-The NDIS is expanding the range of roles that social workers have the expertise to fill, for example, National Disability Insurance Agency management roles, local area coordinators and planners, and service coordinators. Social work with people with disability can occur in any practice context. Examples of specific settings can include:
-- The National Disability Insurance Agency
-- Disability service providers
-- Advocacy services
-- All levels of healthcare
-- Early intervention services
-- Rehabilitation services
-- Aged care & Mental health services
-- Homelessness services
-- Child Protection & Justice services
-
-Scope of practice of social work in the disability field
-In all contexts, social workers focus on individual, family, carer and community strengths and needs, and work collaboratively to support people to achieve the lives they want. Social workers take a holistic approach that includes the individual and systemic factors. Our practice is across the lifespan.
-Social work practice in this field spans a number of approaches and can include:
-- Assessment: Strengths-based psychosocial assessment, Risk assessment, Capacity, functioning and development assessment
-- Capacity building: Working to engage, educate, consult with and co-ordinate local community groups, Building capacity of individuals or families to navigate health and welfare systems
-- Case management and service coordination: Service brokerage, Coordinating support, Referrals to other services
-- Advocacy: Supporting individuals to be self-advocates, Advocating for change on an organisational and systemic level
-- Counselling and therapeutic approaches: Individual, family and group work, Grief and loss, Positive Behaviour Support approaches
-
-Contribution of social work
-With the focus on holistic support and the ability to consider the complexity involved from multiple perspectives, social workers offer a unique contribution by providing appropriate and targeted services to meet the whole of life needs of people with disability. This multi-focused approach includes knowledge of human functioning and behaviour, and how socioeconomic, legal and cultural factors interact and impact to produce the stigma, discrimination, marginalisation and social isolation experienced by many individuals.
-
-Conclusion
-Professional social workers have much to contribute to the disability field in both government and non-government organisations and the emerging private sector. With the focus on self-determination and holistic analysis, social workers offer a unique and valuable contribution to providing appropriate and targeted services to meet the complex needs of individuals, their families and communities.`;
+The Imperative of Advocacy and Ethical Commitment
+No discussion of disability social work is complete without highlighting the indispensable role of relentless advocacy. Social workers act as vigilant guardians of equity, challenging systemic disparities and amplifying the voices of those who are frequently overlooked by mainstream society. Through an eclectic combination of therapeutic acumen, sophisticated case management, and unyielding socioeconomic advocacy, social workers ensure that the intrinsic dignity and immense potential of every distinct individual are decisively recognized, fiercely defended, and vibrantly celebrated.`;
 
 export const mockQuestions = [
   {
