@@ -687,6 +687,8 @@ export const mockQuestions5 = [
   { id: 30, type: "reading_comprehension", question: "In the phrase 'alternative programs for drop-outs/truants', what is the purpose of these programs?", options: ["A. To exclude them permanently", "B. To punish the students", "C. To provide a different educational pathway and support", "D. To give them a vacation"], correctAnswer: "C. To provide a different educational pathway and support", explanation: "Alternative programs are designed as Services to Districts to manage attendance and educational pathways." }
 ];
 
+import { VOCABULARY_LIST as NEW_VOCAB } from './vocabData';
+
 export const VOCABULARY_LIST = [
   { word: "Attainment", pos: "Noun", meaning: "Sự đạt được / thành tựu", example: "the attainment of competence and confidence", note: "Dễ nhầm với 'attendance' (sự tham dự). Đây là danh từ của 'attain'." },
   { word: "Intervene / Intervention", pos: "Verb / Noun", meaning: "Can thiệp / Sự can thiệp", example: "developing intervention strategies", note: "Khác với 'interfere' (can thiệp cản trở). Cấu trúc: 'intervention in'." },
@@ -702,5 +704,6 @@ export const VOCABULARY_LIST = [
   { word: "Mobilize", pos: "Verb", meaning: "Huy động", example: "mobilizing family, school and community resources", note: "Nghiêng về nghĩa huy động tài nguyên hoặc lực lượng." },
   { word: "Societal", pos: "Adjective", meaning: "Thuộc về xã hội", example: "societal forces negatively affecting children", note: "Đừng nhầm hình thức danh từ 'Society'. Bài chia từ (Word Form) rất hay bẫy chữ này." },
   { word: "Familial", pos: "Adjective", meaning: "Thuộc về gia đình", example: "cultural, societal, economic, familial, and health factors", note: "Tính từ này chuyên dùng trong văn phong học thuật thay cho chữ 'family' khi miêu tả tính chất." },
-  { word: "Compliance / Comply", pos: "Noun / Verb", meaning: "Sự tuân thủ", example: "compliance with school law and school policy", note: "Khác chữ complain! Giới từ: comply WITH." }
+  { word: "Compliance / Comply", pos: "Noun / Verb", meaning: "Sự tuân thủ", example: "compliance with school law and school policy", note: "Khác chữ complain! Giới từ: comply WITH." },
+  ...NEW_VOCAB.slice(15) // Skip the first 15 since we are using these rich ones
 ];
