@@ -429,8 +429,22 @@ export default function Home() {
         
         {paragraphs.map((para, pIdx) => {
           if (!para.trim()) return <br key={pIdx} />;
+          
+          const rawPara = para.trim();
+          const isBullet = rawPara.startsWith('-') || rawPara.startsWith('•') || rawPara.startsWith('*');
+          const isNumbered = /^[0-9]+[\.\)]\s/.test(rawPara);
+          const isList = isBullet || isNumbered;
+          const isHeading = rawPara === rawPara.toUpperCase() && rawPara.length > 5;
+
           return (
-            <p key={pIdx} style={{ marginBottom: '28px', textAlign: 'justify', textIndent: '28px' }}>
+            <p key={pIdx} style={{ 
+              marginBottom: isList ? '12px' : '28px', 
+              textAlign: isHeading || isList ? 'left' : 'justify', 
+              textIndent: '0',
+              paddingLeft: isList ? '40px' : '0',
+              fontWeight: isHeading ? 'bold' : 'normal',
+              color: isHeading ? '#1e293b' : 'inherit'
+            }}>
               {para.split(' ').map((word, wIdx) => {
                 if (!word) return null;
                 const cleanWord = word.replace(/[^a-zA-Z-]/g, '').toLowerCase();
