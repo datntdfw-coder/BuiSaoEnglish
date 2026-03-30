@@ -51,6 +51,8 @@ export default function Home() {
   const [isTranslating, setIsTranslating] = useState(false);
   const [tooltipPos, setTooltipPos] = useState({ top: 0, left: 0 });
   const [activeDoc, setActiveDoc] = useState<'school'|'disability'>('school');
+  const [vocabMode, setVocabMode] = useState<'normal' | 'random'>('normal');
+  const [vocabSequence, setVocabSequence] = useState<number[]>(() => Array.from({length: VOCABULARY_LIST.length}, (_, i) => i));
   const timerRef = useRef<NodeJS.Timeout | null>(null);
 
   // Timer
@@ -336,11 +338,11 @@ export default function Home() {
       setTranslation(null);
       setIsTranslating(true);
 
-      fetch(`https://api.mymemory.translated.net/get?q=${encodeURIComponent(text)}&langpair=en|vi`)
+      fetch(`https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=vi&dt=t&q=${encodeURIComponent(text)}`)
         .then(res => res.json())
         .then(data => {
-          if (data.responseData && data.responseData.translatedText) {
-            setTranslation(data.responseData.translatedText);
+          if (data && data[0] && data[0][0] && data[0][0][0]) {
+            setTranslation(data[0][0][0]);
           } else {
             setTranslation('N/A');
           }
@@ -373,10 +375,10 @@ export default function Home() {
     setIsTranslating(true);
 
     try {
-      const res = await fetch(`https://api.mymemory.translated.net/get?q=${encodeURIComponent(cleanWord)}&langpair=en|vi`);
+      const res = await fetch(`https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=vi&dt=t&q=${encodeURIComponent(cleanWord)}`);
       const data = await res.json();
-      if (data.responseData && data.responseData.translatedText) {
-        setTranslation(data.responseData.translatedText);
+      if (data && data[0] && data[0][0] && data[0][0][0]) {
+        setTranslation(data[0][0][0]);
       } else {
         setTranslation('N/A');
       }
@@ -578,7 +580,13 @@ export default function Home() {
             <button className="btn-secondary" onClick={() => setTestState('docs')} style={{ fontSize: '16px', padding: '16px 36px', background: 'var(--bg-tertiary)', border: '1px solid var(--border-light)' }}>
               📄 Xem Tài liệu
             </button>
-            <button className="btn-secondary" onClick={() => { setTestState('vocab'); setVocabIndex(0); setShowVocabMeaning(false); }} style={{ fontSize: '16px', padding: '16px 36px', backgroundColor: 'var(--bg-card)', color: 'var(--accent-primary)', border: '1px solid var(--border-light)', fontWeight: 600 }}>
+            <button className="btn-secondary" onClick={() => { 
+              setTestState('vocab'); 
+              setVocabIndex(0); 
+              setShowVocabMeaning(false); 
+              setVocabMode('normal');
+              setVocabSequence(Array.from({length: VOCABULARY_LIST.length}, (_, i) => i));
+            }} style={{ fontSize: '16px', padding: '16px 36px', backgroundColor: 'var(--bg-card)', color: 'var(--accent-primary)', border: '1px solid var(--border-light)', fontWeight: 600 }}>
               📚 Ôn Từ Vựng
             </button>
             <button className="btn-primary" onClick={() => startTest(1)} style={{ fontSize: '16px', padding: '16px 36px' }}>
@@ -1020,7 +1028,11 @@ export default function Home() {
     </div>
   );
 
-  const renderVocab = () => (
+  const renderVocab = () => {
+    const activeIndex = vocabSequence[vocabIndex] !== undefined ? vocabSequence[vocabIndex] : 0;
+    const currentWord = VOCABULARY_LIST[activeIndex];
+
+    return (
     <div style={{ width: '100%', maxWidth: '700px', margin: '0 auto', padding: '20px 0', minHeight: '80vh', display: 'flex', flexDirection: 'column' }}>
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '30px' }}>
         <h2 style={{ fontSize: '24px', fontWeight: 600, color: 'var(--accent-primary)' }}>📚 Ôn Tập Từ Vựng Dễ Sai</h2>
@@ -1032,10 +1044,38 @@ export default function Home() {
           🔙 Quay lại
         </button>
       </div>
+
+      <div style={{ display: 'flex', justifyContent: 'center', gap: '16px', marginBottom: '20px' }}>
+        <button 
+          onClick={() => {
+            if(vocabMode === 'normal') return;
+            setVocabMode('normal');
+            setVocabSequence(Array.from({length: VOCABULARY_LIST.length}, (_, i) => i));
+            setVocabIndex(0);
+            setShowVocabMeaning(false);
+          }}
+          style={{ padding: '8px 24px', borderRadius: '20px', cursor: 'pointer', fontWeight: 600, transition: '0.2s', backgroundColor: vocabMode === 'normal' ? '#10b981' : 'transparent', color: vocabMode === 'normal' ? '#fff' : '#64748b', border: vocabMode === 'normal' ? '1px solid #10b981' : '1px solid #cbd5e1' }}
+        >
+          📖 Trình tự gốc
+        </button>
+        <button 
+          onClick={() => {
+            if(vocabMode === 'random') return;
+            setVocabMode('random');
+            const seq = Array.from({length: VOCABULARY_LIST.length}, (_, i) => i).sort(() => Math.random() - 0.5);
+            setVocabSequence(seq);
+            setVocabIndex(0);
+            setShowVocabMeaning(false);
+          }}
+          style={{ padding: '8px 24px', borderRadius: '20px', cursor: 'pointer', fontWeight: 600, transition: '0.2s', backgroundColor: vocabMode === 'random' ? '#8b5cf6' : 'transparent', color: vocabMode === 'random' ? '#fff' : '#64748b', border: vocabMode === 'random' ? '1px solid #8b5cf6' : '1px solid #cbd5e1' }}
+        >
+          🔀 Ngẫu nhiên
+        </button>
+      </div>
       
       <div style={{ flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-        <div style={{ padding: '8px 16px', borderRadius: '20px', backgroundColor: 'var(--bg-card)', color: 'var(--accent-primary)', border: '1px solid var(--border-light)', fontWeight: 'bold', marginBottom: '20px', fontSize: '15px' }}>
-          Từ {vocabIndex + 1} / {VOCABULARY_LIST.length}
+        <div style={{ padding: '8px 16px', borderRadius: '20px', backgroundColor: 'var(--bg-card)', color: 'var(--text-primary)', border: '1px solid var(--border-light)', fontWeight: 'bold', marginBottom: '20px', fontSize: '15px' }}>
+          Từ {vocabIndex + 1} / {VOCABULARY_LIST.length} {vocabMode === 'random' ? '(Trộn)' : ''}
         </div>
 
         {/* Flashcard Area */}
@@ -1060,20 +1100,20 @@ export default function Home() {
         >
           {!showVocabMeaning ? (
              <div style={{ textAlign: 'center' }}>
-               <span style={{ fontSize: '16px', color: '#64748b', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '1px' }}>{VOCABULARY_LIST[vocabIndex].pos}</span>
-               <h3 style={{ fontSize: '42px', margin: '20px 0', color: 'var(--text-primary)' }}>{VOCABULARY_LIST[vocabIndex].word}</h3>
+               <span style={{ fontSize: '16px', color: '#64748b', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '1px' }}>{currentWord.pos}</span>
+               <h3 style={{ fontSize: '42px', margin: '20px 0', color: 'var(--text-primary)' }}>{currentWord.word}</h3>
                <p style={{ color: '#94a3b8', marginTop: '30px', fontSize: '15px' }}>(Bấm vào thẻ để lật xem nghĩa)</p>
              </div>
           ) : (
              <div style={{ textAlign: 'center', width: '100%', animation: 'fadeIn 0.3s' }}>
-               <h3 style={{ fontSize: '28px', color: '#10b981', marginBottom: '16px' }}>{VOCABULARY_LIST[vocabIndex].meaning}</h3>
+               <h3 style={{ fontSize: '28px', color: '#10b981', marginBottom: '16px' }}>{currentWord.meaning}</h3>
                
                <div style={{ marginTop: '20px', padding: '20px', backgroundColor: 'var(--bg-primary)', borderRadius: '12px', borderLeft: '4px solid var(--accent-secondary)', textAlign: 'left' }}>
-                 <p style={{ margin: 0, color: '#475569', fontStyle: 'italic', fontSize: '16px', lineHeight: '1.6' }}>"{VOCABULARY_LIST[vocabIndex].example}"</p>
+                 <p style={{ margin: 0, color: '#475569', fontStyle: 'italic', fontSize: '16px', lineHeight: '1.6' }}>"{currentWord.example}"</p>
                </div>
                
                <div style={{ marginTop: '20px', padding: '20px', backgroundColor: 'var(--bg-tertiary)', borderRadius: '12px', borderLeft: '4px solid var(--warning)', textAlign: 'left' }}>
-                 <p style={{ margin: 0, color: '#92400e', fontWeight: 500, fontSize: '15px' }}>💡 Lưu ý: {VOCABULARY_LIST[vocabIndex].note}</p>
+                 <p style={{ margin: 0, color: '#92400e', fontWeight: 500, fontSize: '15px' }}>💡 Lưu ý: {currentWord.note}</p>
                </div>
              </div>
           )}
@@ -1102,6 +1142,7 @@ export default function Home() {
       </div>
     </div>
   );
+  };
 
   return (
     <main className={styles.main}>
