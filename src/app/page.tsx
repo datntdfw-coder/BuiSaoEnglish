@@ -551,6 +551,7 @@ export default function Home() {
         {/* Global Tooltip Portal within the Document container */}
         {selectedWord && (
           <div 
+            onClick={(e) => e.stopPropagation()}
             style={{
               position: 'fixed',
               top: `${tooltipPos.top}px`,
@@ -558,24 +559,71 @@ export default function Home() {
               transform: 'translate(-50%, 0)',
               backgroundColor: '#0f172a',
               color: '#f8fafc',
-              padding: '10px 16px',
+              padding: '12px 18px',
               borderRadius: '10px',
               boxShadow: '0 10px 25px -5px rgba(0, 0, 0, 0.3)',
               zIndex: 99999,
               fontSize: '15px',
-              minWidth: '120px',
+              minWidth: '180px',
+              maxWidth: '300px',
               textAlign: 'center',
-              pointerEvents: 'none'
             }}
           >
-            <div style={{ fontWeight: 'bold', marginBottom: '4px', color: '#94a3b8', fontSize: '11px', textTransform: 'uppercase', letterSpacing: '1px' }}>{selectedWord}</div>
-            {isTranslating ? (
-              <div style={{ display: 'flex', justifyContent: 'center', padding: '4px 0' }}>
-                 <span style={{ display: 'inline-block', width: '16px', height: '16px', border: '2px solid rgba(255,255,255,0.2)', borderTopColor: '#10b981', borderRadius: '50%', animation: 'spinTranslate 1s linear infinite' }}></span>
+            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '6px' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '8px', justifyContent: 'center', width: '100%' }}>
+                <span 
+                  style={{ 
+                    fontWeight: 'bold', 
+                    color: '#94a3b8', 
+                    fontSize: '11px', 
+                    textTransform: 'uppercase', 
+                    letterSpacing: '1px',
+                    overflow: 'hidden',
+                    textOverflow: 'ellipsis',
+                    whiteSpace: 'nowrap',
+                    maxWidth: '180px'
+                  }}
+                  title={selectedWord}
+                >
+                  {selectedWord}
+                </span>
+                <button
+                  onClick={() => {
+                    if ('speechSynthesis' in window) {
+                      window.speechSynthesis.cancel();
+                      const utterance = new SpeechSynthesisUtterance(selectedWord);
+                      utterance.lang = 'en-US';
+                      window.speechSynthesis.speak(utterance);
+                    }
+                  }}
+                  onMouseDown={(e) => e.preventDefault()}
+                  style={{
+                    background: 'rgba(255, 255, 255, 0.1)',
+                    border: 'none',
+                    cursor: 'pointer',
+                    fontSize: '14px',
+                    padding: '4px 8px',
+                    borderRadius: '4px',
+                    color: '#f8fafc',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    transition: 'background-color 0.2s',
+                    outline: 'none',
+                  }}
+                  title="Đọc phát âm"
+                >
+                  🔊
+                </button>
               </div>
-            ) : (
-              <div style={{ color: '#10b981', fontWeight: 600, fontSize: '16px' }}>{translation}</div>
-            )}
+              {isTranslating ? (
+                <div style={{ display: 'flex', justifyContent: 'center', padding: '4px 0' }}>
+                   <span style={{ display: 'inline-block', width: '16px', height: '16px', border: '2px solid rgba(255,255,255,0.2)', borderTopColor: '#10b981', borderRadius: '50%', animation: 'spinTranslate 1s linear infinite' }}></span>
+                </div>
+              ) : (
+                <div style={{ color: '#10b981', fontWeight: 600, fontSize: '16px', wordBreak: 'break-word' }}>{translation}</div>
+              )}
+            </div>
             <div style={{
               position: 'absolute',
               top: '-6px',
