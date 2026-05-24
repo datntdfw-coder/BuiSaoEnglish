@@ -2,10 +2,12 @@
 
 import { useState, useEffect, useCallback, useRef } from 'react';
 import styles from './page.module.css';
-import { DOCUMENT_CONTENT, DOCUMENT_CONTENT_DISABILITY, VOCABULARY_LIST } from './mockData';
+import { DOCUMENT_CONTENT, DOCUMENT_CONTENT_DISABILITY, DOCUMENT_CONTENT_CRIMINAL_JUSTICE, DOCUMENT_CONTENT_OLDER_PEOPLE, VOCABULARY_LIST } from './mockData';
 import { schoolTest1, schoolTest2, schoolTest3, schoolTest4 } from './schoolTests';
 import { disabilityTest1, disabilityTest2, disabilityTest3, disabilityTest4 } from './disabilityTests';
-import { syntheticTest1 } from './syntheticTest';
+import { criminalTest1 } from './criminalTests';
+import { olderTest1 } from './olderPeopleTests';
+import { syntheticTest1, syntheticTest2, syntheticTest3, syntheticTest4 } from './syntheticTest';
 
 interface MatchPair {
   term: string;
@@ -53,7 +55,7 @@ export default function Home() {
   const [translation, setTranslation] = useState<string | null>(null);
   const [isTranslating, setIsTranslating] = useState(false);
   const [tooltipPos, setTooltipPos] = useState({ top: 0, left: 0 });
-  const [activeDoc, setActiveDoc] = useState<'school'|'disability'>('school');
+  const [activeDoc, setActiveDoc] = useState<'school'|'disability'|'criminal'|'older'>('school');
   const [vocabMode, setVocabMode] = useState<'normal' | 'random'>('normal');
   const [vocabSequence, setVocabSequence] = useState<number[]>(() => Array.from({length: VOCABULARY_LIST.length}, (_, i) => i));
   const timerRef = useRef<NodeJS.Timeout | null>(null);
@@ -132,7 +134,12 @@ export default function Home() {
         'disability-2': disabilityTest2,
         'disability-3': disabilityTest3,
         'disability-4': disabilityTest4,
-        'synthetic-1': syntheticTest1
+        'criminal-1': criminalTest1,
+        'older-1': olderTest1,
+        'synthetic-1': syntheticTest1,
+        'synthetic-2': syntheticTest2,
+        'synthetic-3': syntheticTest3,
+        'synthetic-4': syntheticTest4
       };
       
       const data = { questions: testMapping[testId] };
@@ -648,11 +655,36 @@ export default function Home() {
 
             <div style={{ background: 'var(--bg-tertiary)', borderRadius: '16px', padding: '24px', border: '1px solid var(--border-light)' }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '20px' }}>
+                <span style={{ fontSize: '32px' }}>⚖️</span>
+                <h3 style={{ margin: 0, color: 'var(--primary-dark)', fontSize: '20px' }}>Criminal Justice</h3>
+              </div>
+              <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '10px' }}>
+                <button className="btn-secondary" onClick={() => startTest('criminal-1')} style={{ padding: '12px 0', fontSize: '15px' }}>Đề 1 (30 câu)</button>
+              </div>
+            </div>
+
+            <div style={{ background: 'var(--bg-tertiary)', borderRadius: '16px', padding: '24px', border: '1px solid var(--border-light)' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '20px' }}>
+                <span style={{ fontSize: '32px' }}>👴</span>
+                <h3 style={{ margin: 0, color: 'var(--primary-dark)', fontSize: '20px' }}>Older People</h3>
+              </div>
+              <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '10px' }}>
+                <button className="btn-secondary" onClick={() => startTest('older-1')} style={{ padding: '12px 0', fontSize: '15px' }}>Đề 1 (30 câu)</button>
+              </div>
+            </div>
+
+            <div style={{ background: 'var(--bg-tertiary)', borderRadius: '16px', padding: '24px', border: '1px solid var(--border-light)' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '20px' }}>
                 <span style={{ fontSize: '32px' }}>🔮</span>
                 <h3 style={{ margin: 0, color: 'var(--accent-secondary)', fontSize: '20px' }}>Bài Thi Tổng Hợp</h3>
               </div>
-              <p style={{ color: 'var(--text-secondary)', fontSize: '14px', marginBottom: '16px' }}>Kết hợp nội dung từ cả 2 tài liệu để đánh giá kiến thức toàn diện.</p>
-              <button className="btn-primary" onClick={() => startTest('synthetic-1')} style={{ width: '100%', padding: '14px 0', fontSize: '16px', fontWeight: 'bold' }}>Bắt Đầu Thi (30 Câu)</button>
+              <p style={{ color: 'var(--text-secondary)', fontSize: '14px', marginBottom: '16px' }}>Kết hợp nội dung từ cả 4 tài liệu để đánh giá kiến thức toàn diện.</p>
+              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px' }}>
+                <button className="btn-primary" onClick={() => startTest('synthetic-1')} style={{ padding: '12px 0', fontSize: '15px', fontWeight: 'bold' }}>Đề 1 (30 câu)</button>
+                <button className="btn-primary" onClick={() => startTest('synthetic-2')} style={{ padding: '12px 0', fontSize: '15px', fontWeight: 'bold' }}>Đề 2 (30 câu)</button>
+                <button className="btn-primary" onClick={() => startTest('synthetic-3')} style={{ padding: '12px 0', fontSize: '15px', fontWeight: 'bold' }}>Đề 3 (30 câu)</button>
+                <button className="btn-primary" onClick={() => startTest('synthetic-4')} style={{ padding: '12px 0', fontSize: '15px', fontWeight: 'bold' }}>Đề 4 (30 câu)</button>
+              </div>
             </div>
             
           </div>
@@ -1070,7 +1102,7 @@ export default function Home() {
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '20px' }}>
         <h2 style={{ fontSize: '24px', fontWeight: 600, color: '#334155' }}>Chi tiết Tài liệu</h2>
         
-        <div style={{ display: 'flex', gap: '8px', backgroundColor: '#e2e8f0', padding: '4px', borderRadius: '8px' }}>
+        <div style={{ display: 'flex', gap: '8px', backgroundColor: '#e2e8f0', padding: '4px', borderRadius: '8px', flexWrap: 'wrap' }}>
           <button 
             onClick={() => setActiveDoc('school')}
             style={{ 
@@ -1097,6 +1129,32 @@ export default function Home() {
           >
             ♿ Disability Practice
           </button>
+          <button 
+            onClick={() => setActiveDoc('criminal')}
+            style={{ 
+              padding: '8px 16px', borderRadius: '6px', cursor: 'pointer', fontSize: '14px', fontWeight: 600,
+              backgroundColor: activeDoc === 'criminal' ? '#ffffff' : 'transparent',
+              color: activeDoc === 'criminal' ? '#0369a1' : '#64748b',
+              boxShadow: activeDoc === 'criminal' ? '0 1px 3px rgba(0,0,0,0.1)' : 'none',
+              border: 'none',
+              transition: 'all 0.2s ease'
+            }}
+          >
+            ⚖️ Criminal Justice
+          </button>
+          <button 
+            onClick={() => setActiveDoc('older')}
+            style={{ 
+              padding: '8px 16px', borderRadius: '6px', cursor: 'pointer', fontSize: '14px', fontWeight: 600,
+              backgroundColor: activeDoc === 'older' ? '#ffffff' : 'transparent',
+              color: activeDoc === 'older' ? '#0369a1' : '#64748b',
+              boxShadow: activeDoc === 'older' ? '0 1px 3px rgba(0,0,0,0.1)' : 'none',
+              border: 'none',
+              transition: 'all 0.2s ease'
+            }}
+          >
+            👴 Older People
+          </button>
         </div>
 
         <button 
@@ -1108,7 +1166,12 @@ export default function Home() {
         </button>
       </div>
       <div style={{ padding: '30px', backgroundColor: '#e2e8f0', backgroundImage: 'radial-gradient(#cbd5e1 1px, transparent 1px)', backgroundSize: '10px 10px', borderRadius: '12px' }}>
-        {renderInteractiveDocument(activeDoc === 'school' ? DOCUMENT_CONTENT : DOCUMENT_CONTENT_DISABILITY)}
+        {renderInteractiveDocument(
+          activeDoc === 'school' ? DOCUMENT_CONTENT : 
+          activeDoc === 'disability' ? DOCUMENT_CONTENT_DISABILITY : 
+          activeDoc === 'criminal' ? DOCUMENT_CONTENT_CRIMINAL_JUSTICE :
+          DOCUMENT_CONTENT_OLDER_PEOPLE
+        )}
       </div>
     </div>
   );
@@ -1245,9 +1308,15 @@ export default function Home() {
                    
                    // Identify the document containing this word
                    const inDisability = DOCUMENT_CONTENT_DISABILITY.toLowerCase().includes(cleanWord);
+                   const inCriminal = DOCUMENT_CONTENT_CRIMINAL_JUSTICE.toLowerCase().includes(cleanWord);
+                   const inOlder = DOCUMENT_CONTENT_OLDER_PEOPLE.toLowerCase().includes(cleanWord);
                    
                    if (inDisability) {
                      setActiveDoc('disability');
+                   } else if (inCriminal) {
+                     setActiveDoc('criminal');
+                   } else if (inOlder) {
+                     setActiveDoc('older');
                    } else {
                      setActiveDoc('school');
                    }

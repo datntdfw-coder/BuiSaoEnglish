@@ -290,6 +290,185 @@ Professional social workers have much to contribute to the disability field in b
 
 import { VOCABULARY_LIST as NEW_VOCAB } from './vocabData';
 
+
+export const DOCUMENT_CONTENT_CRIMINAL_JUSTICE = `### [C] What Is a Social Worker's Position in Criminal Justice?
+
+[C] by Beth Greenwood
+
+Social workers help people solve problems and may be licensed to treat mental illness. In addition to schools, hospitals, other health facilities and substance abuse clinics, social workers can also be found in the criminal justice system. Criminal justice social workers may work in jails, prisons, community-based organizations and primary health care agencies that serve ex-offenders, and in the courts.
+
+### Compassion vs. Public Safety
+
+Social workers must have compassion and empathy for the people they work with, according to the U.S. Bureau of Labor Statistics. These professional expectations can be in conflict, however, with society’s needs for public safety, according to “Criminal Justice Social Work in the United States - Adapting to New Challenges.” A person who commits a crime because of mental health issues may need to be treated differently than an offender who committed the crime in full awareness that what he did was wrong. The social worker can help other members of the legal system, such as lawyers and judges, as well as juries understand the difference between the two offenders.
+
+### Family Issues
+
+Some social workers may work with children and families who have entered the criminal justice system. The social worker might help a woman who was a victim of domestic violence to find a safe place for herself and her children, or apply for benefits such as food stamps. Other social workers help children in the foster care system. They may handle adoptions or locate and work with foster families when children have been removed from the home by the court because of neglect or abuse.
+
+### Working with Minors
+
+Juveniles who are in the system because they have committed or been the victim of crimes may need the assistance of a social worker for issues such as a minor’s ability to testify. Other issues relevant to minors include their ability to make medical decisions, child custody issues or the necessity to appoint a guardian if a parent dies or becomes incapacitated. Social workers in the criminal justice system who work with children often become advocates for different legal standards for children as compared to adults, according to the National Association of Social Workers.
+
+### Other Roles
+
+Although any social worker might be required to provide courtroom testimony, social workers in the criminal justice system have many roles. Some work as researchers to obtain relevant information about a particular case. Others serve as probation officers or case managers. A social worker in a jail or prison might function as a therapist for prisoners. Forensic social workers could draft reports about defendants that include information about the defendant’s decision-making capabilities, medical and mental health, education or test results, according to a November 2012 article in "NASW News." Other social workers provide therapy to sex offenders, perform conflict mediation or act as victim advocates.`;
+
+export const DOCUMENT_CONTENT_OLDER_PEOPLE = `### [C] The Role of the Social Worker with Older Persons
+
+### Prepared by:  The Irish Association of Social Workers’ (IASW) Special Interest Group on
+
+### Ageing (SIGA)
+
+### The Client: people using the social work services for older people
+
+Our primary clients are usually adults aged 65 years and over.   Their access to social work services is usually associated with their referral to a health or other service where the lower  age  limit  is predefined.   They can be people living independently in the community, living with families or carers and attending day services or using other community services, living in sheltered accommodation or in supported or high dependency long stay residential units. Individual social work can include:
+
+•    Needs assessment,
+
+•    Social work assessment,
+
+•    Counselling and solution focussed brief therapy
+
+•    Stress management,
+
+•    Advocacy work (both individual and group)
+
+•    Group and
+
+•	Community development (for example in an impoverished local community or facilitating a residents’ self-advocacy group in a residential or day unit.)
+
+•	Assessment of elder abuse (physical and emotional) and neglect, (including self- neglect)
+
+•    Complaints by older persons about the standard of care they are receiving
+
+•    Developing and case managing a care plan
+
+Families, spouses, adult children, siblings, grandchildren and other carers, paid and unpaid, can also be our clients too.  Social workers have always had a special role with regard to family work, helping to be a link for the multidisciplinary team in communicating  with  the  family,  in  assessing  the  family’s  ability  to  cope  with  the primary client’s special needs and ensuring that families and the clients are linked in to all the appropriate community services. Social work with to families can range from -
+
+•    Information and advice giving
+
+•    Counselling,
+
+•    Crisis intervention. .
+
+•    Basic social work support,
+
+•    Brief therapy,
+
+•    Crisis management,
+
+•    conflict management and mediation, (including domestic violence)
+
+•    Bereavement counselling
+
+•    Advocacy
+
+•	Assistance  in  navigating  the  bureaucracies  (e.g.  nursing  home  or  homecare grants social welfare, etc.)
+
+•    Training courses and carers support groups for family and other carers.
+
+Carers  who  are  not  relatives  often  avail  of  social  work  services  for  support  and information to help them understand and help look after the primary client, the older person.  There are some issues around confidentiality that can arise here, for example if an  older  person  is  suffering  from  a  mental  health  problem,  but  often  the  client’s permission can be easily obtained to discuss a care plan, ways of supporting the main client, and ensuring the older person gets the kind of care and service that they want. Work with carers can also include working with the multidisciplinary team in terms of bringing back information about the special needs or circumstances of families and carers that limit what they can offer the older person.
+
+### The Needs and Rights of Older People
+
+The rights of older people are no different to the rights of any other person.  There is, however, an increasing risk to the realisation of these rights to the extent that physical or mental frailty or disability imposes limitations on some older people.  The needs of such older people are for the support and services to counteract the effects of these limitations.    Discrimination  on  the  basis  of  age  can  pose  a  further  threat  to  the realisation of the rights of the older person.
+
+Human  rights  and  “quality  of  life”  or  “life  satisfaction”  are  clearly  related.    Any deliberate obstruction to the achievement of a satisfying and productive life represents an invasion of the rights of the individual.   Equally, the lack of reasonable support services  to  counteract  the effects of physical or mental disability also represents a threat to the rights of older people. In all cases a primary focus is to ensure that there is no abuse or neglect of the vulnerable and frail client and that systems set up to support and care and protect such clients are all engaged and utilized to full extent where they are useful and appropriate.
+
+The following is a list of some of the “domains” of quality of life, the threats to these
+
+domains and how these can be counteracted:
+
+1.   Material Well-Being.   This includes a reasonable standard of accommodation (including accommodation in long stay facilities), adequate possessions and sufficient money to maintain a reasonable standard of comfort.  Public provision
+
+to ensure adequate housing and a realistic system of income support is needed to vindicate this objective.
+
+2.   Emotional Well-Being.  Lack of function can result in depression.  Bereavement, isolation and lack of access to effective transport services also represent threats. Public policies in relation to mobility, transport (particularly transport for the disabled), the provision to day care services and access to counselling services can counteract these threats.
+
+3.   Social Inclusion.  This domain involves being accepted as part of the community and being able to make some contribution to that community.  The support of both public and voluntary agencies is necessary in many cases of disability and, particularly, lack of mobility.
+
+4.   Physical Well-Being.  This domain is often problematic for older people.  Access
+
+to adequate medical care, physical and occupational therapy can counteract much of the negative effects of illness or disability.
+
+5.   Interpersonal Relationships.   Regular and consistent contact with family and friends is essential to a good quality of life.  Mobility and transport services can be  important  in  this  respect;  but  it  is  also  necessary  for  personnel  from statutory and voluntary agencies to help promote these contacts in many cases.
+
+6.   Self Determination.   Dependence on other people and particularly in cases of older people in institutional care can result in severe limitation to the expression of self- determination.   The enhancement of this essential element of quality of life requires both skill and constant awareness by caring personnel.
+
+### Social work tasks with older people
+
+The tasks of social workers with older people are very varied and include work with their families  and carers.    Social  work  with  older people focuses  on  the preservation  or enhancement of functioning and of quality of life of our clients. Social work focuses on what people can do and maximise both opportunities and quality of life in the context of their social system, their needs and their rights.
+
+Social Work assessment is key to all the main roles and tasks of social work.   Social workers carry out social assessments that involve identifying practical and emotional needs and appropriate supports.   This ensures the worker reacts in a reflective and planned way to intervene to assist a client and family.  In social work for older people it aims to make an objective social study of the older person and their partner, carer and family, their accommodation needs, their primary needs of food, shelter and hygiene, the degree to which they are integrated with or isolated from their local community. The social worker will attempt to come to some conclusions about the client’s psychosocial situation, including their emotional health, their level of self-esteem and their level of stress and cognitive ability and pre-existing level of learning ability.   In addition, a similar assessment is required to clarify the abilities of carers and families and their levels of stress and their emotional state and capability. There a few tools widely accepted for this kind of multi-layered assessment, although there are tools like
+
+the Zarit Burden scale and assessments of mental health and self-esteem, and objective measures of poverty and adequacy of accommodation and nutrition.
+
+Social workers for older people who engage in group work or, more rarely, community development also use assessment skills to identify client need and suitability for group work, (for example, reminiscence work or stress management work with clients or carers).  A social worker’s approach to assessment is influenced by their use of specific theories and is based on their own professional training and experience and the needs of their client and employer and the stated mission of their agency.
+
+Other social work tasks or types of intervention, (usually dependent on the initial and on-going social work assessment and review) include advocating on behalf of our clients to  a  range  of  services  such  as  local  authorities  and  social  welfare  services.    Social workers network and liaise with community resources and provide clients and families information on a range of topics including benefits and entitlements and support services.  They assist our clients to empower themselves, encourage and support them to act on their own behalf by providing information and support.
+
+Social workers listen to our clients and motivate them. We assist them in developing reasons to change their lifestyle. They assist and support clients with adjustment and transition to life changes and other transitions for example, a care setting such as day- care, lunch or dinner clubs or long term placements. They problem solve and teach people problem- solving skills. We assist in finding suitable placements for clients.
+
+Social  workers  provide  counselling  to  clients  and  families  encompassing  loss  and bereavement, brief therapy, stress management, adjustment or addiction.  They focus on strengths and see the individual as unique and we promote resilience in our clients. They are also involved in group work with clients, families and carers.  Examples include client advocacy groups and carers groups.
+
+Social workers do a great deal of work with families and carers.  They support families and  are  involved  with  conflict  management  and  resolution.    They  also  negotiate between family members and use mediation and conflict management and sometimes specialist, family work and therapy skills.    They carry out  risk assessment and risk management with issues such as domestic violence, financial and emotional abuse, neglect and self-neglect.  Social workers have a social control role with issues such as elder abuse, domestic violence and wardship proceedings.   Social workers with older people have a special and traditional role as case managers and in some countries are still  referred  to  as  caseworkers.  Frequently,  when  dealing  with  very complex  cases involving many services, social workers co-ordinate services and advocate for resources with managers for services for older persons and other high level managers in the HSE and elsewhere.
+
+### ___ Respect and dignity
+
+Older people have a right to independence despite any disabilities they may have.  They are entitled to respect for their particular social, emotional, religious, cultural and political views and needs.  They have a right to privacy, control over their own lives and environment and a right to choice, involvement in decision making and to consultation on decisions affecting their lives.  This applies to all older adults, whether at home, with support from carers   or in institutional care. (HSE/Department of Health and Children, Charter of Rights for Older People, 2005)
+
+### Social Work and Elder Abuse
+
+Professional social workers have a special responsibility and unique task and contributions in relation to the prevention of, investigation and intervention into cases of physical, emotional and sexual abuse and neglect of older people.
+
+### ___ “The primary focus of social Work is working with individuals, families and groups within their social context, through training, knowledge and skills which support a high standard of professionalism, the social work task is to facilitate and enable clients to identify options and make decisions for themselves so that they may develop strategies to effect improvement in the quality of their live.  Social work also focuses on issues of public policy, social administration and social justice and the betterment of society as a whole.”
+
+Code of Ethics, Irish Association of Social Workers, 1995
+
+A definition of elder abuse is: “a single or repeated act or lack of appropriate action occurring within any relationship where there is an expectation of trust which causes harm or distress to an older person or violates their human and civil rights.” (Report of the Working Group on Elder Abuse, 2002).
+
+Forms of abuse can include physical, sexual or psychological abuse, financial or material abuse,  neglect  or  omission  and  discrimination  (sexism,  ageism,  racism,  and  other aspects of social exclusion) Elder abuse is under reported and no statistics are currently being collected by the HSE or the Department of Health.  Most areas lack a set of local procedures and no agreement pertains nationally as to what procedures should pertain. Legislation applying to abuse is limited and not focused specifically on older people.  The Domestic violence act of 1996 and the Lunacy Act of 1870 which includes procedures for wardship and Enduring Power of Attorney and legislation around theft and common and sexual assault are the only protections older people have if they are abused and unable to protect themselves.
+
+Recently the social work posts of Senior Case Managers for Elder Abuse and social work posts for some Primary Care Teams have been advertised nationally and these are welcome moves.  The Case Manager Jobs may provide some new factual and statistical information.   The Primary Care posts will help to begin to provide a non-stigmatising
+
+social work service of all older adults and additional cases of abuse and neglect may be identified or prevented in this way.
+
+Where elder abuse is suspected, the social worker will:
+
+•    Facilitate the multi-disciplinary assessment of the older person’s capacity and
+
+capability in respect to their ability to care for themselves and to protect themselves.
+
+•	Assess    social    and    financial    and    material    and    family    circumstances, accommodation, and any special needs and
+
+•	Identify the extent to which neighbours, friends and other carers support the older person and
+
+•	Assess the main carers and family members capacity to care and protect for their family member.
+
+•	liaise with health care services such as hospital geriatric and psychiatry of old age teams, public health nurses, private and voluntary care services involved (if any), GP’s, community and primary care teams including occupational therapists and physiotherapist and home help and home care mangers to draw in as much information as possible and develop a complete picture of all aspects of the situation.
+
+•	If crisis intervention is necessary and prioritising protection of their client, some initial or temporary action such as arranging respite care may be necessary
+
+while the complete picture of the nature and extent of any abuse is clarified. Conflict management and mediation skills needed at this point in order to come to an ultimate resolution of a situation that satisfies the older person’s social needs and personal wishes while protecting them from further harm.
+
+•    Some legal action ultimately, if abuse is ascertained may be required and the
+
+HSE legal team may be involved along with the Gardai.
+
+•		A case conference and liaison meeting of workers involved and /or a family conference would be held to share and confirm information, make conclusions
+
+and draw up a realistic care plan.  In many cases the older person themselves should attend the conference and /or family meeting at some point and state their own preference for action.
+
+Actions could include: protection order, barring order, new financial arrangements, wardship, placement into appropriate long-stay care, psychiatric or medical intervention for the alleged perpetrator and/ or the victim, a new care package.  The Commission on Law Reform has recently presented two relevant and welcome reports on both Law and the Elderly and Capacity and proposes new ways of protecting adults through special access and guardianship orders and assessments, etc.
+
+Institutional abuse is also within the remit of the social worker to assess and act upon. Often residents and family members may approach the social worker first with complaints about the care that is being provided or the manner in which it is being provided.   The social worker has to act as an advocate on behalf of the patient or resident in the same way they would in an abuse case in a community setting.   The
+
+complaint would have to go up to general management and fall under the additional remit, if the complaint is against a specific staff member, of the agreed industrial relations and human resources policies as well as the policy on abuse.
+
+Social workers for older people assist families in helping to care for someone with special needs in the best and most appropriate way.   They are also involved in crisis intervention when things are at crisis point.
+
+On a macro level, social workers are involved in social policy, community development and research.  They also are involved in training of social workers and other professions. Social Workers seek to develop services in the community with users and carers and develop structures, services and ways of working in residential, respite and day and rehabilitation and acute settings.`;
+
 export const VOCABULARY_LIST = [
   { word: "Attainment", pos: "Noun", meaning: "Sự đạt được / thành tựu", example: "the attainment of competence and confidence", note: "Dễ nhầm với 'attendance' (sự tham dự). Đây là danh từ của 'attain'." },
   { word: "Intervene / Intervention", pos: "Verb / Noun", meaning: "Can thiệp / Sự can thiệp", example: "developing intervention strategies", note: "Khác với 'interfere' (can thiệp cản trở). Cấu trúc: 'intervention in'." },
