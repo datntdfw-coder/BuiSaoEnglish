@@ -1,85 +1,129 @@
 export const syntheticTest1 = [
   {
     "id": 1,
-    "type": "true_false",
-    "question": "Mediation and conflict resolution are accepted practice areas in disability social work.",
+    "type": "word_formation",
+    "question": "School social workers assist with cases involving child _______ (ABUSIVE) and neglect.",
     "options": null,
-    "correctAnswer": "True",
-    "explanation": "Mediation and conflict resolution are listed directly under Practice areas."
+    "correctAnswer": "abuse",
+    "explanation": "The noun form 'abuse' is used in the text (identifying child abuse and neglect)."
   },
   {
     "id": 2,
-    "type": "true_false",
-    "question": "Social workers are never required to provide courtroom testimony.",
-    "options": null,
-    "correctAnswer": "False",
-    "explanation": "The text says 'any social worker might be required to provide courtroom testimony'."
+    "type": "reading_comprehension",
+    "question": "Which is a direct responsibility towards parents and families?",
+    "options": [
+      "A. Teaching them mathematics",
+      "B. Assisting with accessing programs for students with special needs",
+      "C. Writing the school policies",
+      "D. Managing classroom behavior"
+    ],
+    "correctAnswer": "B. Assisting with accessing programs for students with special needs",
+    "explanation": "This is a direct point under Services to Parents/Families."
   },
   {
     "id": 3,
-    "type": "true_false",
-    "question": "AASW Accredited Social Workers commit to ongoing professional development.",
-    "options": null,
-    "correctAnswer": "True",
-    "explanation": "They commit to a minimum amount of ongoing professional development."
+    "type": "multiple_choice",
+    "question": "What is the result of failing to accommodate natural differences?",
+    "options": [
+      "A. Impairment",
+      "B. Disability",
+      "C. Wealth",
+      "D. Inclusion"
+    ],
+    "correctAnswer": "B. Disability",
+    "explanation": "The way in which societies fail to accommodate natural aspects of difference causes disability."
   },
   {
     "id": 4,
     "type": "multiple_choice",
-    "question": "What is the primary focus of social work according to the 1995 IASW Code of Ethics?",
+    "question": "What does AASW stand for?",
     "options": [
-      "A. Making a profit",
-      "B. Working with individuals, families and groups within their social context",
-      "C. Enforcing criminal laws",
-      "D. Medical diagnosis"
+      "A. Australian Association of Student Workers",
+      "B. Australian Association of Social Workers",
+      "C. American Association of Social Workers",
+      "D. Australian Agency of Social Welfare"
     ],
-    "correctAnswer": "B. Working with individuals, families and groups within their social context",
-    "explanation": "This is a direct quote from the 1995 IASW Code of Ethics."
+    "correctAnswer": "B. Australian Association of Social Workers",
+    "explanation": "AASW stands for the Australian Association of Social Workers."
   },
   {
     "id": 5,
-    "type": "multiple_choice",
-    "question": "What is crucial about 'mainstream services' in capacity building?",
-    "options": [
-      "A. They are always perfect",
-      "B. They need increased awareness to deliver appropriate support",
-      "C. They should be dismantled",
-      "D. They only serve non-disabled people"
-    ],
-    "correctAnswer": "B. They need increased awareness to deliver appropriate support",
-    "explanation": "Working within mainstream services to increase awareness... so that appropriate services are delivered."
+    "type": "true_false",
+    "question": "School social workers do not handle alternative programs for drop-outs.",
+    "options": null,
+    "correctAnswer": "False",
+    "explanation": "Alternative programs for drop-outs/truants is a key service under Services to Districts."
   },
   {
     "id": 6,
     "type": "true_false",
-    "question": "The rights of older people are completely different from the rights of any other person.",
+    "question": "Social workers believe impairment means a lack of intrinsic worth.",
     "options": null,
     "correctAnswer": "False",
-    "explanation": "The rights of older people are no different to the rights of any other person."
+    "explanation": "They have a deep belief in the intrinsic worth of all human beings."
   },
   {
     "id": 7,
-    "type": "word_formation",
-    "question": "They assist with adjustment to life _______ (TRANSIT).",
-    "options": null,
-    "correctAnswer": "transitions",
-    "explanation": "The plural noun 'transitions'."
+    "type": "reading_comprehension",
+    "question": "Which group of people do social workers provide 'behavior management' advice to?",
+    "options": [
+      "A. Directly to bullies",
+      "B. To parents exclusively",
+      "C. To School Personnel",
+      "D. To law enforcement"
+    ],
+    "correctAnswer": "C. To School Personnel",
+    "explanation": "Behavior management is explicitly listed under Services to School Personnel."
   },
   {
     "id": 8,
     "type": "multiple_choice",
-    "question": "Which agency might employ a criminal justice social worker?",
+    "question": "What benefits might a domestic violence victim apply for with a social worker's help?",
     "options": [
-      "A. A primary health care agency serving ex-offenders",
-      "B. A fast food restaurant",
-      "C. A car dealership",
-      "D. A tech startup"
+      "A. Stock options",
+      "B. Food stamps",
+      "C. Student loans",
+      "D. Housing grants"
     ],
-    "correctAnswer": "A. A primary health care agency serving ex-offenders",
-    "explanation": "Primary health care agencies that serve ex-offenders are listed."
+    "correctAnswer": "B. Food stamps",
+    "explanation": "The text mentions helping them apply for benefits such as food stamps."
   },
   {
     "id": 9,
+    "type": "word_formation",
+    "question": "They help draw up a realistic care _______ (PLANNING).",
+    "options": null,
+    "correctAnswer": "plan",
+    "explanation": "The noun 'plan' fits."
+  },
+  {
+    "id": 10,
+    "type": "multiple_choice",
+    "question": "Where in the health sector can ex-offenders be served by social workers?",
+    "options": [
+      "A. At veterinary clinics",
+      "B. At primary health care agencies",
+      "C. At specialized dental surgeries",
+      "D. Only at private fitness gyms"
+    ],
+    "correctAnswer": "B. At primary health care agencies",
+    "explanation": "They work in 'primary health care agencies that serve ex-offenders'."
+  },
+  {
+    "id": 11,
+    "type": "multiple_choice",
+    "question": "Who provides 'entry-level professional social work education'?",
+    "options": [
+      "A. High schools",
+      "B. Accredited university programs",
+      "C. NDIS offices",
+      "D. Community centres"
+    ],
+    "correctAnswer": "B. Accredited university programs",
+    "explanation": "Accredited university programs provide this."
+  },
+  {
+    "id": 12,
     "type": "multiple_choice",
     "question": "If a student has a problem with 'Poverty', this is categorized as a:",
     "options": [
@@ -92,246 +136,20 @@ export const syntheticTest1 = [
     "explanation": "Poverty is listed under 'Problems at Home'."
   },
   {
-    "id": 10,
-    "type": "true_false",
-    "question": "Social workers do not participate in policy development.",
-    "options": null,
-    "correctAnswer": "False",
-    "explanation": "They are involved in Policy and Program Design and research."
-  },
-  {
-    "id": 11,
-    "type": "word_formation",
-    "question": "They perform conflict _______ (MEDIATE).",
-    "options": null,
-    "correctAnswer": "mediation",
-    "explanation": "The noun form 'mediation' is used."
-  },
-  {
-    "id": 12,
-    "type": "matching",
-    "question": "Match the type of elder abuse action:",
-    "options": [
-      {
-        "term": "Physical/sexual",
-        "definition": "Forms of direct harm"
-      },
-      {
-        "term": "Financial",
-        "definition": "Material abuse"
-      },
-      {
-        "term": "Neglect",
-        "definition": "Omission of care"
-      },
-      {
-        "term": "Discrimination",
-        "definition": "Ageism or sexism"
-      }
-    ],
-    "correctAnswer": "All correctly matched",
-    "explanation": "These forms of abuse are listed in the elder abuse section."
-  },
-  {
     "id": 13,
-    "type": "true_false",
-    "question": "Social workers only work with perpetrators of crimes, not victims.",
-    "options": null,
-    "correctAnswer": "False",
-    "explanation": "They work with victims of domestic violence and act as victim advocates."
+    "type": "multiple_choice",
+    "question": "What is involved in 'Planning' services?",
+    "options": [
+      "A. Ignoring choices",
+      "B. Facilitating information about resources to maximise choice",
+      "C. Making financial decisions only",
+      "D. Providing medical treatments"
+    ],
+    "correctAnswer": "B. Facilitating information about resources to maximise choice",
+    "explanation": "Under 'Planning', they facilitate planning to maximise choice."
   },
   {
     "id": 14,
-    "type": "true_false",
-    "question": "Older people lose their right to privacy when they enter institutional care.",
-    "options": null,
-    "correctAnswer": "False",
-    "explanation": "They have a right to privacy... whether at home or in institutional care."
-  },
-  {
-    "id": 15,
-    "type": "reading_comprehension",
-    "question": "According to the NASW, what do social workers advocate for regarding children?",
-    "options": [
-      "A. Harsher punishments",
-      "B. Different legal standards compared to adults",
-      "C. Lower drinking age",
-      "D. Removing all laws for children"
-    ],
-    "correctAnswer": "B. Different legal standards compared to adults",
-    "explanation": "They advocate for different legal standards for children."
-  },
-  {
-    "id": 16,
-    "type": "multiple_choice",
-    "question": "What might a forensic social worker do?",
-    "options": [
-      "A. Draft reports about defendants",
-      "B. Arrest criminals",
-      "C. Perform surgeries",
-      "D. Direct traffic"
-    ],
-    "correctAnswer": "A. Draft reports about defendants",
-    "explanation": "Forensic social workers could draft reports about defendants."
-  },
-  {
-    "id": 17,
-    "type": "true_false",
-    "question": "Social workers are considered professional allied health providers in the NDIS.",
-    "options": null,
-    "correctAnswer": "True",
-    "explanation": "Accredited Social Workers are recognised as professional allied health providers."
-  },
-  {
-    "id": 18,
-    "type": "word_formation",
-    "question": "They work on _______ (COLLABORATE) between home, school, and community.",
-    "options": null,
-    "correctAnswer": "collaboration",
-    "explanation": "The noun form 'collaboration' is needed."
-  },
-  {
-    "id": 19,
-    "type": "multiple_choice",
-    "question": "In \"Assessment\", what is psychosocial assessment described as?",
-    "options": [
-      "A. Negative",
-      "B. Strengths-based",
-      "C. Risk only",
-      "D. Useless"
-    ],
-    "correctAnswer": "B. Strengths-based",
-    "explanation": "Strengths-based psychosocial assessment."
-  },
-  {
-    "id": 20,
-    "type": "multiple_choice",
-    "question": "How do social workers view people with disability?",
-    "options": [
-      "A. As a monolithic identical group",
-      "B. As unable to work",
-      "C. As a diverse group with a wide range of experiences",
-      "D. As a burden on society"
-    ],
-    "correctAnswer": "C. As a diverse group with a wide range of experiences",
-    "explanation": "They understand they're a diverse group."
-  },
-  {
-    "id": 21,
-    "type": "multiple_choice",
-    "question": "Which is a specific setting?",
-    "options": [
-      "A. Outer space",
-      "B. Aged care services",
-      "C. Deep sea outposts",
-      "D. Banks"
-    ],
-    "correctAnswer": "B. Aged care services",
-    "explanation": "Aged care services is explicitly listed."
-  },
-  {
-    "id": 22,
-    "type": "reading_comprehension",
-    "question": "According to the text, what can happen if there is a lack of function or mobility?",
-    "options": [
-      "A. Financial wealth",
-      "B. Depression and isolation",
-      "C. Improved interpersonal relationships",
-      "D. Immediate physical recovery"
-    ],
-    "correctAnswer": "B. Depression and isolation",
-    "explanation": "Lack of function can result in depression, and lack of mobility threatens emotional well-being."
-  },
-  {
-    "id": 23,
-    "type": "matching",
-    "question": "Match the action context:",
-    "options": [
-      {
-        "term": "Observing",
-        "definition": "Determining causes"
-      },
-      {
-        "term": "Counseling",
-        "definition": "Treating stress/anxiety"
-      },
-      {
-        "term": "Identifying",
-        "definition": "Child abuse"
-      },
-      {
-        "term": "Mobilizing",
-        "definition": "Resources"
-      }
-    ],
-    "correctAnswer": "All correctly matched",
-    "explanation": "Common verbs linked to their noun targets in the text."
-  },
-  {
-    "id": 24,
-    "type": "multiple_choice",
-    "question": "Which specialist expertise area deals with power of attorneys?",
-    "options": [
-      "A. Socio-legal issues and ethical decision making",
-      "B. Homelessness",
-      "C. Complex family dynamics",
-      "D. Transition points"
-    ],
-    "correctAnswer": "A. Socio-legal issues and ethical decision making",
-    "explanation": "Enduring power of attorneys is listed under socio-legal issues."
-  },
-  {
-    "id": 25,
-    "type": "word_formation",
-    "question": "Social workers aim to eliminate _______ (DISCRIMINATE).",
-    "options": null,
-    "correctAnswer": "discrimination",
-    "explanation": "Noun 'discrimination'."
-  },
-  {
-    "id": 26,
-    "type": "multiple_choice",
-    "question": "What is a 'social control role' mentioned in the text?",
-    "options": [
-      "A. Making friends at a party",
-      "B. Dealing with issues like elder abuse and wardship proceedings",
-      "C. Controlling the weather",
-      "D. Managing social media"
-    ],
-    "correctAnswer": "B. Dealing with issues like elder abuse and wardship proceedings",
-    "explanation": "They have a social control role with issues such as elder abuse, domestic violence and wardship."
-  },
-  {
-    "id": 27,
-    "type": "true_false",
-    "question": "Peer pressure is categorized as a Social Problem.",
-    "options": null,
-    "correctAnswer": "True",
-    "explanation": "Peer pressure is under Social Problems."
-  },
-  {
-    "id": 28,
-    "type": "word_formation",
-    "question": "They support children facing severe _______ (ENVIRONMENT) obstacles.",
-    "options": null,
-    "correctAnswer": "environmental",
-    "explanation": "Adjective form needed here."
-  },
-  {
-    "id": 29,
-    "type": "multiple_choice",
-    "question": "What is a main requirement from the U.S. Bureau of Labor Statistics for social workers?",
-    "options": [
-      "A. Perfect physical fitness",
-      "B. Compassion and empathy",
-      "C. Advanced math skills",
-      "D. A law degree"
-    ],
-    "correctAnswer": "B. Compassion and empathy",
-    "explanation": "They must have compassion and empathy according to the BLS."
-  },
-  {
-    "id": 30,
     "type": "multiple_choice",
     "question": "What is an indicator of an 'Academic Problem' as defined in the text?",
     "options": [
@@ -342,50 +160,194 @@ export const syntheticTest1 = [
     ],
     "correctAnswer": "C. Failing grades",
     "explanation": "Failing grades are explicitly listed under Academic Problems."
+  },
+  {
+    "id": 15,
+    "type": "multiple_choice",
+    "question": "Beth Greenwood writes about the position of social workers in which system?",
+    "options": [
+      "A. The educational system",
+      "B. The criminal justice system",
+      "C. The corporate system",
+      "D. The political system"
+    ],
+    "correctAnswer": "B. The criminal justice system",
+    "explanation": "The article is titled 'What Is a Social Worker's Position in Criminal Justice?'."
+  },
+  {
+    "id": 16,
+    "type": "true_false",
+    "question": "Senior Case Managers for Elder Abuse is a newly advertised role.",
+    "options": null,
+    "correctAnswer": "True",
+    "explanation": "The text says 'Recently the social work posts of Senior Case Managers for Elder Abuse ... have been advertised'."
+  },
+  {
+    "id": 17,
+    "type": "multiple_choice",
+    "question": "Which agency might employ a criminal justice social worker?",
+    "options": [
+      "A. A primary health care agency serving ex-offenders",
+      "B. A fast food restaurant",
+      "C. A car dealership",
+      "D. A tech startup"
+    ],
+    "correctAnswer": "A. A primary health care agency serving ex-offenders",
+    "explanation": "Primary health care agencies that serve ex-offenders are listed."
+  },
+  {
+    "id": 18,
+    "type": "true_false",
+    "question": "Social workers disregard complex family dynamics.",
+    "options": null,
+    "correctAnswer": "False",
+    "explanation": "They actively address complex family dynamics."
+  },
+  {
+    "id": 19,
+    "type": "word_formation",
+    "question": "The worker assesses the client's _______ (ESTEEM).",
+    "options": null,
+    "correctAnswer": "self-esteem",
+    "explanation": "The compound noun 'self-esteem' is correct."
+  },
+  {
+    "id": 20,
+    "type": "multiple_choice",
+    "question": "Which healthcare professional is NOT listed under liaison when elder abuse is suspected?",
+    "options": [
+      "A. Public health nurses",
+      "B. Occupational therapists",
+      "C. Police commissioners",
+      "D. Physiotherapists"
+    ],
+    "correctAnswer": "C. Police commissioners",
+    "explanation": "Liaisons include hospital geriatric teams, nurses, GPs, occupational therapists, physiotherapists, and home help managers, but not police commissioners."
+  },
+  {
+    "id": 21,
+    "type": "word_formation",
+    "question": "School social workers are instrumental in furthering the mission of schools for the _______ (ATTAIN) of competence.",
+    "options": null,
+    "correctAnswer": "attainment",
+    "explanation": "The noun form 'attainment' is required here."
+  },
+  {
+    "id": 22,
+    "type": "word_formation",
+    "question": "They understand that people with disability are a _______ (DIVERSITY) group.",
+    "options": null,
+    "correctAnswer": "diverse",
+    "explanation": "The adjective 'diverse'."
+  },
+  {
+    "id": 23,
+    "type": "multiple_choice",
+    "question": "Human rights and quality of life are:",
+    "options": [
+      "A. Clearly related",
+      "B. Unrelated",
+      "C. Opposed to each other",
+      "D. Mutually exclusive"
+    ],
+    "correctAnswer": "A. Clearly related",
+    "explanation": "The text states: 'Human rights and \"quality of life\" or \"life satisfaction\" are clearly related.'"
+  },
+  {
+    "id": 24,
+    "type": "fill_blank",
+    "question": "A person who commits a crime because of mental health issues is treated _______ from other offenders.",
+    "options": null,
+    "correctAnswer": "differently",
+    "explanation": "A person who commits a crime because of mental health issues may need to be treated differently."
+  },
+  {
+    "id": 25,
+    "type": "word_formation",
+    "question": "They are entitled to _______ (RESPECTFUL) for their views.",
+    "options": null,
+    "correctAnswer": "respect",
+    "explanation": "The noun 'respect' is correct."
+  },
+  {
+    "id": 26,
+    "type": "reading_comprehension",
+    "question": "The document highlights 'withdrawal of life support systems'. This is classified under which type of issue?",
+    "options": [
+      "A. Financial",
+      "B. Socio-legal and ethical",
+      "C. Housing",
+      "D. Educational"
+    ],
+    "correctAnswer": "B. Socio-legal and ethical",
+    "explanation": "Listed under 'Socio-legal issues and ethical decision making'."
+  },
+  {
+    "id": 27,
+    "type": "true_false",
+    "question": "Respite care might be arranged during crisis intervention.",
+    "options": null,
+    "correctAnswer": "True",
+    "explanation": "The text says: 'arrange respite care may be necessary while the complete picture ... is clarified'."
+  },
+  {
+    "id": 28,
+    "type": "true_false",
+    "question": "Forensic social workers' reports might include details of the defendant's education.",
+    "options": null,
+    "correctAnswer": "True",
+    "explanation": "The text notes reports include 'information about the defendant’s decision-making capabilities, medical and mental health, education or test results'."
+  },
+  {
+    "id": 29,
+    "type": "reading_comprehension",
+    "question": "Based on the text, what is happening to the concept of the family?",
+    "options": [
+      "A. It is becoming more rigid",
+      "B. It is resolving all conflicts autonomously",
+      "C. It is in a state of change",
+      "D. It is less important than before"
+    ],
+    "correctAnswer": "C. It is in a state of change",
+    "explanation": "The text specifically mentions 'The family is in a state of change'."
+  },
+  {
+    "id": 30,
+    "type": "word_formation",
+    "question": "Social workers help locate and work with foster _______ (FAMILY).",
+    "options": null,
+    "correctAnswer": "families",
+    "explanation": "The plural noun 'families' is correct."
   }
 ];
 
 export const syntheticTest2 = [
   {
     "id": 1,
-    "type": "multiple_choice",
-    "question": "School social workers are hired by school districts to enhance the district's ability to meet its _______ mission.",
-    "options": [
-      "academic",
-      "something else",
-      "not given",
-      "incorrect option"
-    ],
-    "correctAnswer": "academic",
-    "explanation": "The text says 'enhance the district's ability to meet its academic mission'."
+    "type": "fill_blank",
+    "question": "Reminiscence work is a type of _______ work.",
+    "options": null,
+    "correctAnswer": "group",
+    "explanation": "Reminiscence work is listed under group work."
   },
   {
     "id": 2,
-    "type": "matching",
-    "question": "Match the family issue to the social worker's task:",
-    "options": [
-      {
-        "term": "Domestic violence victim",
-        "definition": "Find a safe place"
-      },
-      {
-        "term": "Financial need",
-        "definition": "Apply for food stamps"
-      },
-      {
-        "term": "Foster care",
-        "definition": "Handle adoptions"
-      },
-      {
-        "term": "Neglect or abuse",
-        "definition": "Remove child from home via court"
-      }
-    ],
-    "correctAnswer": "All correctly matched",
-    "explanation": "These tasks are described in the Family Issues section."
+    "type": "word_formation",
+    "question": "They aim for outcomes equal to other _______ (CITY).",
+    "options": null,
+    "correctAnswer": "citizens",
+    "explanation": "The plural noun 'citizens' fits the context."
   },
   {
     "id": 3,
+    "type": "true_false",
+    "question": "Social workers in this field never work with families in the criminal justice system.",
+    "options": null,
+    "correctAnswer": "False",
+    "explanation": "The text says 'Some social workers may work with children and families who have entered the criminal justice system'."
+  },
+  {
+    "id": 4,
     "type": "multiple_choice",
     "question": "Who are the primary clients for social work services for older people?",
     "options": [
@@ -398,636 +360,7 @@ export const syntheticTest2 = [
     "explanation": "The primary clients are usually adults aged 65 years and over."
   },
   {
-    "id": 4,
-    "type": "word_formation",
-    "question": "They assist individuals experiencing _______ (MARGINAL).",
-    "options": null,
-    "correctAnswer": "marginalisation",
-    "explanation": "Noun 'marginalisation'."
-  },
-  {
     "id": 5,
-    "type": "multiple_choice",
-    "question": "What is an example of a benefit a social worker might help a family apply for?",
-    "options": [
-      "A. Food stamps",
-      "B. A new car",
-      "C. Vacation packages",
-      "D. Free internet"
-    ],
-    "correctAnswer": "A. Food stamps",
-    "explanation": "Applying for benefits such as food stamps is mentioned."
-  },
-  {
-    "id": 6,
-    "type": "word_formation",
-    "question": "They focus on strengths to promote _______ (RESILIENT).",
-    "options": null,
-    "correctAnswer": "resilience",
-    "explanation": "The noun form 'resilience'."
-  },
-  {
-    "id": 7,
-    "type": "multiple_choice",
-    "question": "What might social work with families of older people include?",
-    "options": [
-      "A. Arresting perpetrators",
-      "B. Bereavement counselling and crisis intervention",
-      "C. Prescribing medication",
-      "D. Selling real estate"
-    ],
-    "correctAnswer": "B. Bereavement counselling and crisis intervention",
-    "explanation": "These are listed under social work with families."
-  },
-  {
-    "id": 8,
-    "type": "matching",
-    "question": "Match the Quality of Life Domain with its description:",
-    "options": [
-      {
-        "term": "Material Well-Being",
-        "definition": "Accommodation and money"
-      },
-      {
-        "term": "Emotional Well-Being",
-        "definition": "Counteracting depression and isolation"
-      },
-      {
-        "term": "Social Inclusion",
-        "definition": "Being accepted in the community"
-      },
-      {
-        "term": "Self Determination",
-        "definition": "Avoiding severe limitation to expression"
-      }
-    ],
-    "correctAnswer": "All correctly matched",
-    "explanation": "These matches follow the domains of quality of life list."
-  },
-  {
-    "id": 9,
-    "type": "matching",
-    "question": "Match the social work task with its description:",
-    "options": [
-      {
-        "term": "Advocacy",
-        "definition": "Speaking to local authorities for benefits"
-      },
-      {
-        "term": "Assessment",
-        "definition": "Identifying practical and emotional needs"
-      },
-      {
-        "term": "Mediation",
-        "definition": "Conflict management in families"
-      },
-      {
-        "term": "Case Management",
-        "definition": "Co-ordinating complex services"
-      }
-    ],
-    "correctAnswer": "All correctly matched",
-    "explanation": "These task descriptions match the text perfectly."
-  },
-  {
-    "id": 10,
-    "type": "matching",
-    "question": "Match the Service Category to an example action:",
-    "options": [
-      {
-        "term": "Related Services",
-        "definition": "Educational Planning Meetings"
-      },
-      {
-        "term": "Services to Students",
-        "definition": "Crisis intervention and conflict resolution"
-      },
-      {
-        "term": "Services to Parents",
-        "definition": "Accessing programs and community resources"
-      },
-      {
-        "term": "Services to Personnel",
-        "definition": "Assessing mental health concerns"
-      }
-    ],
-    "correctAnswer": "All correctly matched",
-    "explanation": "These are drawn exactly from the SERVICES PROVIDED section in the document."
-  },
-  {
-    "id": 11,
-    "type": "multiple_choice",
-    "question": "What describes 'School-Community Liaison' services?",
-    "options": [
-      "A. Obtaining support from mental health agencies and coordinating resources",
-      "B. Creating bullying prevention programs",
-      "C. Assessing mental health concerns of teachers",
-      "D. Arranging special classes"
-    ],
-    "correctAnswer": "A. Obtaining support from mental health agencies and coordinating resources",
-    "explanation": "School-Community Liaison involves coordinating community resources, obtaining support from mental health agencies, and advocating for new services."
-  },
-  {
-    "id": 12,
-    "type": "reading_comprehension",
-    "question": "What information might be included in a forensic social worker's report?",
-    "options": [
-      "A. The defendant's favorite foods",
-      "B. Decision-making capabilities, medical/mental health, and education",
-      "C. The judge's personal history",
-      "D. The weather on the day of the crime"
-    ],
-    "correctAnswer": "B. Decision-making capabilities, medical/mental health, and education",
-    "explanation": "These are explicitly mentioned as contents of the reports."
-  },
-  {
-    "id": 13,
-    "type": "matching",
-    "question": "Match the group to the related issue:",
-    "options": [
-      {
-        "term": "Minors",
-        "definition": "Child custody issues"
-      },
-      {
-        "term": "Juries",
-        "definition": "Understanding offender differences"
-      },
-      {
-        "term": "Ex-offenders",
-        "definition": "Primary health care agencies"
-      },
-      {
-        "term": "Domestic violence victims",
-        "definition": "Finding a safe place"
-      }
-    ],
-    "correctAnswer": "All correctly matched",
-    "explanation": "These associations are made throughout the text."
-  },
-  {
-    "id": 14,
-    "type": "true_false",
-    "question": "Mediation and conflict resolution can involve conflicts between the client and others.",
-    "options": null,
-    "correctAnswer": "True",
-    "explanation": "It involves supporting people resolve conflicts that arise between themselves or with others."
-  },
-  {
-    "id": 15,
-    "type": "multiple_choice",
-    "question": "What does the self-advocacy movement contribute to?",
-    "options": [
-      "A. Social workers' understanding that people with disability are a diverse group",
-      "B. Medical diagnoses",
-      "C. Building new hospitals",
-      "D. Increasing taxes"
-    ],
-    "correctAnswer": "A. Social workers' understanding that people with disability are a diverse group",
-    "explanation": "The text says 'Drawing on the significant contribution of the self-advocacy movement, social workers understand...'."
-  },
-  {
-    "id": 16,
-    "type": "reading_comprehension",
-    "question": "Why do social workers collaborate with multidisciplinary teams?",
-    "options": [
-      "A. To waste time",
-      "B. Interventions occur within complex social, psychological, family dynamics",
-      "C. They cannot do their job alone",
-      "D. It is a legal requirement for finding a job"
-    ],
-    "correctAnswer": "B. Interventions occur within complex social, psychological, family dynamics",
-    "explanation": "They collaborate because interventions are complex."
-  },
-  {
-    "id": 17,
-    "type": "reading_comprehension",
-    "question": "Why might a child be removed from the home by the court?",
-    "options": [
-      "A. Because they have too many toys",
-      "B. Because of neglect or abuse",
-      "C. To attend a better school",
-      "D. For a vacation"
-    ],
-    "correctAnswer": "B. Because of neglect or abuse",
-    "explanation": "The text mentions children removed from the home by the court because of neglect or abuse."
-  },
-  {
-    "id": 18,
-    "type": "word_formation",
-    "question": "They facilitate _______ (RESOURCE) sharing.",
-    "options": null,
-    "correctAnswer": "resource",
-    "explanation": "Noun 'resource' is used."
-  },
-  {
-    "id": 19,
-    "type": "reading_comprehension",
-    "question": "Why is 'home, school and community collaboration' described as critical?",
-    "options": [
-      "A. It is the key to achieving student success",
-      "B. It is required by federal law",
-      "C. It reduces the need for social workers",
-      "D. It guarantees graduation"
-    ],
-    "correctAnswer": "A. It is the key to achieving student success",
-    "explanation": "...collaboration is the key to achieving student success."
-  },
-  {
-    "id": 20,
-    "type": "reading_comprehension",
-    "question": "Read the following: 'School social workers are hired by school districts to enhance the district's ability to meet its academic mission, especially where home, school and community collaboration is the key to achieving student success.' What is considered the 'key' to achieving student success?",
-    "options": [
-      "A. Longer teaching hours",
-      "B. Home, school, and community collaboration",
-      "C. Hiring more math teachers",
-      "D. Increasing the budget"
-    ],
-    "correctAnswer": "B. Home, school, and community collaboration",
-    "explanation": "The text explicitly states 'home, school and community collaboration is the key'."
-  },
-  {
-    "id": 21,
-    "type": "word_formation",
-    "question": "They may act as probation _______ (OFFICE).",
-    "options": null,
-    "correctAnswer": "officers",
-    "explanation": "The plural noun 'officers' is correct."
-  },
-  {
-    "id": 22,
-    "type": "multiple_choice",
-    "question": "What conflict might social workers face in the criminal justice system?",
-    "options": [
-      "A. Conflict between vacation time and work",
-      "B. Conflict between compassion/empathy and society's need for public safety",
-      "C. Conflict between doctors and nurses",
-      "D. Conflict over office space"
-    ],
-    "correctAnswer": "B. Conflict between compassion/empathy and society's need for public safety",
-    "explanation": "Professional expectations of compassion can be in conflict with society's needs for public safety."
-  },
-  {
-    "id": 23,
-    "type": "word_formation",
-    "question": "Social workers help clients _______ (POWER) themselves.",
-    "options": null,
-    "correctAnswer": "empower",
-    "explanation": "The verb 'empower' fits the context."
-  },
-  {
-    "id": 24,
-    "type": "matching",
-    "question": "Match the concept to its definition:",
-    "options": [
-      {
-        "term": "Impairment",
-        "definition": "Capacity differences"
-      },
-      {
-        "term": "Disability",
-        "definition": "Interaction with society"
-      },
-      {
-        "term": "AASW",
-        "definition": "Professional Body"
-      },
-      {
-        "term": "NDIS",
-        "definition": "Insurance Scheme"
-      }
-    ],
-    "correctAnswer": "All correctly matched",
-    "explanation": "Matches terms from the Understanding Disability section."
-  },
-  {
-    "id": 25,
-    "type": "multiple_choice",
-    "question": "Which intervention strategy is suggested for students with stress, anxiety, or depression?",
-    "options": [
-      "A. Creating school policies",
-      "B. Arranging special classes for learning disabilities",
-      "C. Counseling students",
-      "D. Ignoring the condition"
-    ],
-    "correctAnswer": "C. Counseling students",
-    "explanation": "The text lists 'counseling students with stress/anxiety/depression' as a specific plan."
-  },
-  {
-    "id": 26,
-    "type": "true_false",
-    "question": "School social workers do not handle alternative programs for drop-outs.",
-    "options": null,
-    "correctAnswer": "False",
-    "explanation": "Alternative programs for drop-outs/truants is a key service under Services to Districts."
-  },
-  {
-    "id": 27,
-    "type": "multiple_choice",
-    "question": "Which of the following is considered a 'Social Problem' in schools?",
-    "options": [
-      "A. Failing grades",
-      "B. Poverty",
-      "C. Being a victim of bullying",
-      "D. Substance abuse"
-    ],
-    "correctAnswer": "C. Being a victim of bullying",
-    "explanation": "Being a victim of bullying, not fitting in, and peer pressure are listed under Social Problems."
-  },
-  {
-    "id": 28,
-    "type": "word_formation",
-    "question": "Often the client's _______ (PERMIT) can be easily obtained to discuss a care plan.",
-    "options": null,
-    "correctAnswer": "permission",
-    "explanation": "The noun form 'permission'."
-  },
-  {
-    "id": 29,
-    "type": "multiple_choice",
-    "question": "Which is an example of 'Assessment' practice?",
-    "options": [
-      "A. Service brokerage",
-      "B. Positive Behaviour Support",
-      "C. Strengths-based psychosocial assessment",
-      "D. Crisis interventions"
-    ],
-    "correctAnswer": "C. Strengths-based psychosocial assessment",
-    "explanation": "Listed under 'Assessment' in the document."
-  },
-  {
-    "id": 30,
-    "type": "true_false",
-    "question": "Social workers disregard complex family dynamics.",
-    "options": null,
-    "correctAnswer": "False",
-    "explanation": "They actively address complex family dynamics."
-  }
-];
-
-export const syntheticTest3 = [
-  {
-    "id": 1,
-    "type": "word_formation",
-    "question": "Any deliberate _______ (OBSTRUCT) to a satisfying life is an invasion of rights.",
-    "options": null,
-    "correctAnswer": "obstruction",
-    "explanation": "Noun form 'obstruction' is used."
-  },
-  {
-    "id": 2,
-    "type": "multiple_choice",
-    "question": "Who might need a guardian appointed?",
-    "options": [
-      "A. An adult lawyer",
-      "B. A judge",
-      "C. A minor whose parent becomes incapacitated",
-      "D. A police officer"
-    ],
-    "correctAnswer": "C. A minor whose parent becomes incapacitated",
-    "explanation": "Guardians are appointed for minors if parents die or become incapacitated."
-  },
-  {
-    "id": 3,
-    "type": "multiple_choice",
-    "question": "What does IASW stand for?",
-    "options": [
-      "A. Irish Association of Social Workers",
-      "B. International Alliance of Senior Workers",
-      "C. Independent Agency for Social Welfare",
-      "D. Institute of Advanced Social Work"
-    ],
-    "correctAnswer": "A. Irish Association of Social Workers",
-    "explanation": "The document is prepared by the Irish Association of Social Workers (IASW)."
-  },
-  {
-    "id": 4,
-    "type": "multiple_choice",
-    "question": "What is one way social workers assist clients with lifestyle changes?",
-    "options": [
-      "A. Forcing them to move",
-      "B. Motivating them and assisting in developing reasons to change",
-      "C. Scolding them",
-      "D. Ignoring their habits"
-    ],
-    "correctAnswer": "B. Motivating them and assisting in developing reasons to change",
-    "explanation": "They motivate them and assist in developing reasons to change their lifestyle."
-  },
-  {
-    "id": 5,
-    "type": "word_formation",
-    "question": "Interacting to produce _______ (ISOLE) experienced by many individuals.",
-    "options": null,
-    "correctAnswer": "isolation",
-    "explanation": "Noun 'isolation'."
-  },
-  {
-    "id": 6,
-    "type": "word_formation",
-    "question": "Students need a setting for the attainment of _______ (COMPETENT) and confidence.",
-    "options": null,
-    "correctAnswer": "competence",
-    "explanation": "The noun form 'competence' is used."
-  },
-  {
-    "id": 7,
-    "type": "word_formation",
-    "question": "They help children in the foster care _______ (SYSTEMATIC).",
-    "options": null,
-    "correctAnswer": "system",
-    "explanation": "The noun form 'system' fits."
-  },
-  {
-    "id": 8,
-    "type": "matching",
-    "question": "Match the psychosocial aspect to its domain:",
-    "options": [
-      {
-        "term": "Trauma",
-        "definition": "Experiences and crisis"
-      },
-      {
-        "term": "Homelessness",
-        "definition": "Inappropriate accommodation"
-      },
-      {
-        "term": "Neglect",
-        "definition": "Abuse and violence"
-      },
-      {
-        "term": "Depression",
-        "definition": "Mental health"
-      }
-    ],
-    "correctAnswer": "All correctly matched",
-    "explanation": "These matches mirror the complex specific psychosocial conditions."
-  },
-  {
-    "id": 9,
-    "type": "multiple_choice",
-    "question": "Where might criminal justice social workers work?",
-    "options": [
-      "A. Only in primary schools",
-      "B. In jails, prisons, courts, and community-based organizations",
-      "C. Exclusively in hospitals",
-      "D. Only in corporate offices"
-    ],
-    "correctAnswer": "B. In jails, prisons, courts, and community-based organizations",
-    "explanation": "The text states they may work in jails, prisons, community-based organizations, primary health care agencies, and courts."
-  },
-  {
-    "id": 10,
-    "type": "reading_comprehension",
-    "question": "Why is 'public safety' mentioned as a conflict?",
-    "options": [
-      "A. Because social workers hate public safety",
-      "B. Empathy for the offender can conflict with society's need for safety",
-      "C. Because it costs too much money",
-      "D. It is not mentioned as a conflict"
-    ],
-    "correctAnswer": "B. Empathy for the offender can conflict with society's need for safety",
-    "explanation": "Compassion expectations can be in conflict with society's needs for public safety."
-  },
-  {
-    "id": 11,
-    "type": "true_false",
-    "question": "Social workers do not act on complaints regarding institutional care.",
-    "options": null,
-    "correctAnswer": "False",
-    "explanation": "Institutional abuse is within the remit of the social worker to assess and act upon."
-  },
-  {
-    "id": 12,
-    "type": "true_false",
-    "question": "Social workers believe impairment means a lack of intrinsic worth.",
-    "options": null,
-    "correctAnswer": "False",
-    "explanation": "They have a deep belief in the intrinsic worth of all human beings."
-  },
-  {
-    "id": 13,
-    "type": "true_false",
-    "question": "A social worker's only tool for determining the root cause of an issue is testing.",
-    "options": null,
-    "correctAnswer": "False",
-    "explanation": "They also use observing and interviewing."
-  },
-  {
-    "id": 14,
-    "type": "word_formation",
-    "question": "Providing a _______ (HOLE) analysis of the situation.",
-    "options": null,
-    "correctAnswer": "holistic",
-    "explanation": "Adjective 'holistic'."
-  },
-  {
-    "id": 15,
-    "type": "multiple_choice",
-    "question": "What might a social worker do if elder abuse is suspected?",
-    "options": [
-      "A. Ignore it entirely",
-      "B. Facilitate multi-disciplinary assessment and arrange respite care if necessary",
-      "C. Punish the victim",
-      "D. Tell the neighbors"
-    ],
-    "correctAnswer": "B. Facilitate multi-disciplinary assessment and arrange respite care if necessary",
-    "explanation": "These are listed under actions to take when elder abuse is suspected."
-  },
-  {
-    "id": 16,
-    "type": "word_formation",
-    "question": "They understand that people with disability are a _______ (DIVERSITY) group.",
-    "options": null,
-    "correctAnswer": "diverse",
-    "explanation": "The adjective 'diverse'."
-  },
-  {
-    "id": 17,
-    "type": "matching",
-    "question": "Match the type of problem with the specific example:",
-    "options": [
-      {
-        "term": "Learning problems",
-        "definition": "Academic"
-      },
-      {
-        "term": "Not making friends",
-        "definition": "Social"
-      },
-      {
-        "term": "Fighting",
-        "definition": "Behavioral"
-      },
-      {
-        "term": "Neglect",
-        "definition": "Home"
-      }
-    ],
-    "correctAnswer": "All correctly matched",
-    "explanation": "Aligned with the indentified problems lists."
-  },
-  {
-    "id": 18,
-    "type": "multiple_choice",
-    "question": "Which role involves assessing mental health concerns in the school environment?",
-    "options": [
-      "A. Services to Students",
-      "B. Services to School Personnel",
-      "C. School-Community Liaison",
-      "D. Services to Districts"
-    ],
-    "correctAnswer": "B. Services to School Personnel",
-    "explanation": "Listed under Services to School Personnel."
-  },
-  {
-    "id": 19,
-    "type": "word_formation",
-    "question": "They work in community-based _______ (ORGANIZE).",
-    "options": null,
-    "correctAnswer": "organizations",
-    "explanation": "The plural noun 'organizations' fits."
-  },
-  {
-    "id": 20,
-    "type": "multiple_choice",
-    "question": "Under which category is 'Special Education Assessment' classified?",
-    "options": [
-      "A. Services to Students",
-      "B. Related Services",
-      "C. Services to Parents",
-      "D. Services to Districts"
-    ],
-    "correctAnswer": "B. Related Services",
-    "explanation": "It is clearly categorized under 'Related Services'."
-  },
-  {
-    "id": 21,
-    "type": "multiple_choice",
-    "question": "What role deals directly with creating behavior support plans?",
-    "options": [
-      "A. Positive Behaviour Support approaches",
-      "B. Financial counselling",
-      "C. Service brokerage",
-      "D. Housing assistance"
-    ],
-    "correctAnswer": "A. Positive Behaviour Support approaches",
-    "explanation": "Specifically mentions development of behaviour support plans."
-  },
-  {
-    "id": 22,
-    "type": "multiple_choice",
-    "question": "Which of the following describes the difference between impairment and disability according to the document?",
-    "options": [
-      "A. Impairment is societal, disability is physical",
-      "B. Impairment is capacity difference, disability is the interaction with society",
-      "C. Impairment is untreatable, disability is curable",
-      "D. There is no distinction between the two"
-    ],
-    "correctAnswer": "B. Impairment is capacity difference, disability is the interaction with society",
-    "explanation": "The text states impairment refers to differences in capacity, while disability represents the larger complex interaction with society."
-  },
-  {
-    "id": 23,
     "type": "matching",
     "question": "Identify the focus of each assessment:",
     "options": [
@@ -1052,114 +385,256 @@ export const syntheticTest3 = [
     "explanation": "Matches the sub-points under Assessment."
   },
   {
-    "id": 24,
+    "id": 6,
     "type": "multiple_choice",
-    "question": "Problems at Home identified by social workers include abuse, _______, substance abuse, and poverty.",
+    "question": "Problems at home can include abuse, neglect, substance abuse, and _______.",
     "options": [
       "something else",
-      "neglect",
+      "poverty",
+      "not given",
+      "incorrect option"
+    ],
+    "correctAnswer": "poverty",
+    "explanation": "Problems at home are listed as: Abuse, Neglect, Substance Abuse, Poverty."
+  },
+  {
+    "id": 7,
+    "type": "multiple_choice",
+    "question": "Which of the following is a decision a minor might need help making?",
+    "options": [
+      "A. Medical decisions",
+      "B. Buying properties",
+      "C. Political voting decisions",
+      "D. Driving licenses"
+    ],
+    "correctAnswer": "A. Medical decisions",
+    "explanation": "Issues relevant to minors include their ability to make medical decisions."
+  },
+  {
+    "id": 8,
+    "type": "multiple_choice",
+    "question": "Social workers consider that individual and societal wellbeing is underpinned by socially _______ communities.",
+    "options": [
+      "not given",
       "incorrect option",
-      "not given"
+      "inclusive",
+      "something else"
     ],
-    "correctAnswer": "neglect",
-    "explanation": "Problems at Home lists: Abuse, Neglect, Substance Abuse, Poverty."
+    "correctAnswer": "inclusive",
+    "explanation": "The text states: wellbeing is underpinned by socially inclusive communities."
   },
   {
-    "id": 25,
-    "type": "true_false",
-    "question": "A person who commits a crime because of mental health issues should be treated exactly the same as an offender who knew what they did was wrong.",
-    "options": null,
-    "correctAnswer": "False",
-    "explanation": "The text argues they may need to be treated differently."
-  },
-  {
-    "id": 26,
-    "type": "word_formation",
-    "question": "Any social worker might be required to provide courtroom _______ (TESTIFY).",
-    "options": null,
-    "correctAnswer": "testimony",
-    "explanation": "The noun form 'testimony' is used."
-  },
-  {
-    "id": 27,
+    "id": 9,
     "type": "multiple_choice",
-    "question": "Which action falls under 'Capacity building'?",
+    "question": "What is an indicator of 'Capacity building'?",
     "options": [
-      "A. Making referrals",
-      "B. Working to engage and consult with local community groups",
-      "C. Grief and loss therapy",
-      "D. Writing policies"
+      "A. Individual family counselling",
+      "B. Evaluating research",
+      "C. Making local communities more welcoming and inclusive",
+      "D. Prescribing medication"
     ],
-    "correctAnswer": "B. Working to engage and consult with local community groups",
-    "explanation": "This is explicitly listed under Capacity Building."
+    "correctAnswer": "C. Making local communities more welcoming and inclusive",
+    "explanation": "Working with community groups to develop welcoming communities."
   },
   {
-    "id": 28,
-    "type": "true_false",
-    "question": "School social workers are not involved in school law consultation.",
-    "options": null,
-    "correctAnswer": "False",
-    "explanation": "They provide school law and school policy consultation."
-  },
-  {
-    "id": 29,
+    "id": 10,
     "type": "multiple_choice",
-    "question": "Which act is mentioned as providing some protection for older people unable to protect themselves?",
+    "question": "Which group does the social worker NOT explicitly target according to the lifespan approach?",
     "options": [
-      "A. The Clean Air Act",
-      "B. The Domestic violence act of 1996",
-      "C. The Highway Traffic Act",
-      "D. The Education Act"
+      "A. Children",
+      "B. Adults",
+      "C. Extraterrestrials",
+      "D. Carers"
     ],
-    "correctAnswer": "B. The Domestic violence act of 1996",
-    "explanation": "The Domestic violence act of 1996 and Lunacy Act of 1870 are mentioned."
+    "correctAnswer": "C. Extraterrestrials",
+    "explanation": "They work with children, adults, families, carers, groups and communities."
   },
   {
-    "id": 30,
-    "type": "word_formation",
-    "question": "The enhancement of self-determination requires skill and constant _______ (AWARE).",
-    "options": null,
-    "correctAnswer": "awareness",
-    "explanation": "The noun form 'awareness'."
-  }
-];
-
-export const syntheticTest4 = [
-  {
-    "id": 1,
+    "id": 11,
     "type": "matching",
-    "question": "Match the action to the goal:",
+    "question": "Match the service to its category:",
     "options": [
       {
-        "term": "Grief and loss therapy",
-        "definition": "Adjustment to illness"
+        "term": "Case management",
+        "definition": "Services to Districts"
       },
       {
-        "term": "Service brokerage",
-        "definition": "Coordinating support"
+        "term": "Advocating for new services",
+        "definition": "School-Community Liaison"
       },
       {
-        "term": "Self-advocacy",
-        "definition": "Empowerment"
+        "term": "Anger management",
+        "definition": "Services to Students"
       },
       {
-        "term": "Capacity building",
-        "definition": "Removing barriers"
+        "term": "Alleviating family stress",
+        "definition": "Services to Parents"
       }
     ],
     "correctAnswer": "All correctly matched",
-    "explanation": "These matches reflect the systemic goals."
+    "explanation": "Aligned with the services provided lists."
   },
   {
-    "id": 2,
+    "id": 12,
+    "type": "word_formation",
+    "question": "Respecting the _______ (INTRINSIC) worth of all human beings.",
+    "options": null,
+    "correctAnswer": "intrinsic",
+    "explanation": "Use adjective 'intrinsic'."
+  },
+  {
+    "id": 13,
+    "type": "multiple_choice",
+    "question": "Which intervention focuses on helping students who are consistently picked on by peers?",
+    "options": [
+      "A. Arranging special classes",
+      "B. Bullying prevention",
+      "C. Truancy programs",
+      "D. Economic consulting"
+    ],
+    "correctAnswer": "B. Bullying prevention",
+    "explanation": "Bullying is a listed problem, and 'bullying prevention' is a listed plan."
+  },
+  {
+    "id": 14,
+    "type": "multiple_choice",
+    "question": "School social workers assist in mobilizing _______, school, and community resources.",
+    "options": [
+      "incorrect option",
+      "not given",
+      "family",
+      "something else"
+    ],
+    "correctAnswer": "family",
+    "explanation": "The text lists 'mobilizing family, school and community resources'."
+  },
+  {
+    "id": 15,
+    "type": "matching",
+    "question": "Match the type of problem with the specific example:",
+    "options": [
+      {
+        "term": "Learning problems",
+        "definition": "Academic"
+      },
+      {
+        "term": "Not making friends",
+        "definition": "Social"
+      },
+      {
+        "term": "Fighting",
+        "definition": "Behavioral"
+      },
+      {
+        "term": "Neglect",
+        "definition": "Home"
+      }
+    ],
+    "correctAnswer": "All correctly matched",
+    "explanation": "Aligned with the indentified problems lists."
+  },
+  {
+    "id": 16,
+    "type": "word_formation",
+    "question": "The Law Reform Commission proposes special access and _______ (GUARD) orders.",
+    "options": null,
+    "correctAnswer": "guardianship",
+    "explanation": "The noun 'guardianship' fits before orders."
+  },
+  {
+    "id": 17,
     "type": "true_false",
-    "question": "Social workers only work with the older person, never their families or carers.",
+    "question": "The client's permission is always impossible to obtain.",
     "options": null,
     "correctAnswer": "False",
-    "explanation": "Families, spouses, adult children, and carers can also be clients."
+    "explanation": "The text notes: 'often the client’s permission can be easily obtained to discuss a care plan'."
   },
   {
-    "id": 3,
+    "id": 18,
+    "type": "multiple_choice",
+    "question": "Forensic reports include information about all of the following EXCEPT:",
+    "options": [
+      "A. The defendant's decision-making capabilities",
+      "B. Medical and mental health",
+      "C. The defendant's hobbies and favorite foods",
+      "D. Education or test results"
+    ],
+    "correctAnswer": "C. The defendant's hobbies and favorite foods",
+    "explanation": "Forensic reports include decision-making capabilities, medical and mental health, education, or test results."
+  },
+  {
+    "id": 19,
+    "type": "reading_comprehension",
+    "question": "Why do school districts hire school social workers?",
+    "options": [
+      "A. To boost athletic performance",
+      "B. To enhance the district's ability to meet its academic mission",
+      "C. To replace regular teachers",
+      "D. To solely conduct medical exams"
+    ],
+    "correctAnswer": "B. To enhance the district's ability to meet its academic mission",
+    "explanation": "Explicitly stated in the first paragraph."
+  },
+  {
+    "id": 20,
+    "type": "multiple_choice",
+    "question": "Which is a characteristic of NDIS?",
+    "options": [
+      "A. It brings new conditions and structures for social workers",
+      "B. It decreases roles for social workers",
+      "C. It is an old scheme from 1990",
+      "D. It relies only on medical doctors"
+    ],
+    "correctAnswer": "A. It brings new conditions and structures for social workers",
+    "explanation": "It comprehensively changes the disability field and brings new structures."
+  },
+  {
+    "id": 21,
+    "type": "true_false",
+    "question": "Testifying is an issue that a minor in the system might face.",
+    "options": null,
+    "correctAnswer": "True",
+    "explanation": "Minors may need assistance for issues such as a minor’s ability to testify."
+  },
+  {
+    "id": 22,
+    "type": "word_formation",
+    "question": "People who suffer from _______ (MARGIN) need support.",
+    "options": null,
+    "correctAnswer": "marginalisation",
+    "explanation": "Noun 'marginalisation'."
+  },
+  {
+    "id": 23,
+    "type": "multiple_choice",
+    "question": "Adoptions are handled by other social workers in which system?",
+    "options": [
+      "A. Juvenile system",
+      "B. Foster care system",
+      "C. Court system",
+      "D. Medical system"
+    ],
+    "correctAnswer": "B. Foster care system",
+    "explanation": "Social workers help children in the foster care system and handle adoptions."
+  },
+  {
+    "id": 24,
+    "type": "true_false",
+    "question": "They do not assist with advanced care planning.",
+    "options": null,
+    "correctAnswer": "False",
+    "explanation": "Assistance with advanced care planning is listed under Case management."
+  },
+  {
+    "id": 25,
+    "type": "word_formation",
+    "question": "Access to day care services can _______ (COUNTER) these threats.",
+    "options": null,
+    "correctAnswer": "counteract",
+    "explanation": "The verb 'counteract' is correct."
+  },
+  {
+    "id": 26,
     "type": "true_false",
     "question": "Crisis intervention belongs to the 'Services to Students' category.",
     "options": null,
@@ -1167,23 +642,226 @@ export const syntheticTest4 = [
     "explanation": "It is the first bullet under Services to Students."
   },
   {
-    "id": 4,
-    "type": "word_formation",
-    "question": "Some work as _______ (RESEARCH) to obtain information.",
+    "id": 27,
+    "type": "multiple_choice",
+    "question": "What kind of mediation might a criminal justice social worker perform?",
+    "options": [
+      "A. Financial mediation",
+      "B. Conflict mediation",
+      "C. Real estate mediation",
+      "D. International treaty mediation"
+    ],
+    "correctAnswer": "B. Conflict mediation",
+    "explanation": "The text explicitly mentions they 'perform conflict mediation'."
+  },
+  {
+    "id": 28,
+    "type": "true_false",
+    "question": "Social workers act as a link for the multidisciplinary team in communicating with families.",
     "options": null,
-    "correctAnswer": "researchers",
-    "explanation": "The plural noun 'researchers' fits."
+    "correctAnswer": "True",
+    "explanation": "Social workers help to be a link for the multidisciplinary team in communicating with the family."
+  },
+  {
+    "id": 29,
+    "type": "multiple_choice",
+    "question": "What information is NOT included in forensic reports according to the text?",
+    "options": [
+      "A. Defendant's decision-making capabilities",
+      "B. Medical and mental health",
+      "C. Defendant's financial net worth",
+      "D. Education or test results"
+    ],
+    "correctAnswer": "C. Defendant's financial net worth",
+    "explanation": "Reports include decision-making capabilities, medical and mental health, education, or test results, but net worth is not listed."
+  },
+  {
+    "id": 30,
+    "type": "word_formation",
+    "question": "Lack of mobility threatens _______ (EMOTION) well-being.",
+    "options": null,
+    "correctAnswer": "emotional",
+    "explanation": "The adjective 'emotional' fits before well-being."
+  }
+];
+
+export const syntheticTest3 = [
+  {
+    "id": 1,
+    "type": "multiple_choice",
+    "question": "What is the key principle underlying socially inclusive communities?",
+    "options": [
+      "A. Economic productivity",
+      "B. Social justice and respect for human dignity",
+      "C. Separation and segregation",
+      "D. Strict conformity"
+    ],
+    "correctAnswer": "B. Social justice and respect for human dignity",
+    "explanation": "These communities emphasize principles of social justice."
+  },
+  {
+    "id": 2,
+    "type": "matching",
+    "question": "Match the concept to its definition:",
+    "options": [
+      {
+        "term": "Impairment",
+        "definition": "Capacity differences"
+      },
+      {
+        "term": "Disability",
+        "definition": "Interaction with society"
+      },
+      {
+        "term": "AASW",
+        "definition": "Professional Body"
+      },
+      {
+        "term": "NDIS",
+        "definition": "Insurance Scheme"
+      }
+    ],
+    "correctAnswer": "All correctly matched",
+    "explanation": "Matches terms from the Understanding Disability section."
+  },
+  {
+    "id": 3,
+    "type": "multiple_choice",
+    "question": "Which association is abbreviated as NASW?",
+    "options": [
+      "A. New Association of Social Welfare",
+      "B. National Association of Social Workers",
+      "C. North American Social Work",
+      "D. Network of Associated Social Workers"
+    ],
+    "correctAnswer": "B. National Association of Social Workers",
+    "explanation": "NASW stands for the National Association of Social Workers."
+  },
+  {
+    "id": 4,
+    "type": "multiple_choice",
+    "question": "Which of the following describes the goal of developing intervention strategies?",
+    "options": [
+      "A. To exclude students from classes",
+      "B. To increase academic success",
+      "C. To discipline parents",
+      "D. To minimize special education"
+    ],
+    "correctAnswer": "B. To increase academic success",
+    "explanation": "The text states 'developing intervention strategies to increase academic success'."
   },
   {
     "id": 5,
-    "type": "true_false",
-    "question": "Social workers in criminal justice advocate for the exact same legal standards for children as for adults.",
+    "type": "word_formation",
+    "question": "They work effectively to ease school _______ (ADJUST) support.",
     "options": null,
-    "correctAnswer": "False",
-    "explanation": "They often advocate for DIFFERENT legal standards for children as compared to adults."
+    "correctAnswer": "adjustment",
+    "explanation": "faciliating school adjustment support."
   },
   {
     "id": 6,
+    "type": "multiple_choice",
+    "question": "What is the primary focus of social work according to the 1995 IASW Code of Ethics?",
+    "options": [
+      "A. Making a profit",
+      "B. Working with individuals, families and groups within their social context",
+      "C. Enforcing criminal laws",
+      "D. Medical diagnosis"
+    ],
+    "correctAnswer": "B. Working with individuals, families and groups within their social context",
+    "explanation": "This is a direct quote from the 1995 IASW Code of Ethics."
+  },
+  {
+    "id": 7,
+    "type": "multiple_choice",
+    "question": "Which UN Convention informs the NDIS?",
+    "options": [
+      "A. UN Convention against Corruption",
+      "B. UN Convention on the Rights of the Child",
+      "C. UN Convention on the Rights of Persons with Disabilities",
+      "D. UN Convention on Trade"
+    ],
+    "correctAnswer": "C. UN Convention on the Rights of Persons with Disabilities",
+    "explanation": "The UN Convention on the Rights of Persons with Disabilities informs the NDIS."
+  },
+  {
+    "id": 8,
+    "type": "word_formation",
+    "question": "Other social workers perform conflict _______ (MEDIATE).",
+    "options": null,
+    "correctAnswer": "mediation",
+    "explanation": "The noun form 'mediation' is required."
+  },
+  {
+    "id": 9,
+    "type": "true_false",
+    "question": "Resolving traumatic experiences is part of their specialty expertise.",
+    "options": null,
+    "correctAnswer": "True",
+    "explanation": "Listed under addressing psychosocial aspects."
+  },
+  {
+    "id": 10,
+    "type": "multiple_choice",
+    "question": "What kind of meetings do school social workers participate in as a 'Related Service'?",
+    "options": [
+      "A. Budget meetings",
+      "B. Educational Planning Meetings",
+      "C. Extra-curricular sports meetings",
+      "D. Alumni networking events"
+    ],
+    "correctAnswer": "B. Educational Planning Meetings",
+    "explanation": "Educational Planning Meetings are a Related Service."
+  },
+  {
+    "id": 11,
+    "type": "multiple_choice",
+    "question": "Regular and consistent contact with family and friends is essential for which domain?",
+    "options": [
+      "A. Material Well-Being",
+      "B. Interpersonal Relationships",
+      "C. Physical Well-Being",
+      "D. Self Determination"
+    ],
+    "correctAnswer": "B. Interpersonal Relationships",
+    "explanation": "Interpersonal Relationships: 'Regular and consistent contact with family and friends is essential to a good quality of life.'"
+  },
+  {
+    "id": 12,
+    "type": "multiple_choice",
+    "question": "Who prepared the document on the role of the social worker with older persons?",
+    "options": [
+      "A. The Irish Association of Social Workers (IASW)",
+      "B. The British Social Work Association",
+      "C. The American Geriatrics Society",
+      "D. The Dublin Health Board"
+    ],
+    "correctAnswer": "A. The Irish Association of Social Workers (IASW)",
+    "explanation": "The document was prepared by the Irish Association of Social Workers."
+  },
+  {
+    "id": 13,
+    "type": "fill_blank",
+    "question": "Empathy and _______ are required of social workers.",
+    "options": null,
+    "correctAnswer": "compassion",
+    "explanation": "Social workers must have compassion and empathy."
+  },
+  {
+    "id": 14,
+    "type": "multiple_choice",
+    "question": "What is an alternative program often created for?",
+    "options": [
+      "A. Gifted students",
+      "B. Drop-outs and truants",
+      "C. Parents",
+      "D. New teachers"
+    ],
+    "correctAnswer": "B. Drop-outs and truants",
+    "explanation": "Services to Districts: alternative programs for drop-outs, truants."
+  },
+  {
+    "id": 15,
     "type": "multiple_choice",
     "question": "What approach do social workers adopt to understand structural factors?",
     "options": [
@@ -1196,251 +874,288 @@ export const syntheticTest4 = [
     "explanation": "They adopt a person-in-environment approach."
   },
   {
-    "id": 7,
-    "type": "word_formation",
-    "question": "They assess the client's _______ (PSYCHOLOGY) situation.",
-    "options": null,
-    "correctAnswer": "psychosocial",
-    "explanation": "The adjective 'psychosocial' is heavily used in the text."
-  },
-  {
-    "id": 8,
-    "type": "multiple_choice",
-    "question": "What happens if a minor's parent dies or becomes incapacitated?",
-    "options": [
-      "A. They are sent to prison",
-      "B. The necessity to appoint a guardian arises",
-      "C. They automatically become adults",
-      "D. Nothing happens"
-    ],
-    "correctAnswer": "B. The necessity to appoint a guardian arises",
-    "explanation": "The text mentions the necessity to appoint a guardian in such cases."
-  },
-  {
-    "id": 9,
-    "type": "multiple_choice",
-    "question": "A school social worker may identify problems such as poor attendance or incomplete _______.",
-    "options": [
-      "something else",
-      "not given",
-      "incorrect option",
-      "work"
-    ],
-    "correctAnswer": "work",
-    "explanation": "Academic problems include attendance problems resulting in incomplete work."
-  },
-  {
-    "id": 10,
-    "type": "word_formation",
-    "question": "They draft reports about _______ (DEFEND).",
-    "options": null,
-    "correctAnswer": "defendants",
-    "explanation": "The plural noun 'defendants' is correct."
-  },
-  {
-    "id": 11,
-    "type": "reading_comprehension",
-    "question": "Why is elder abuse considered 'under reported'?",
-    "options": [
-      "A. Everyone is aware of it",
-      "B. No statistics are currently being collected by the HSE",
-      "C. Older people prefer to be abused",
-      "D. It happens in public"
-    ],
-    "correctAnswer": "B. No statistics are currently being collected by the HSE",
-    "explanation": "The text says 'no statistics are currently being collected by the HSE or the Department of Health'."
-  },
-  {
-    "id": 12,
-    "type": "word_formation",
-    "question": "They facilitate social _______ (INTERACT) skills for students.",
-    "options": null,
-    "correctAnswer": "interaction",
-    "explanation": "The text mentions 'social interaction skills'."
-  },
-  {
-    "id": 13,
-    "type": "matching",
-    "question": "Match the social worker role with its function:",
-    "options": [
-      {
-        "term": "Researcher",
-        "definition": "Obtain relevant information about a case"
-      },
-      {
-        "term": "Therapist",
-        "definition": "Provide therapy to prisoners or sex offenders"
-      },
-      {
-        "term": "Forensic social worker",
-        "definition": "Draft reports about defendants"
-      },
-      {
-        "term": "Victim advocate",
-        "definition": "Perform conflict mediation"
-      }
-    ],
-    "correctAnswer": "All correctly matched",
-    "explanation": "Various roles are outlined in the 'Other Roles' section."
-  },
-  {
-    "id": 14,
-    "type": "true_false",
-    "question": "The disability advocacy movement is contrary to social work values.",
-    "options": null,
-    "correctAnswer": "False",
-    "explanation": "They are in 'complete accord with the disability advocacy movement'."
-  },
-  {
-    "id": 15,
-    "type": "multiple_choice",
-    "question": "According to the text, a social worker in a jail might function as:",
-    "options": [
-      "A. A guard",
-      "B. A therapist",
-      "C. A chef",
-      "D. A warden"
-    ],
-    "correctAnswer": "B. A therapist",
-    "explanation": "A social worker in a jail or prison might function as a therapist for prisoners."
-  },
-  {
     "id": 16,
-    "type": "word_formation",
-    "question": "Social workers focus on the _______ (PRESERVE) of functioning.",
-    "options": null,
-    "correctAnswer": "preservation",
-    "explanation": "Noun form 'preservation'."
+    "type": "multiple_choice",
+    "question": "What is meant by 'Not fitting in' according to the text categorizations?",
+    "options": [
+      "A. An academic problem",
+      "B. A behavioral problem",
+      "C. A social problem",
+      "D. A biological problem"
+    ],
+    "correctAnswer": "C. A social problem",
+    "explanation": "Not 'fitting in' is listed specifically under Social Problems."
   },
   {
     "id": 17,
-    "type": "multiple_choice",
-    "question": "They might arrange special _______ for students with learning disabilities.",
-    "options": [
-      "incorrect option",
-      "classes",
-      "not given",
-      "something else"
-    ],
-    "correctAnswer": "classes",
-    "explanation": "arranging special classes"
-  },
-  {
-    "id": 18,
-    "type": "multiple_choice",
-    "question": "What is 'Service brokerage' a part of?",
-    "options": [
-      "A. Policy making",
-      "B. Evaluation",
-      "C. Case management and service coordination",
-      "D. Advocacy"
-    ],
-    "correctAnswer": "C. Case management and service coordination",
-    "explanation": "Service brokerage is the first bullet under that category."
-  },
-  {
-    "id": 19,
-    "type": "true_false",
-    "question": "Substance abuse is only considered a home problem, never a behavioral problem of the student.",
-    "options": null,
-    "correctAnswer": "False",
-    "explanation": "Substance abuse appears under both Behavioral Problems and Problems at home."
-  },
-  {
-    "id": 20,
-    "type": "reading_comprehension",
-    "question": "The document highlights 'withdrawal of life support systems'. This is classified under which type of issue?",
-    "options": [
-      "A. Financial",
-      "B. Socio-legal and ethical",
-      "C. Housing",
-      "D. Educational"
-    ],
-    "correctAnswer": "B. Socio-legal and ethical",
-    "explanation": "Listed under 'Socio-legal issues and ethical decision making'."
-  },
-  {
-    "id": 21,
-    "type": "multiple_choice",
-    "question": "What is one example of \"Case management and service coordination\"?",
-    "options": [
-      "A. Performing surgeries",
-      "B. Accessing resources",
-      "C. Prescribing medication",
-      "D. Defending in court"
-    ],
-    "correctAnswer": "B. Accessing resources",
-    "explanation": "Accessing resources is a bullet point under Case management."
-  },
-  {
-    "id": 22,
-    "type": "multiple_choice",
-    "question": "What is an example of individual social work with older people?",
-    "options": [
-      "A. Writing school curriculum",
-      "B. Assessment of elder abuse and neglect",
-      "C. Teaching drivers education",
-      "D. Managing corporate stocks"
-    ],
-    "correctAnswer": "B. Assessment of elder abuse and neglect",
-    "explanation": "Assessment of elder abuse is listed under individual social work."
-  },
-  {
-    "id": 23,
-    "type": "word_formation",
-    "question": "School social workers perform _______ (OBSERVE) to determine causes of problems.",
-    "options": null,
-    "correctAnswer": "observing",
-    "explanation": "The text uses 'observing' (gerund/noun)."
-  },
-  {
-    "id": 24,
     "type": "matching",
-    "question": "Match the psychological issue to a specialist expertise:",
+    "question": "Match the life stage/event with its issue:",
     "options": [
       {
-        "term": "Chronic sorrow",
-        "definition": "Carer issues"
-      },
-      {
-        "term": "Traumatic experiences",
-        "definition": "Addressing and resolving"
-      },
-      {
-        "term": "Family violence",
-        "definition": "Risk assessment"
+        "term": "End-of-life",
+        "definition": "Ethical decision making"
       },
       {
         "term": "Life transitions",
         "definition": "Emotional aspects"
+      },
+      {
+        "term": "Diagnosis",
+        "definition": "Adjustment"
+      },
+      {
+        "term": "New community",
+        "definition": "Social isolation"
       }
     ],
     "correctAnswer": "All correctly matched",
-    "explanation": "Matches concepts from specialist expertise and counselling."
+    "explanation": "Matching life transitions to their specific focus."
+  },
+  {
+    "id": 18,
+    "type": "multiple_choice",
+    "question": "Specialist expertise in disability includes socio-legal issues such as advanced health _______.",
+    "options": [
+      "not given",
+      "something else",
+      "directives",
+      "incorrect option"
+    ],
+    "correctAnswer": "directives",
+    "explanation": "The text lists advanced health directives under socio-legal issues."
+  },
+  {
+    "id": 19,
+    "type": "multiple_choice",
+    "question": "What do social workers help individuals and families navigate?",
+    "options": [
+      "A. Only hospitals",
+      "B. Health and welfare systems",
+      "C. The criminal justice court exclusively",
+      "D. Driving licenses"
+    ],
+    "correctAnswer": "B. Health and welfare systems",
+    "explanation": "Navigate health and welfare systems is a bullet point."
+  },
+  {
+    "id": 20,
+    "type": "word_formation",
+    "question": "Juries need to understand the _______ (DIFFERENT) between offenders.",
+    "options": null,
+    "correctAnswer": "difference",
+    "explanation": "The noun form 'difference' is required."
+  },
+  {
+    "id": 21,
+    "type": "true_false",
+    "question": "Older people in institutional care never experience limitations to self-determination.",
+    "options": null,
+    "correctAnswer": "False",
+    "explanation": "The text says 'older people in institutional care can result in severe limitation to the expression of self-determination'."
+  },
+  {
+    "id": 22,
+    "type": "true_false",
+    "question": "Impairment and disability mean exactly the same thing in social work.",
+    "options": null,
+    "correctAnswer": "False",
+    "explanation": "Social workers make a distinction between impairment (capacity) and disability (societal interaction)."
+  },
+  {
+    "id": 23,
+    "type": "matching",
+    "question": "Match the social work task with its description:",
+    "options": [
+      {
+        "term": "Advocacy",
+        "definition": "Speaking to local authorities for benefits"
+      },
+      {
+        "term": "Assessment",
+        "definition": "Identifying practical and emotional needs"
+      },
+      {
+        "term": "Mediation",
+        "definition": "Conflict management in families"
+      },
+      {
+        "term": "Case Management",
+        "definition": "Co-ordinating complex services"
+      }
+    ],
+    "correctAnswer": "All correctly matched",
+    "explanation": "These task descriptions match the text perfectly."
+  },
+  {
+    "id": 24,
+    "type": "true_false",
+    "question": "Dismissing school policies is considered a social problem.",
+    "options": null,
+    "correctAnswer": "False",
+    "explanation": "Dismissing school policies is classified as a Behavioral Problem."
   },
   {
     "id": 25,
-    "type": "multiple_choice",
-    "question": "What does 'AASW' stand for?",
-    "options": [
-      "A. American Association of Social Workers",
-      "B. Australian Association of Social Workers",
-      "C. Asian Alliance of Social Work",
-      "D. Advanced Association of Social Welfare"
-    ],
-    "correctAnswer": "B. Australian Association of Social Workers",
-    "explanation": "The document specifies AASW as the Australian Association of Social Workers."
+    "type": "true_false",
+    "question": "All social workers in Australia must be accredited by the AASW.",
+    "options": null,
+    "correctAnswer": "True",
+    "explanation": "The AASW is the key professional body... responsible for accreditation."
   },
   {
     "id": 26,
-    "type": "true_false",
-    "question": "School social workers only deal with academic problems, not emotional or behavioral ones.",
+    "type": "fill_blank",
+    "question": "Social workers can be found in jails, prisons, and the _______.",
     "options": null,
-    "correctAnswer": "False",
-    "explanation": "School social workers assist with mental health, behavioral concerns, and emotional needs."
+    "correctAnswer": "courts",
+    "explanation": "They can be found in jails, prisons, community-based organizations, primary health care agencies, and in the courts."
   },
   {
     "id": 27,
+    "type": "word_formation",
+    "question": "Any social worker might be required to provide courtroom _______ (TESTIFY).",
+    "options": null,
+    "correctAnswer": "testimony",
+    "explanation": "The noun form 'testimony' is used."
+  },
+  {
+    "id": 28,
+    "type": "fill_blank",
+    "question": "Social workers seek to develop services in the _______.",
+    "options": null,
+    "correctAnswer": "community",
+    "explanation": "Social Workers seek to develop services in the community with users and carers."
+  },
+  {
+    "id": 29,
+    "type": "true_false",
+    "question": "Social workers advocate for the exact same legal standards for children as adults.",
+    "options": null,
+    "correctAnswer": "False",
+    "explanation": "They often become advocates for DIFFERENT legal standards for children as compared to adults."
+  },
+  {
+    "id": 30,
+    "type": "word_formation",
+    "question": "Stress _______ (MANAGE) is a service provided to older people.",
+    "options": null,
+    "correctAnswer": "management",
+    "explanation": "The noun 'management' is correct."
+  }
+];
+
+export const syntheticTest4 = [
+  {
+    "id": 1,
+    "type": "matching",
+    "question": "Match the specific service to its category:",
+    "options": [
+      {
+        "term": "Educational Planning Meetings",
+        "definition": "Related Services"
+      },
+      {
+        "term": "Anger management",
+        "definition": "Services to Students"
+      },
+      {
+        "term": "Facilitating school adjustment support",
+        "definition": "Services to Parents/Families"
+      },
+      {
+        "term": "Behavior management",
+        "definition": "Services to School Personnel"
+      }
+    ],
+    "correctAnswer": "All correctly matched",
+    "explanation": "These matches align precisely with the 'SERVICES PROVIDED' bullet points."
+  },
+  {
+    "id": 2,
+    "type": "multiple_choice",
+    "question": "School social workers create plans for students, _______, and families.",
+    "options": [
+      "not given",
+      "incorrect option",
+      "something else",
+      "teachers"
+    ],
+    "correctAnswer": "teachers",
+    "explanation": "'creates plans for students, teachers, and families.' is directly from the text."
+  },
+  {
+    "id": 3,
+    "type": "multiple_choice",
+    "question": "What might social work with families of older people include?",
+    "options": [
+      "A. Arresting perpetrators",
+      "B. Bereavement counselling and crisis intervention",
+      "C. Prescribing medication",
+      "D. Selling real estate"
+    ],
+    "correctAnswer": "B. Bereavement counselling and crisis intervention",
+    "explanation": "These are listed under social work with families."
+  },
+  {
+    "id": 4,
+    "type": "true_false",
+    "question": "A social worker can be a therapist for prisoners in jail.",
+    "options": null,
+    "correctAnswer": "True",
+    "explanation": "The text states 'A social worker in a jail or prison might function as a therapist for prisoners'."
+  },
+  {
+    "id": 5,
+    "type": "word_formation",
+    "question": "Addressing the individual's need for _______ (ACCOMMODATE)",
+    "options": null,
+    "correctAnswer": "accommodation",
+    "explanation": "Noun 'accommodation'."
+  },
+  {
+    "id": 6,
+    "type": "word_formation",
+    "question": "Some work as _______ (RESEARCH) to obtain information.",
+    "options": null,
+    "correctAnswer": "researchers",
+    "explanation": "The plural noun 'researchers' fits."
+  },
+  {
+    "id": 7,
+    "type": "true_false",
+    "question": "Contact with family and friends is essential for a good quality of life.",
+    "options": null,
+    "correctAnswer": "True",
+    "explanation": "Regular and consistent contact with family and friends is essential to a good quality of life."
+  },
+  {
+    "id": 8,
+    "type": "multiple_choice",
+    "question": "What describes 'School-Community Liaison' services?",
+    "options": [
+      "A. Obtaining support from mental health agencies and coordinating resources",
+      "B. Creating bullying prevention programs",
+      "C. Assessing mental health concerns of teachers",
+      "D. Arranging special classes"
+    ],
+    "correctAnswer": "A. Obtaining support from mental health agencies and coordinating resources",
+    "explanation": "School-Community Liaison involves coordinating community resources, obtaining support from mental health agencies, and advocating for new services."
+  },
+  {
+    "id": 9,
+    "type": "multiple_choice",
+    "question": "School social workers are the _______ between the home, school and community.",
+    "options": [
+      "incorrect option",
+      "something else",
+      "link",
+      "not given"
+    ],
+    "correctAnswer": "link",
+    "explanation": "The text states: School Social Workers are the link between the home, school and community."
+  },
+  {
+    "id": 10,
     "type": "reading_comprehension",
     "question": "Why might a family conference be held when elder abuse is suspected?",
     "options": [
@@ -1453,38 +1168,204 @@ export const syntheticTest4 = [
     "explanation": "A family conference is held to share and confirm information, make conclusions and draw up a care plan."
   },
   {
-    "id": 28,
+    "id": 11,
+    "type": "true_false",
+    "question": "Social workers are restricted to working only in healthcare settings.",
+    "options": null,
+    "correctAnswer": "False",
+    "explanation": "They work in NDIS, ILC, advocacy, homeless services, justice, etc."
+  },
+  {
+    "id": 12,
+    "type": "word_formation",
+    "question": "Domestic _______ (VIOLENT) victims may need a safe place.",
+    "options": null,
+    "correctAnswer": "violence",
+    "explanation": "The noun 'violence' is correct."
+  },
+  {
+    "id": 13,
     "type": "multiple_choice",
-    "question": "What is an example of an action taken after a case conference regarding abuse?",
+    "question": "What is the primary role of a local area coordinator?",
     "options": [
-      "A. A protection order or barring order",
-      "B. A vacation",
-      "C. Buying a new car",
-      "D. Ignoring the case"
+      "A. Planning and NDIS interface",
+      "B. Performing surgeries",
+      "C. Driving buses",
+      "D. Filing taxes"
     ],
-    "correctAnswer": "A. A protection order or barring order",
-    "explanation": "Actions could include protection order, barring order, new financial arrangements, etc."
+    "correctAnswer": "A. Planning and NDIS interface",
+    "explanation": "Mentioned alongside NDIS agency management roles."
+  },
+  {
+    "id": 14,
+    "type": "true_false",
+    "question": "Confidentiality issues can arise if an older person has a mental health problem.",
+    "options": null,
+    "correctAnswer": "True",
+    "explanation": "The text notes: 'There are some issues around confidentiality that can arise here, for example if an older person is suffering from a mental health problem'."
+  },
+  {
+    "id": 15,
+    "type": "reading_comprehension",
+    "question": "On a macro level, what are social workers involved in?",
+    "options": [
+      "A. Only individual counselling",
+      "B. Social policy, community development and research",
+      "C. Baking for fundraisers",
+      "D. Operating medical equipment"
+    ],
+    "correctAnswer": "B. Social policy, community development and research",
+    "explanation": "The text explicitly states they are involved in social policy, community development and research."
+  },
+  {
+    "id": 16,
+    "type": "word_formation",
+    "question": "They help children in the foster care _______ (SYSTEMATIC).",
+    "options": null,
+    "correctAnswer": "system",
+    "explanation": "The noun form 'system' fits."
+  },
+  {
+    "id": 17,
+    "type": "multiple_choice",
+    "question": "They provide services related to a person's social, _______, and life adjustment to school.",
+    "options": [
+      "incorrect option",
+      "not given",
+      "something else",
+      "emotional"
+    ],
+    "correctAnswer": "emotional",
+    "explanation": "...related to a person's social, emotional and life adjustment..."
+  },
+  {
+    "id": 18,
+    "type": "true_false",
+    "question": "Minors in the system never need assistance for their ability to testify.",
+    "options": null,
+    "correctAnswer": "False",
+    "explanation": "Minors 'may need the assistance of a social worker for issues such as a minor’s ability to testify'."
+  },
+  {
+    "id": 19,
+    "type": "true_false",
+    "question": "The family is in a state of change, and unmet physical and emotional needs interfere with children's ability to learn.",
+    "options": null,
+    "correctAnswer": "True",
+    "explanation": "The text says: 'The family is in a state of change... children's unmet physical and emotional needs will continue to interfere with their ability to learn'."
+  },
+  {
+    "id": 20,
+    "type": "multiple_choice",
+    "question": "Which problem involves a student not getting along with teachers?",
+    "options": [
+      "A. Academic",
+      "B. Social",
+      "C. Behavioral",
+      "D. Home"
+    ],
+    "correctAnswer": "C. Behavioral",
+    "explanation": "This is listed under Behavioral Problems."
+  },
+  {
+    "id": 21,
+    "type": "true_false",
+    "question": "Society's needs for public safety never conflict with compassion.",
+    "options": null,
+    "correctAnswer": "False",
+    "explanation": "The text states: 'These professional expectations can be in conflict, however, with society’s needs for public safety'."
+  },
+  {
+    "id": 22,
+    "type": "multiple_choice",
+    "question": "What distinguishes 'Capacity building' from 'Case management'?",
+    "options": [
+      "A. Capacity building operates only at the individual level",
+      "B. Capacity building includes engaging local communities and mainstream services",
+      "C. Case management is about making laws",
+      "D. They are identical"
+    ],
+    "correctAnswer": "B. Capacity building includes engaging local communities and mainstream services",
+    "explanation": "Capacity building explicitly references engaging communities and increasing awareness."
+  },
+  {
+    "id": 23,
+    "type": "true_false",
+    "question": "Human rights and life satisfaction are not related.",
+    "options": null,
+    "correctAnswer": "False",
+    "explanation": "The text says 'Human rights and \"quality of life\" or \"life satisfaction\" are clearly related.'"
+  },
+  {
+    "id": 24,
+    "type": "true_false",
+    "question": "All differences indicate impairment.",
+    "options": null,
+    "correctAnswer": "False",
+    "explanation": "They are 'natural aspects of difference'."
+  },
+  {
+    "id": 25,
+    "type": "reading_comprehension",
+    "question": "What does an 'evidence-informed assessment' imply?",
+    "options": [
+      "A. It is based on guesses",
+      "B. It uses verified research and data to inform practice",
+      "C. It is purely legal",
+      "D. It is written by doctors only"
+    ],
+    "correctAnswer": "B. It uses verified research and data to inform practice",
+    "explanation": "Evidence-informed means grounded in evidence/research."
+  },
+  {
+    "id": 26,
+    "type": "true_false",
+    "question": "Social workers ignore systemic factors in their practice.",
+    "options": null,
+    "correctAnswer": "False",
+    "explanation": "They take a holistic approach that includes individual and systemic factors."
+  },
+  {
+    "id": 27,
+    "type": "multiple_choice",
+    "question": "In terms of social problems, a student might struggle with making _______.",
+    "options": [
+      "something else",
+      "friends",
+      "incorrect option",
+      "not given"
+    ],
+    "correctAnswer": "friends",
+    "explanation": "Social Problems: ...not making friends..."
+  },
+  {
+    "id": 28,
+    "type": "word_formation",
+    "question": "Voluntary and statutory agencies help _______ (PROMOTION) these contacts.",
+    "options": null,
+    "correctAnswer": "promote",
+    "explanation": "The verb 'promote' is correct."
   },
   {
     "id": 29,
-    "type": "word_formation",
-    "question": "Respecting the _______ (INTRINSIC) worth of all human beings.",
-    "options": null,
-    "correctAnswer": "intrinsic",
-    "explanation": "Use adjective 'intrinsic'."
+    "type": "multiple_choice",
+    "question": "According to the text, a social worker in a jail might function as:",
+    "options": [
+      "A. A guard",
+      "B. A therapist",
+      "C. A chef",
+      "D. A warden"
+    ],
+    "correctAnswer": "B. A therapist",
+    "explanation": "A social worker in a jail or prison might function as a therapist for prisoners."
   },
   {
     "id": 30,
-    "type": "multiple_choice",
-    "question": "What is an issue relevant to minors in the justice system?",
-    "options": [
-      "A. Ability to vote",
-      "B. Ability to buy property",
-      "C. Ability to testify or make medical decisions",
-      "D. Ability to drive"
-    ],
-    "correctAnswer": "C. Ability to testify or make medical decisions",
-    "explanation": "These are explicitly listed as issues relevant to minors."
+    "type": "word_formation",
+    "question": "Removing the barriers to physical and social _______ (PARTICIPATE).",
+    "options": null,
+    "correctAnswer": "participation",
+    "explanation": "Noun 'participation'."
   }
 ];
 

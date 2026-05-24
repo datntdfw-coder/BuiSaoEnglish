@@ -5,8 +5,8 @@ import styles from './page.module.css';
 import { DOCUMENT_CONTENT, DOCUMENT_CONTENT_DISABILITY, DOCUMENT_CONTENT_CRIMINAL_JUSTICE, DOCUMENT_CONTENT_OLDER_PEOPLE, VOCABULARY_LIST } from './mockData';
 import { schoolTest1, schoolTest2, schoolTest3, schoolTest4 } from './schoolTests';
 import { disabilityTest1, disabilityTest2, disabilityTest3, disabilityTest4 } from './disabilityTests';
-import { criminalTest1 } from './criminalTests';
-import { olderTest1 } from './olderPeopleTests';
+import { criminalTest1, criminalTest2, criminalTest3, criminalTest4 } from './criminalTests';
+import { olderTest1, olderTest2, olderTest3, olderTest4 } from './olderPeopleTests';
 import { syntheticTest1, syntheticTest2, syntheticTest3, syntheticTest4 } from './syntheticTest';
 
 interface MatchPair {
@@ -135,7 +135,13 @@ export default function Home() {
         'disability-3': disabilityTest3,
         'disability-4': disabilityTest4,
         'criminal-1': criminalTest1,
+        'criminal-2': criminalTest2,
+        'criminal-3': criminalTest3,
+        'criminal-4': criminalTest4,
         'older-1': olderTest1,
+        'older-2': olderTest2,
+        'older-3': olderTest3,
+        'older-4': olderTest4,
         'synthetic-1': syntheticTest1,
         'synthetic-2': syntheticTest2,
         'synthetic-3': syntheticTest3,
@@ -658,8 +664,11 @@ export default function Home() {
                 <span style={{ fontSize: '32px' }}>⚖️</span>
                 <h3 style={{ margin: 0, color: 'var(--primary-dark)', fontSize: '20px' }}>Criminal Justice</h3>
               </div>
-              <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '10px' }}>
+              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px' }}>
                 <button className="btn-secondary" onClick={() => startTest('criminal-1')} style={{ padding: '12px 0', fontSize: '15px' }}>Đề 1 (30 câu)</button>
+                <button className="btn-secondary" onClick={() => startTest('criminal-2')} style={{ padding: '12px 0', fontSize: '15px' }}>Đề 2 (30 câu)</button>
+                <button className="btn-secondary" onClick={() => startTest('criminal-3')} style={{ padding: '12px 0', fontSize: '15px' }}>Đề 3 (30 câu)</button>
+                <button className="btn-secondary" onClick={() => startTest('criminal-4')} style={{ padding: '12px 0', fontSize: '15px' }}>Đề 4 (30 câu)</button>
               </div>
             </div>
 
@@ -668,8 +677,11 @@ export default function Home() {
                 <span style={{ fontSize: '32px' }}>👴</span>
                 <h3 style={{ margin: 0, color: 'var(--primary-dark)', fontSize: '20px' }}>Older People</h3>
               </div>
-              <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '10px' }}>
+              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px' }}>
                 <button className="btn-secondary" onClick={() => startTest('older-1')} style={{ padding: '12px 0', fontSize: '15px' }}>Đề 1 (30 câu)</button>
+                <button className="btn-secondary" onClick={() => startTest('older-2')} style={{ padding: '12px 0', fontSize: '15px' }}>Đề 2 (30 câu)</button>
+                <button className="btn-secondary" onClick={() => startTest('older-3')} style={{ padding: '12px 0', fontSize: '15px' }}>Đề 3 (30 câu)</button>
+                <button className="btn-secondary" onClick={() => startTest('older-4')} style={{ padding: '12px 0', fontSize: '15px' }}>Đề 4 (30 câu)</button>
               </div>
             </div>
 
