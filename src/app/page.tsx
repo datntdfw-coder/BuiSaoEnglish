@@ -7,7 +7,7 @@ import { schoolTest1, schoolTest2, schoolTest3, schoolTest4 } from './schoolTest
 import { disabilityTest1, disabilityTest2, disabilityTest3, disabilityTest4 } from './disabilityTests';
 import { criminalTest1, criminalTest2, criminalTest3, criminalTest4 } from './criminalTests';
 import { olderTest1, olderTest2, olderTest3, olderTest4 } from './olderPeopleTests';
-import { syntheticTest1, syntheticTest2, syntheticTest3, syntheticTest4, syntheticTest5 } from './syntheticTest';
+import { syntheticTest1, syntheticTest2, syntheticTest3, syntheticTest4, syntheticTest5, syntheticTest6 } from './syntheticTest';
 
 interface MatchPair {
   term: string;
@@ -146,7 +146,8 @@ export default function Home() {
         'synthetic-2': syntheticTest2,
         'synthetic-3': syntheticTest3,
         'synthetic-4': syntheticTest4,
-        'synthetic-5': syntheticTest5
+        'synthetic-5': syntheticTest5,
+        'synthetic-6': syntheticTest6
       };
       
       const data = { questions: testMapping[testId] };
@@ -746,6 +747,7 @@ export default function Home() {
                 <button className="btn-primary" onClick={() => startTest('synthetic-3')} style={{ padding: '12px 0', fontSize: '15px', fontWeight: 'bold' }}>Đề 3 (30 câu)</button>
                 <button className="btn-primary" onClick={() => startTest('synthetic-4')} style={{ padding: '12px 0', fontSize: '15px', fontWeight: 'bold' }}>Đề 4 (30 câu)</button>
                 <button className="btn-primary" onClick={() => startTest('synthetic-5')} style={{ padding: '12px 0', fontSize: '15px', fontWeight: 'bold' }}>Đề 5 (30 câu)</button>
+                <button className="btn-primary" onClick={() => startTest('synthetic-6')} style={{ padding: '12px 0', fontSize: '15px', fontWeight: 'bold' }}>Đề 6 (30 câu)</button>
               </div>
             </div>
             

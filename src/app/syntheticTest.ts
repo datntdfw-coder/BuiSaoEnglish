@@ -1686,3 +1686,311 @@ export const syntheticTest5 = [
     "explanation": "Social workers often provide information, help clients consider options, and refer them to suitable services."
   }
 ];
+
+export const syntheticTest6 = [
+  {
+    "id": 1,
+    "type": "multiple_choice",
+    "question": "Which word best describes the main purpose of social work?",
+    "options": [
+      "A. Support",
+      "B. Decoration",
+      "C. Competition",
+      "D. Punishment only"
+    ],
+    "correctAnswer": "A. Support",
+    "explanation": "Social work focuses on supporting people, families, groups, and communities."
+  },
+  {
+    "id": 2,
+    "type": "true_false",
+    "question": "Social workers often work with other professionals rather than working alone all the time.",
+    "options": null,
+    "correctAnswer": "True",
+    "explanation": "Social work commonly involves collaboration with teachers, health staff, legal workers, and community agencies."
+  },
+  {
+    "id": 3,
+    "type": "fill_blank",
+    "question": "A social worker should listen carefully to understand a client's _______.",
+    "options": null,
+    "correctAnswer": "needs",
+    "explanation": "Understanding a client's needs is a basic part of assessment and support."
+  },
+  {
+    "id": 4,
+    "type": "word_formation",
+    "question": "Social workers need professional _______ (KNOW) and practical skills.",
+    "options": null,
+    "correctAnswer": "knowledge",
+    "explanation": "The noun form of 'know' is 'knowledge'."
+  },
+  {
+    "id": 5,
+    "type": "multiple_choice",
+    "question": "A school social worker may support students who experience:",
+    "options": [
+      "A. Bullying or peer pressure",
+      "B. Only car repair problems",
+      "C. Only business marketing",
+      "D. Weather forecasting"
+    ],
+    "correctAnswer": "A. Bullying or peer pressure",
+    "explanation": "Bullying and peer pressure are student problems that school social workers may address."
+  },
+  {
+    "id": 6,
+    "type": "true_false",
+    "question": "Academic problems can include failing grades or incomplete work.",
+    "options": null,
+    "correctAnswer": "True",
+    "explanation": "Failing grades and incomplete work are examples of academic problems in school settings."
+  },
+  {
+    "id": 7,
+    "type": "fill_blank",
+    "question": "School social workers can provide individual and group _______ for students.",
+    "options": null,
+    "correctAnswer": "counseling",
+    "explanation": "Counseling may be provided individually or in groups."
+  },
+  {
+    "id": 8,
+    "type": "reading_comprehension",
+    "question": "A teacher notices that a student is often angry and gets into fights. Which school social work service fits best?",
+    "options": [
+      "A. Anger management and behavioral support",
+      "B. Selling school uniforms",
+      "C. Planning a holiday trip",
+      "D. Ignoring the behavior"
+    ],
+    "correctAnswer": "A. Anger management and behavioral support",
+    "explanation": "Anger management and behavioral support are relevant to fighting and behavior problems."
+  },
+  {
+    "id": 9,
+    "type": "multiple_choice",
+    "question": "In disability practice, social workers pay attention to barriers because barriers can:",
+    "options": [
+      "A. Limit a person's participation",
+      "B. Always improve independence",
+      "C. Remove every need for support",
+      "D. Replace all services"
+    ],
+    "correctAnswer": "A. Limit a person's participation",
+    "explanation": "Barriers can stop people from taking part fully in school, work, family, and community life."
+  },
+  {
+    "id": 10,
+    "type": "true_false",
+    "question": "Disability practice should focus only on what a person cannot do.",
+    "options": null,
+    "correctAnswer": "False",
+    "explanation": "Good disability practice also considers strengths, goals, resources, and social barriers."
+  },
+  {
+    "id": 11,
+    "type": "word_formation",
+    "question": "A person with disability may need better physical and social _______ (PARTICIPATE).",
+    "options": null,
+    "correctAnswer": "participation",
+    "explanation": "The noun form of 'participate' is 'participation'."
+  },
+  {
+    "id": 12,
+    "type": "fill_blank",
+    "question": "A social worker may help a client navigate health and _______ systems.",
+    "options": null,
+    "correctAnswer": "welfare",
+    "explanation": "The phrase 'health and welfare systems' is common in disability and community practice."
+  },
+  {
+    "id": 13,
+    "type": "multiple_choice",
+    "question": "Which option best describes advocacy?",
+    "options": [
+      "A. Speaking up for a person's rights and needs",
+      "B. Hiding information from the client",
+      "C. Making fun of the client",
+      "D. Avoiding all services"
+    ],
+    "correctAnswer": "A. Speaking up for a person's rights and needs",
+    "explanation": "Advocacy means supporting a person's rights, needs, and access to services."
+  },
+  {
+    "id": 14,
+    "type": "reading_comprehension",
+    "question": "A wheelchair user cannot enter a community center because there is no ramp. What is the main issue?",
+    "options": [
+      "A. An environmental barrier",
+      "B. A cooking problem",
+      "C. A school exam problem",
+      "D. A prison sentence"
+    ],
+    "correctAnswer": "A. An environmental barrier",
+    "explanation": "The lack of a ramp is a barrier in the physical environment."
+  },
+  {
+    "id": 15,
+    "type": "multiple_choice",
+    "question": "Social work with older people may include support for:",
+    "options": [
+      "A. Loneliness, care needs, and family stress",
+      "B. Only children's homework",
+      "C. Only computer game design",
+      "D. Only sports coaching"
+    ],
+    "correctAnswer": "A. Loneliness, care needs, and family stress",
+    "explanation": "Older people may need help with social isolation, care planning, health issues, and family concerns."
+  },
+  {
+    "id": 16,
+    "type": "true_false",
+    "question": "Regular contact with family and friends can support an older person's quality of life.",
+    "options": null,
+    "correctAnswer": "True",
+    "explanation": "Relationships and social contact are important for wellbeing and quality of life."
+  },
+  {
+    "id": 17,
+    "type": "fill_blank",
+    "question": "Age discrimination is often called _______.",
+    "options": null,
+    "correctAnswer": "ageism",
+    "explanation": "Ageism means discrimination or unfair treatment based on age."
+  },
+  {
+    "id": 18,
+    "type": "word_formation",
+    "question": "The family may need _______ (MEDIATE) when there is conflict about a care plan.",
+    "options": null,
+    "correctAnswer": "mediation",
+    "explanation": "The noun form of 'mediate' is 'mediation'."
+  },
+  {
+    "id": 19,
+    "type": "reading_comprehension",
+    "question": "An older person is confused, scared, and may be neglected at home. What should the social worker do?",
+    "options": [
+      "A. Assess risk and arrange appropriate protection and support",
+      "B. Ignore the signs",
+      "C. Blame the older person",
+      "D. Stop all communication"
+    ],
+    "correctAnswer": "A. Assess risk and arrange appropriate protection and support",
+    "explanation": "Possible neglect or abuse requires assessment, protection, and suitable support."
+  },
+  {
+    "id": 20,
+    "type": "multiple_choice",
+    "question": "In criminal justice, a forensic social worker may prepare reports about:",
+    "options": [
+      "A. A defendant's situation and needs",
+      "B. Restaurant menus",
+      "C. Fashion trends",
+      "D. Tourist attractions"
+    ],
+    "correctAnswer": "A. A defendant's situation and needs",
+    "explanation": "Forensic social work can include reports about defendants, mental health, family context, and support needs."
+  },
+  {
+    "id": 21,
+    "type": "true_false",
+    "question": "Criminal justice social workers may work with victims as well as offenders.",
+    "options": null,
+    "correctAnswer": "True",
+    "explanation": "They can support victims, offenders, families, and people involved in courts or correctional systems."
+  },
+  {
+    "id": 22,
+    "type": "fill_blank",
+    "question": "A person may be placed on _______ instead of going to prison.",
+    "options": null,
+    "correctAnswer": "probation",
+    "explanation": "Probation is a supervised sentence in the community."
+  },
+  {
+    "id": 23,
+    "type": "word_formation",
+    "question": "A victim of domestic _______ (VIOLENT) may need safety planning.",
+    "options": null,
+    "correctAnswer": "violence",
+    "explanation": "The noun is 'violence', as in 'domestic violence'."
+  },
+  {
+    "id": 24,
+    "type": "reading_comprehension",
+    "question": "A person leaving prison needs housing, health care, and family support. What is the best social work response?",
+    "options": [
+      "A. Coordinate referrals and support reintegration into the community",
+      "B. Refuse to discuss services",
+      "C. Focus only on punishment after release",
+      "D. Tell the person to solve everything alone"
+    ],
+    "correctAnswer": "A. Coordinate referrals and support reintegration into the community",
+    "explanation": "After release, social workers may help with referrals, services, and community reintegration."
+  },
+  {
+    "id": 25,
+    "type": "multiple_choice",
+    "question": "Which skill is useful across school, disability, older people, and criminal justice practice?",
+    "options": [
+      "A. Communication",
+      "B. Ignoring clients",
+      "C. Guessing without information",
+      "D. Avoiding teamwork"
+    ],
+    "correctAnswer": "A. Communication",
+    "explanation": "Clear communication is needed in all social work practice fields."
+  },
+  {
+    "id": 26,
+    "type": "true_false",
+    "question": "Assessment helps social workers understand problems, strengths, and possible support.",
+    "options": null,
+    "correctAnswer": "True",
+    "explanation": "Assessment is used to understand a person's situation and plan support."
+  },
+  {
+    "id": 27,
+    "type": "fill_blank",
+    "question": "Social workers often work with clients, families, groups, and _______.",
+    "options": null,
+    "correctAnswer": "communities",
+    "explanation": "Social work practice can involve individuals, families, groups, and communities."
+  },
+  {
+    "id": 28,
+    "type": "word_formation",
+    "question": "A good social worker shows _______ (EMPATHETIC) toward clients.",
+    "options": null,
+    "correctAnswer": "empathy",
+    "explanation": "The noun form is 'empathy'."
+  },
+  {
+    "id": 29,
+    "type": "multiple_choice",
+    "question": "Which action best reflects client-centered practice?",
+    "options": [
+      "A. Involving the client in decisions about their support",
+      "B. Making all choices without the client",
+      "C. Refusing to explain the plan",
+      "D. Ignoring the client's goals"
+    ],
+    "correctAnswer": "A. Involving the client in decisions about their support",
+    "explanation": "Client-centered practice respects the client's voice, choices, and goals."
+  },
+  {
+    "id": 30,
+    "type": "reading_comprehension",
+    "question": "A client has several problems at the same time: stress, financial difficulty, and family conflict. What approach is most suitable?",
+    "options": [
+      "A. A holistic approach that considers the whole situation",
+      "B. Looking at only one small detail",
+      "C. Ignoring the family conflict",
+      "D. Avoiding assessment"
+    ],
+    "correctAnswer": "A. A holistic approach that considers the whole situation",
+    "explanation": "A holistic approach considers the whole person and the wider context."
+  }
+];
