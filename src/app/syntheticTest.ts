@@ -1369,3 +1369,320 @@ export const syntheticTest4 = [
   }
 ];
 
+export const syntheticTest5 = [
+  {
+    "id": 1,
+    "type": "multiple_choice",
+    "question": "What is one main role of a school social worker?",
+    "options": [
+      "A. To support students, families, teachers, and the school community",
+      "B. To replace all classroom teachers",
+      "C. To make medical diagnoses for all students",
+      "D. To work only with school finances"
+    ],
+    "correctAnswer": "A. To support students, families, teachers, and the school community",
+    "explanation": "School social workers help connect students, families, school staff, and community resources."
+  },
+  {
+    "id": 2,
+    "type": "true_false",
+    "question": "School social workers may help students with attendance problems.",
+    "options": null,
+    "correctAnswer": "True",
+    "explanation": "Attendance problems are a common school issue that social workers can help address."
+  },
+  {
+    "id": 3,
+    "type": "fill_blank",
+    "question": "School social workers are often a link between home, school, and the _______.",
+    "options": null,
+    "correctAnswer": "community",
+    "explanation": "The key phrase is 'home, school, and community'."
+  },
+  {
+    "id": 4,
+    "type": "word_formation",
+    "question": "A student may need emotional _______ (SUPPORTIVE) at school.",
+    "options": null,
+    "correctAnswer": "support",
+    "explanation": "The noun 'support' fits after the adjective 'emotional'."
+  },
+  {
+    "id": 5,
+    "type": "multiple_choice",
+    "question": "Which example is a social problem at school?",
+    "options": [
+      "A. Not making friends",
+      "B. A broken window",
+      "C. A missing textbook",
+      "D. A school budget report"
+    ],
+    "correctAnswer": "A. Not making friends",
+    "explanation": "Difficulty making friends is a social problem for students."
+  },
+  {
+    "id": 6,
+    "type": "reading_comprehension",
+    "question": "A student often misses class because of family stress at home. What should a school social worker do first?",
+    "options": [
+      "A. Explore the student's needs and connect the family with support",
+      "B. Ignore the home situation",
+      "C. Punish the student immediately",
+      "D. Ask the student to leave school"
+    ],
+    "correctAnswer": "A. Explore the student's needs and connect the family with support",
+    "explanation": "The first step is to understand the problem and mobilize appropriate support."
+  },
+  {
+    "id": 7,
+    "type": "multiple_choice",
+    "question": "In disability practice, the person-in-environment approach means social workers consider:",
+    "options": [
+      "A. The person and the social environment around them",
+      "B. Only the person's medical condition",
+      "C. Only the worker's personal opinion",
+      "D. Only the family's income"
+    ],
+    "correctAnswer": "A. The person and the social environment around them",
+    "explanation": "This approach looks at both individual needs and environmental factors."
+  },
+  {
+    "id": 8,
+    "type": "true_false",
+    "question": "Social workers try to reduce barriers that limit participation for people with disabilities.",
+    "options": null,
+    "correctAnswer": "True",
+    "explanation": "Reducing barriers and supporting participation are central aims in disability practice."
+  },
+  {
+    "id": 9,
+    "type": "fill_blank",
+    "question": "A service _______ helps clients access support from an agency or professional.",
+    "options": null,
+    "correctAnswer": "referral",
+    "explanation": "A referral directs a client to another relevant service."
+  },
+  {
+    "id": 10,
+    "type": "word_formation",
+    "question": "Social workers support social _______ (INCLUDE) for people with disabilities.",
+    "options": null,
+    "correctAnswer": "inclusion",
+    "explanation": "The noun form of 'include' is 'inclusion'."
+  },
+  {
+    "id": 11,
+    "type": "multiple_choice",
+    "question": "Which service is most related to disability practice?",
+    "options": [
+      "A. Capacity building",
+      "B. Selling private cars",
+      "C. Designing fashion clothes",
+      "D. Training athletes for competitions"
+    ],
+    "correctAnswer": "A. Capacity building",
+    "explanation": "Capacity building helps people and communities develop skills and support systems."
+  },
+  {
+    "id": 12,
+    "type": "reading_comprehension",
+    "question": "A client with a disability wants to live more independently. Which action best fits social work practice?",
+    "options": [
+      "A. Discuss needs, strengths, choices, and available services",
+      "B. Make every decision without asking the client",
+      "C. Focus only on the disability label",
+      "D. Avoid family and community resources"
+    ],
+    "correctAnswer": "A. Discuss needs, strengths, choices, and available services",
+    "explanation": "Good practice is client-centered and considers strengths, choices, and resources."
+  },
+  {
+    "id": 13,
+    "type": "multiple_choice",
+    "question": "Which age group is usually the focus of social work with older people?",
+    "options": [
+      "A. Adults aged 65 years and over",
+      "B. Children under 10",
+      "C. Only university students",
+      "D. Newborn babies"
+    ],
+    "correctAnswer": "A. Adults aged 65 years and over",
+    "explanation": "Older people's services commonly focus on adults aged 65 and over."
+  },
+  {
+    "id": 14,
+    "type": "true_false",
+    "question": "Bereavement counselling may be part of social work with older people and their families.",
+    "options": null,
+    "correctAnswer": "True",
+    "explanation": "Bereavement counselling supports people after the death of someone close."
+  },
+  {
+    "id": 15,
+    "type": "fill_blank",
+    "question": "Short-term care that gives the main carer time to rest is called _______ care.",
+    "options": null,
+    "correctAnswer": "respite",
+    "explanation": "Respite care provides temporary support and relief for carers."
+  },
+  {
+    "id": 16,
+    "type": "word_formation",
+    "question": "Older people may need help to maintain their _______ (INDEPENDENT).",
+    "options": null,
+    "correctAnswer": "independence",
+    "explanation": "The noun form of 'independent' is 'independence'."
+  },
+  {
+    "id": 17,
+    "type": "multiple_choice",
+    "question": "What does 'elder abuse' mean?",
+    "options": [
+      "A. Harm or mistreatment of an older person",
+      "B. Normal ageing",
+      "C. Healthy exercise for seniors",
+      "D. A retirement party"
+    ],
+    "correctAnswer": "A. Harm or mistreatment of an older person",
+    "explanation": "Elder abuse refers to harm, neglect, or mistreatment of an older person."
+  },
+  {
+    "id": 18,
+    "type": "reading_comprehension",
+    "question": "An older person feels lonely after moving to a care facility. Which support is most suitable?",
+    "options": [
+      "A. Encourage regular contact with family, friends, and community activities",
+      "B. Stop all visits",
+      "C. Focus only on paperwork",
+      "D. Tell the person that loneliness is not important"
+    ],
+    "correctAnswer": "A. Encourage regular contact with family, friends, and community activities",
+    "explanation": "Social relationships are important for quality of life."
+  },
+  {
+    "id": 19,
+    "type": "multiple_choice",
+    "question": "Where might criminal justice social workers work?",
+    "options": [
+      "A. Courts, jails, prisons, and community-based agencies",
+      "B. Only in supermarkets",
+      "C. Only in kindergartens",
+      "D. Only in restaurants"
+    ],
+    "correctAnswer": "A. Courts, jails, prisons, and community-based agencies",
+    "explanation": "Criminal justice social workers can work in both institutional and community settings."
+  },
+  {
+    "id": 20,
+    "type": "true_false",
+    "question": "A social worker in a prison may provide counselling or therapy to prisoners.",
+    "options": null,
+    "correctAnswer": "True",
+    "explanation": "One possible role is to provide therapeutic support in jails or prisons."
+  },
+  {
+    "id": 21,
+    "type": "fill_blank",
+    "question": "A person accused of a crime in court is called a _______.",
+    "options": null,
+    "correctAnswer": "defendant",
+    "explanation": "A defendant is the person accused or sued in a legal case."
+  },
+  {
+    "id": 22,
+    "type": "word_formation",
+    "question": "A social worker may provide courtroom _______ (TESTIFY).",
+    "options": null,
+    "correctAnswer": "testimony",
+    "explanation": "The noun form used in court is 'testimony'."
+  },
+  {
+    "id": 23,
+    "type": "multiple_choice",
+    "question": "Which value is important when working with victims or offenders?",
+    "options": [
+      "A. Empathy",
+      "B. Indifference",
+      "C. Gossip",
+      "D. Competition"
+    ],
+    "correctAnswer": "A. Empathy",
+    "explanation": "Empathy helps social workers understand people's feelings and situations."
+  },
+  {
+    "id": 24,
+    "type": "reading_comprehension",
+    "question": "A young offender has mental health problems and needs community support after release. What is a suitable social work role?",
+    "options": [
+      "A. Assess needs and connect the person with mental health and welfare services",
+      "B. Refuse all support",
+      "C. Focus only on punishment",
+      "D. Give legal judgment as a judge"
+    ],
+    "correctAnswer": "A. Assess needs and connect the person with mental health and welfare services",
+    "explanation": "Social workers often assess needs and help clients access support services."
+  },
+  {
+    "id": 25,
+    "type": "multiple_choice",
+    "question": "Which phrase best describes a holistic approach in social work?",
+    "options": [
+      "A. Looking at the whole person and their situation",
+      "B. Looking at one problem only",
+      "C. Avoiding family and community factors",
+      "D. Ignoring strengths"
+    ],
+    "correctAnswer": "A. Looking at the whole person and their situation",
+    "explanation": "A holistic approach considers multiple parts of a person's life and context."
+  },
+  {
+    "id": 26,
+    "type": "true_false",
+    "question": "Social workers should respect the dignity and worth of clients.",
+    "options": null,
+    "correctAnswer": "True",
+    "explanation": "Respect for dignity and worth is a basic social work value."
+  },
+  {
+    "id": 27,
+    "type": "fill_blank",
+    "question": "Social workers often help clients access health and _______ systems.",
+    "options": null,
+    "correctAnswer": "welfare",
+    "explanation": "The common phrase is 'health and welfare systems'."
+  },
+  {
+    "id": 28,
+    "type": "word_formation",
+    "question": "Good social work requires clear _______ (COMMUNICATE) with clients and other professionals.",
+    "options": null,
+    "correctAnswer": "communication",
+    "explanation": "The noun form of 'communicate' is 'communication'."
+  },
+  {
+    "id": 29,
+    "type": "multiple_choice",
+    "question": "Which task can appear in all four fields: school, disability, older people, and criminal justice?",
+    "options": [
+      "A. Assessment of needs",
+      "B. Flying airplanes",
+      "C. Selling products",
+      "D. Building houses alone"
+    ],
+    "correctAnswer": "A. Assessment of needs",
+    "explanation": "Assessment is a core social work task across many practice fields."
+  },
+  {
+    "id": 30,
+    "type": "reading_comprehension",
+    "question": "A family asks for help because they do not know which service to contact. What should a social worker usually do?",
+    "options": [
+      "A. Provide information, discuss options, and make a referral if needed",
+      "B. Tell them never to ask for help",
+      "C. Choose a service without explaining anything",
+      "D. Avoid the family"
+    ],
+    "correctAnswer": "A. Provide information, discuss options, and make a referral if needed",
+    "explanation": "Social workers often provide information, help clients consider options, and refer them to suitable services."
+  }
+];
